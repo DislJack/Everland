@@ -2,3 +2,27 @@
 
 /* Шрифты */
 @import url(../vendor/fonts/raleway.css);
+
+/* Стили блоков */
+/* Стили всего боди */
+@import url(../blocks/page/page.css);
+
+/* Стили шапки */
+@import url(../blocks/header/header.css);
+
+/* Стили контента */
+@import url(../blocks/advantages/advantages.css);
+@import url(../blocks/agency/agency.css);
+@import url(../blocks/directions/directions.css);
+@import url(../blocks/donations/donations.css);
+@import url(../blocks/everland/everland.css);
+@import url(../blocks/figures/figures.css);
+@import url(../blocks/histories/histories.css);
+@import url(../blocks/main/main.css);
+@import url(../blocks/news/news.css);
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/support/support.css);
+@import url(../blocks/works-for/works-for.css);
+
+/* Стили подвала */
+@import url(../blocks/footer/footer.css);
