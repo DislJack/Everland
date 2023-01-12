@@ -1,11 +1,11 @@
-.button_theme_grayslider {
+.button_theme_gray-slider {
   background-color: #333333;
 }
 
-.button_theme_grayslider:hover {
+.button_theme_gray-slider:hover {
   background-color: #0C4BA0;
 }
 
-.button_type_grayslider:active {
+.button_type_gray-slider:active {
   background-color: #00275C;
 }

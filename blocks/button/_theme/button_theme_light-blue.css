@@ -1,14 +1,26 @@
-.button_theme_lightblue {
+.button_theme_light-blue {
   background-color: #E7F0FF;
   color: #0C4BA0;
 }
 
-.button_theme_lightblue:hover {
+.button_theme_light-blue:hover {
   background-color: #0C4BA0;
   color: #fff;
 }
 
-.button_theme_lightblue:active {
+.button_theme_light-blue:active {
   background-color: #00275C;
   color: #fff;
+}
+
+.button_theme_light-blue::after {
+  background-image: url(../../../images/arrows/arrow_forward_blue.png);
+}
+
+.button_theme_light-blue:hover::after {
+  background-image: url(../../../images/arrows/arrow_forward_white.png);
+}
+
+.button_theme_light-blue:active::after {
+  background-image: url(../../../images/arrows/arrow_forward_white.png);
 }

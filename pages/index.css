@@ -42,4 +42,5 @@
 @import url(../blocks/button/_theme/button_theme_gray-slider.css);
 @import url(../blocks/button/_disabled/button_disabled_main.css);
 @import url(../blocks/button/_disabled/button_disabled_link.css);
+@import url(../blocks/button/_disabled/button_disabled_accordeon.css);
 @import url(../blocks/button/_disabled/button_disabled_others.css);
