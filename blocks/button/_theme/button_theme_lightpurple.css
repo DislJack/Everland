@@ -1,0 +1,14 @@
+.button_theme_lightpurple {
+  background-color: #EAE6FF;
+  color: #8B75FF;
+}
+
+.button_theme_lightpurple:hover {
+  background-color: #8B75FF;
+  color: #fff;
+}
+
+.button_theme_lightpurple:active {
+  background-color: #4935B5;
+  color: #fff;
+}

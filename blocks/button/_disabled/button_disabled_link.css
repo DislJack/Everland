@@ -1,0 +1,14 @@
+.button_disabled_link {
+  background-color: #fff;
+  color: #c4c4c4;
+}
+
+.button_disabled_link:hover {
+  background-color: #fff;
+  color: #c4c4c4;
+}
+
+.button_disabled_link:active {
+  background-color: #fff;
+  color: #c4c4c4;
+}

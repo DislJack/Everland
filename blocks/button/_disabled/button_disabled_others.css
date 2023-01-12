@@ -1,0 +1,14 @@
+.button_disabled_others {
+  background-color: #c4c4c4;
+  color: rgba(38, 38, 38, 0.5);
+}
+
+.button_disabled_others:hover {
+  background-color: #c4c4c4;
+  color: rgba(38, 38, 38, 0.5);
+}
+
+.button_disabled_others:active {
+  background-color: #c4c4c4;
+  color: rgba(38, 38, 38, 0.5);
+}

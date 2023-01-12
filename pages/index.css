@@ -2,3 +2,20 @@
 
 /* Шрифты */
 @import url(../vendor/fonts/raleway.css);
+
+/* Кнопки */
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_type/button_type_primary.css);
+@import url(../blocks/button/_type/button_type_secondary.css);
+@import url(../blocks/button/_type/button_type_tertiary.css);
+@import url(../blocks/button/_type/button_type_link.css);
+@import url(../blocks/button/_type/button_type_slider.css);
+@import url(../blocks/button/_type/button_type_accordeon.css);
+@import url(../blocks/button/_theme/button_theme_lightblue.css);
+@import url(../blocks/button/_theme/button_theme_lightorange.css);
+@import url(../blocks/button/_theme/button_theme_lightgreen.css);
+@import url(../blocks/button/_theme/button_theme_lightpurple.css);
+@import url(../blocks/button/_theme/button_theme_grayslider.css);
+@import url(../blocks/button/_disabled/button_disabled_main.css);
+@import url(../blocks/button/_disabled/button_disabled_link.css);
+@import url(../blocks/button/_disabled/button_disabled_others.css);
