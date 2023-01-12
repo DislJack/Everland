@@ -1,0 +1,15 @@
+.button_type_link {
+  padding: 10px;
+  border: none;
+  background-color: #fff;
+  color: #333333;
+  transition: 0.2s;
+}
+
+.button_type_link:hover {
+  color: #00275C;
+}
+
+.button_type_link:active {
+  color: #0C4BA0;
+}

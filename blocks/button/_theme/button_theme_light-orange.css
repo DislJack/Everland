@@ -1,0 +1,14 @@
+.button_theme_lightorange {
+  background-color: #FEEFEA;
+  color: #E98509;
+}
+
+.button_theme_lightorange:hover {
+  background-color: #E98509;
+  color: #fff;
+}
+
+.button_theme_lightorange:active {
+  background-color: #864A00;
+  color: #fff;
+}

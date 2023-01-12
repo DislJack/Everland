@@ -1,0 +1,15 @@
+.button_type_primary {
+  background-color: #0C4BA0;
+  padding: 12px 16px;
+  border: none;
+  transition: 0.2s;
+  color: #fff;
+}
+
+.button_type_primary:hover {
+  background-color: #4183DC;
+}
+
+.button_type_primary:active {
+  background-color: #00275C;
+}

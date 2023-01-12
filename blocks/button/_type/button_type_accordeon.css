@@ -1,0 +1,20 @@
+.button_type_accordeon {
+  padding: 15px;
+  width: 45px;
+  height: 45px;
+  border-radius: 20px;
+  background-color: #E7F0FF;
+  transition: 0.2s;
+  border: none;
+}
+
+.button_type_accordeon:hover {
+  background-color: #0C4BA0;
+}
+
+@media (max-width: 767px) {
+  .button_type_accordeon {
+    width: 32px;
+    height: 32px;
+  }
+}

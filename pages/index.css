@@ -26,3 +26,20 @@
 
 /* Стили подвала */
 @import url(../blocks/footer/footer.css);
+
+/* Кнопки */
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_type/button_type_primary.css);
+@import url(../blocks/button/_type/button_type_secondary.css);
+@import url(../blocks/button/_type/button_type_tertiary.css);
+@import url(../blocks/button/_type/button_type_link.css);
+@import url(../blocks/button/_type/button_type_slider.css);
+@import url(../blocks/button/_type/button_type_accordeon.css);
+@import url(../blocks/button/_theme/button_theme_light-blue.css);
+@import url(../blocks/button/_theme/button_theme_light-orange.css);
+@import url(../blocks/button/_theme/button_theme_light-green.css);
+@import url(../blocks/button/_theme/button_theme_light-purple.css);
+@import url(../blocks/button/_theme/button_theme_gray-slider.css);
+@import url(../blocks/button/_disabled/button_disabled_main.css);
+@import url(../blocks/button/_disabled/button_disabled_link.css);
+@import url(../blocks/button/_disabled/button_disabled_others.css);
