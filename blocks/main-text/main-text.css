@@ -1,0 +1,17 @@
+.main-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+@media screen and (max-width: 1023px) {
+    .main-text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main-text {
+        font-size: 14px;
+    }
+}
