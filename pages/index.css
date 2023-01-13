@@ -20,7 +20,16 @@
 @import url(../blocks/histories/histories.css);
 @import url(../blocks/main/main.css);
 @import url(../blocks/news/news.css);
+
 @import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__description/projects__description.css);
+@import url(../blocks/projects/__img/projects__img.css);
+@import url(../blocks/projects/__item/projects__item.css);
+@import url(../blocks/projects/__list/projects__list.css);
+@import url(../blocks/projects/__subtitle/projects__subtitle.css);
+@import url(../blocks/projects/__title/projects__title.css);
+@import url(../blocks/projects/__button/projects__button.css);
+
 @import url(../blocks/support/support.css);
 @import url(../blocks/works-for/works-for.css);
 

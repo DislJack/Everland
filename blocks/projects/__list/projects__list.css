@@ -1,0 +1,11 @@
+.projects__list {
+    padding: 0px;
+    display: flex;
+    width: 1360px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    height: 636px;
+    list-style: none;
+    margin: auto;
+}
