@@ -29,21 +29,26 @@
 
 /* Кнопки */
 @import url(../blocks/button/button.css);
-@import url(../blocks/button/_type/button_type_primary.css);
-@import url(../blocks/button/_type/button_type_secondary.css);
-@import url(../blocks/button/_type/button_type_tertiary.css);
-@import url(../blocks/button/_type/button_type_link.css);
-@import url(../blocks/button/_type/button_type_slider.css);
-@import url(../blocks/button/_type/button_type_accordeon.css);
-@import url(../blocks/button/_theme/button_theme_light-blue.css);
-@import url(../blocks/button/_theme/button_theme_light-orange.css);
-@import url(../blocks/button/_theme/button_theme_light-green.css);
-@import url(../blocks/button/_theme/button_theme_light-purple.css);
-@import url(../blocks/button/_theme/button_theme_gray-slider.css);
-@import url(../blocks/button/_disabled/button_disabled_main.css);
-@import url(../blocks/button/_disabled/button_disabled_link.css);
-@import url(../blocks/button/_disabled/button_disabled_accordeon.css);
-@import url(../blocks/button/_disabled/button_disabled_others.css);
+@import url(../blocks/button/__primary/button__primary.css);
+@import url(../blocks/button/__primary/_type/button__primary_type_disabled.css);
+@import url(../blocks/button/__secondary/button__secondary.css);
+@import url(../blocks/button/__secondary/_type/button__secondary_type_disabled.css);
+@import url(../blocks/button/__tertiary/button__tertiary.css);
+@import url(../blocks/button/__tertiary/_type/button__tertiary_type_disabled.css);
+@import url(../blocks/button/__link/button__link.css);
+@import url(../blocks/button/__link/_type/button__link_type_disabled.css);
+@import url(../blocks/button/__link/_theme/button__link_theme_light-blue.css);
+@import url(../blocks/button/__link/_theme/button__link_theme_light-orange.css);
+@import url(../blocks/button/__link/_theme/button__link_theme_light-green.css);
+@import url(../blocks/button/__link/_theme/button__link_theme_light-purple.css);
+@import url(../blocks/button/__link/_type/button__link_type_disabled-theme.css);
+@import url(../blocks/button/__slider/button__slider.css);
+@import url(../blocks/button/__slider/_direction/button__slider_direction_left.css);
+@import url(../blocks/button/__slider/_theme/button_slider_theme_gray.css);
+@import url(../blocks/button/__slider/_type/button__slider_type_disabled.css);
+@import url(../blocks/button/__accordeon/button__accordeon.css);
+@import url(../blocks/button/__accordeon/_type/button__accordeon_type_opened.css);
+@import url(../blocks/button/__accordeon/_type/button__accordeon_type_disabled.css);
 
 /* Стили шрифтов */
 @import url(../blocks/h1/h1.css);

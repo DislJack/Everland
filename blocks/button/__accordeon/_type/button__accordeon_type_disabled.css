@@ -1,0 +1,15 @@
+.button__accordeon_type_disabled {
+  background-color: #c4c4c4;
+}
+
+.button__accordeon_type_disabled:hover {
+  background-color: #c4c4c4;
+}
+
+.button__accordeon_type_disabled::after {
+  background-image: url(../../../../images/plus/icon_plus_gray.png);
+}
+
+.button__accordeon_type_disabled:hover::after {
+  background-image: url(../../../../images/plus/icon_plus_gray.png);
+}

@@ -1,0 +1,8 @@
+.button__accordeon_type_opened {
+  background-color: #0C4BA0;
+}
+
+.button__accordeon_type_opened::after {
+  background-image: url(../../../../images/plus/icon_plus_white.png);
+  transform: rotate(45deg);
+}

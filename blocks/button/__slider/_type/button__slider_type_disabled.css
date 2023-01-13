@@ -1,0 +1,26 @@
+.button__slider_type_disabled {
+  background-color: #c4c4c4;
+  color: rgba(38, 38, 38, 0.5);
+}
+
+.button__slider_type_disabled:hover {
+  background-color: #c4c4c4;
+  color: rgba(38, 38, 38, 0.5);
+}
+
+.button__slider_type_disabled:active {
+  background-color: #c4c4c4;
+  color: rgba(38, 38, 38, 0.5);
+}
+
+.button__slider_type_disabled::after {
+  background-image: url(../../../../images/arrows/arrow_forward_disabled_others.png);
+}
+
+.button__slider_type_disabled:hover::after {
+  background-image: url(../../../../images/arrows/arrow_forward_disabled_others.png);
+}
+
+.button__slider_type_disabled::after {
+  background-image: url(../../../../images/arrows/arrow_forward_disabled_others.png);
+}

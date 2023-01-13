@@ -1,0 +1,26 @@
+.button__link_type_disabled-theme {
+  background-color: #c4c4c4;
+  color: rgba(38, 38, 38, 0.5);
+}
+
+.button__link_type_disabled-theme:hover {
+  background-color: #c4c4c4;
+  color: rgba(38, 38, 38, 0.5);
+}
+
+.button__link_type_disabled-theme:active {
+  background-color: #c4c4c4;
+  color: rgba(38, 38, 38, 0.5);
+}
+
+.button__link_type_disabled-theme::after {
+  background-image: url(../../../../images/arrows/arrow_forward_disabled_others.png);
+}
+
+.button__link_type_disabled-theme:hover::after {
+  background-image: url(../../../../images/arrows/arrow_forward_disabled_others.png);
+}
+
+.button__link_type_disabled-theme:active::after {
+  background-image: url(../../../../images/arrows/arrow_forward_disabled_others.png);
+}
