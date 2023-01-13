@@ -1,4 +1,4 @@
-.button__primary {
+.button_type_primary {
   background-color: #0C4BA0;
   padding: 12px 16px;
   border: none;
@@ -6,10 +6,10 @@
   color: #fff;
 }
 
-.button__primary:hover {
+.button_type_primary:hover {
   background-color: #4183DC;
 }
 
-.button__primary:active {
+.button_type_primary:active {
   background-color: #00275C;
 }

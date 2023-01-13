@@ -1,16 +1,16 @@
-.button__tertiary_type_disabled {
+.button_disabled_main {
   color: rgba(38, 38, 38, 0.5);
   background: #f5f5f5;
   border: 2px solid #C4C4C4;
 }
 
-.button__tertiary_type_disabled:hover {
+.button_disabled_main:hover {
   color: rgba(38, 38, 38, 0.5);
   background: #f5f5f5;
   border: 2px solid #C4C4C4;
 }
 
-.button__tertiary_type_disabled:active {
+.button_disabled_main:active {
   color: rgba(38, 38, 38, 0.5);
   background: #f5f5f5;
   border: 2px solid #C4C4C4;

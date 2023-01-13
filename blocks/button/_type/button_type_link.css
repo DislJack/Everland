@@ -1,4 +1,4 @@
-.button__link {
+.button_type_link {
   padding: 10px;
   border: none;
   background-color: #fff;
@@ -6,15 +6,15 @@
   transition: 0.2s;
 }
 
-.button__link:hover {
+.button_type_link:hover {
   color: #00275C;
 }
 
-.button__link:active {
+.button_type_link:active {
   color: #0C4BA0;
 }
 
-.button__link::after {
+.button_type_link::after {
   content: '';
   margin-left: 10px;
   background-image: url(../../../images/arrows/arrow_forward_gray.png);
@@ -26,16 +26,16 @@
   transition: 0.2s;
 }
 
-.button__link:hover::after {
+.button_type_link:hover::after {
   background-image: url(../../../images/arrows/arrow_forward_dark-blue.png);
 }
 
-.button__link:active::after {
+.button_type_link:active::after {
   background-image: url(../../../images/arrows/arrow_forward_blue.png);
 }
 
 @media (max-width: 767px) {
-  .button__link::after {
+  .button_type_link::after {
     background-size: 13px 13px;
     width: 20px;
     height: 20px;

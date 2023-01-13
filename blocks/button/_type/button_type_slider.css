@@ -1,4 +1,4 @@
-.button__slider {
+.button_type_slider {
   border: none;
   background-color: #0C4BA0;
   position: relative;
@@ -7,15 +7,15 @@
   height: 35px;
 }
 
-.button__slider:hover {
+.button_type_slider:hover {
   background-color: #4183DC;
 }
 
-.button__slider:active {
+.button_type_slider:active {
   background-color: #00275C;
 }
 
-.button__slider::after {
+.button_type_slider::after {
   content: '';
   position: absolute;
   top: 0;
@@ -32,12 +32,12 @@
 }
 
 @media (max-width: 767px) {
-  .button__slider {
+  .button_type_slider {
     width: 24px;
     height: 24px;
   }
 
-  .button__slider::after {
+  .button_type_slider::after {
     background-size: 13px 13px;
     width: 24px;
     height: 24px;

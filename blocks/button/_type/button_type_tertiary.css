@@ -1,4 +1,4 @@
-.button__tertiary {
+.button_type_tertiary {
   padding: 12px 16px;
   transition: 0.1s;
   background-color: #fafafa;
@@ -6,11 +6,11 @@
   color: #333333;
 }
 
-.button__tertiary:hover {
+.button_type_tertiary:hover {
   border: 2px solid #333333;
 }
 
-.button__tertiary:active {
+.button_type_tertiary:active {
   border: none;
   background-color: #333333;
   color: #fff;
