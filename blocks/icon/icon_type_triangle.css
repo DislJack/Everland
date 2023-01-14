@@ -1,0 +1,30 @@
+.icon_type_triangle {
+  width: 20%;
+  height: 20%;
+  background-color: #333333;
+  position: relative;
+}
+
+.icon_type_triangle::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-right: 0px solid transparent;
+  border-bottom: 4px solid #fff;
+  border-left: 8px solid transparent;
+}
+
+.icon_type_triangle::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: 4px solid #fff;
+  border-right: 0px solid transparent;
+  border-left: 8px solid transparent;
+}

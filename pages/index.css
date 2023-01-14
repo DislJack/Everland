@@ -62,3 +62,12 @@
 @import url(../blocks/accordeon/accordeon.css);
 @import url(../blocks/accordeon/__label/accordeon__label.css);
 @import url(../blocks/accordeon/__text/accordeon__text.css);
+
+/* Пробные импорты на иконки через CSS */
+@import url(../blocks/icon/icon_type_triangle.css);
+@import url(../blocks/icon/icon_type_hamburger.css);
+@import url(../blocks/icon/icon_type_quotes.css);
+@import url(../blocks/icon/hamburger.css);
+@import url(../blocks/icon/hamburger_rotation_up.css);
+@import url(../blocks/icon/hamburger_rotation_down.css);
+@import url(../blocks/icon/hamburger_display_none.css);

@@ -1,0 +1,24 @@
+.icon_type_quotes {
+  background-image: url(../../images/icon_quote.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 35px 28px;
+  width: 35px;
+  height: 28px;
+}
+
+@media (max-width: 1023px) {
+  .icon_type_quotes {
+    background-size: 28px 20px;
+    width: 28px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .icon_type_quotes {
+    background-size: 24px 17px;
+    width: 24px;
+    height: 17px;
+  }
+}
