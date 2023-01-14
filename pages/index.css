@@ -11,7 +11,6 @@
 @import url(../blocks/header/header.css);
 
 /* Стили контента */
-@import url(../blocks/advantages/advantages.css);
 @import url(../blocks/agency/agency.css);
 @import url(../blocks/directions/directions.css);
 @import url(../blocks/donations/donations.css);
@@ -56,3 +55,10 @@
 @import url(../blocks/big-text/big-text.css);
 @import url(../blocks/main-text/main-text.css);
 @import url(../blocks/small-text/small-text.css);
+
+/* Секция advantages */
+@import url(../blocks/advantages/advantages.css);
+@import url(../blocks/advantages/__grid/advantages__grid.css);
+@import url(../blocks/accordeon/accordeon.css);
+@import url(../blocks/accordeon/__label/accordeon__label.css);
+@import url(../blocks/accordeon/__text/accordeon__text.css);
