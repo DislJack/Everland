@@ -1,0 +1,26 @@
+.button_link-theme_light-green {
+  background-color: #DAEFD5;
+  color: #319B17;
+}
+
+.button_link-theme_light-green:hover {
+  background-color: #319B17;
+  color: #fff;
+}
+
+.button_link-theme_light-green:active {
+  background-color: #0E4900;
+  color: #fff;
+}
+
+.button_link-theme_light-green::after {
+  background-image: url(../../../images/arrows/arrow_forward_green.png);
+}
+
+.button_link-theme_light-green:hover::after {
+  background-image: url(../../../images/arrows/arrow_forward_white.png);
+}
+
+.button_link-theme_light-green:active::after {
+  background-image: url(../../../images/arrows/arrow_forward_white.png);
+}

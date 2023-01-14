@@ -10,9 +10,10 @@
   font-size: 20px;
   line-height: 120%;
   opacity: 1;
+  grid-area: button;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .button {
     font-size: 14px;
   }

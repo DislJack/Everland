@@ -1,0 +1,13 @@
+.accordeon {
+  border: 2px solid #DADADA;
+  border-radius: 30px;
+  padding: 30px 20px;
+  background-color: #fff;
+  overflow: hidden;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.accordeon::-webkit-details-marker {
+  display: none;
+}
