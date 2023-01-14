@@ -66,8 +66,9 @@
 /* Компоненты для карточек */
 @import url(../blocks/card/card.css); /* Закругленные углы и внутренний отступ*/
 /* Фон карточек */
-@import url(../blocks/card/_background/card_background_blue.css);
-@import url(../blocks/card/_background/card_background_green.css);
-@import url(../blocks/card/_background/card_background_purple.css);
-@import url(../blocks/card/_background/card_background_orange.css);
+@import url(../blocks/card/_background/card_background_light-blue.css);
+@import url(../blocks/card/_background/card_background_light-green.css);
+@import url(../blocks/card/_background/card_background_light-orange.css);
+@import url(../blocks/card/_background/card_background_light-purple.css);
+@import url(../blocks/card/_border/card_border_gray.css); /* Серая рамка */
 
