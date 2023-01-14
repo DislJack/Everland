@@ -5,3 +5,15 @@
     line-height: 120%;
     margin: 0px 0px 50px;
 }
+
+@media all and (max-width: 768px) {
+    .projects__subtitle {
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .projects__subtitle {
+        font-size: 16px;
+    }
+}

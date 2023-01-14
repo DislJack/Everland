@@ -4,3 +4,9 @@
     color: #0C4BA0;
     height: 48px;
 }
+
+@media all and (max-width: 320px) {
+    .projects__button {
+        width: 300px;
+    }
+}

@@ -1,4 +1,22 @@
 .projects__item {
-    width: 440px;
+    width: calc(440px);
     margin-bottom: 79px;
+}
+
+@media all and (max-width: 768px) {
+    .projects__item_third {
+        display: none;
+    }
+    .projects__item {
+        width: 334px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .projects__item_third {
+        display: inline;
+    }
+    .projects__item {
+        width: 300px;
+    }
 }
