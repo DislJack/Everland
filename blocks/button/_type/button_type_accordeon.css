@@ -5,15 +5,44 @@
   border-radius: 20px;
   background-color: #E7F0FF;
   transition: 0.2s;
+  position: relative;
   border: none;
+  cursor: pointer;
 }
 
 .button_type_accordeon:hover {
   background-color: #0C4BA0;
 }
 
+.button_type_accordeon::after {
+  content: '';
+  position: absolute;
+  transition: 0.2s;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-image: url(../../../images/plus/icon_plus_blue.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 17px 17px;
+  width: 45px;
+  height: 45px;
+  padding: 0;
+}
+
+.button_type_accordeon:hover::after {
+  background-image: url(../../../images/plus/icon_plus_white.png);
+}
+
 @media (max-width: 767px) {
   .button_type_accordeon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .button_type_accordeon::after {
+    background-size: 12px 12px;
     width: 32px;
     height: 32px;
   }
