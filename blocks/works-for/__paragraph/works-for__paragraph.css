@@ -1,0 +1,21 @@
+.works-for__paragraph {
+    margin: 0;
+    max-width: 333px;
+    margin-bottom: 36px;
+}
+
+@media screen and (max-width: 1023px) {
+    .works-for__paragraph {
+        max-width: 386px;
+        width: 100%;
+        margin-bottom: 18px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .works-for__paragraph {
+        max-width: 251px;
+        width: 100%;
+        margin-bottom: 28px;
+    }
+}

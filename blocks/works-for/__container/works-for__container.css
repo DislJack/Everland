@@ -1,0 +1,23 @@
+.works-for__container {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width: 1023px) {
+    .works-for__container {
+        margin: 0;
+        flex-direction: column;
+        padding-bottom: 50px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .works-for__container {
+        gap: 16px;
+        padding-bottom: 32px;
+    }
+}

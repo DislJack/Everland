@@ -1,0 +1,10 @@
+.works-for__subtitle {
+    max-width: 333px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1023px) {
+    .works-for__subtitle {
+        margin-bottom: 10px;
+    }
+}
