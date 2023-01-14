@@ -35,14 +35,17 @@
 @import url(../blocks/button/_type/button_type_link.css);
 @import url(../blocks/button/_type/button_type_slider.css);
 @import url(../blocks/button/_type/button_type_accordeon.css);
-@import url(../blocks/button/_theme/button_theme_light-blue.css);
-@import url(../blocks/button/_theme/button_theme_light-orange.css);
-@import url(../blocks/button/_theme/button_theme_light-green.css);
-@import url(../blocks/button/_theme/button_theme_light-purple.css);
-@import url(../blocks/button/_theme/button_theme_gray-slider.css);
+@import url(../blocks/button/_slider-theme/button_slider-theme_gray.css);
+@import url(../blocks/button/_link-theme/button_link-theme_light-blue.css);
+@import url(../blocks/button/_link-theme/button_link-theme_light-orange.css);
+@import url(../blocks/button/_link-theme/button_link-theme_light-green.css);
+@import url(../blocks/button/_link-theme/button_link-theme_light-purple.css);
 @import url(../blocks/button/_disabled/button_disabled_main.css);
 @import url(../blocks/button/_disabled/button_disabled_link.css);
+@import url(../blocks/button/_disabled/button_disabled_accordeon.css);
 @import url(../blocks/button/_disabled/button_disabled_others.css);
+@import url(../blocks/button/_direction/button_direction_left.css);
+@import url(../blocks/button/_rotation/button_rotation_icon.css);
 
 /* Стили шрифтов */
 @import url(../blocks/h1/h1.css);
