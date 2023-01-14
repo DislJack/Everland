@@ -62,3 +62,12 @@
 @import url(../blocks/accordeon/accordeon.css);
 @import url(../blocks/accordeon/__label/accordeon__label.css);
 @import url(../blocks/accordeon/__text/accordeon__text.css);
+
+/* Компоненты для карточек */
+@import url(../blocks/card/card.css); /* Закругленные углы и внутренний отступ*/
+/* Фон карточек */
+@import url(../blocks/card/_background/card_background_blue.css);
+@import url(../blocks/card/_background/card_background_green.css);
+@import url(../blocks/card/_background/card_background_purple.css);
+@import url(../blocks/card/_background/card_background_orange.css);
+
