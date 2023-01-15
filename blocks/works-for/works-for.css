@@ -1,3 +1,16 @@
 .works-for {
+    padding: 100px 40px;
     background-color: #F5F5F5;
+}
+
+@media screen and (max-width: 1023px) {
+    .works-for {
+        padding: 50px 159px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .works-for {
+        padding: 32px 10px;
+    }
 }

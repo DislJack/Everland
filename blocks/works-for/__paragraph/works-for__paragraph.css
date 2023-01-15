@@ -1,7 +1,9 @@
 .works-for__paragraph {
     margin: 0;
-    max-width: 333px;
     margin-bottom: 36px;
+    max-width: 333px;
+    grid-column: 1/2;
+    grid-row: 3/4;
 }
 
 @media screen and (max-width: 1023px) {
@@ -19,3 +21,4 @@
         margin-bottom: 28px;
     }
 }
+

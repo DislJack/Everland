@@ -1,5 +1,7 @@
 .works-for__subtitle {
     max-width: 333px;
+    grid-column: 1/2;
+    grid-row: 2/3;
     margin-bottom: 20px;
 }
 
