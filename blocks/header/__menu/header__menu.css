@@ -1,0 +1,33 @@
+.header__menu{
+  background: #ffffff;
+  position: fixed;
+  top: 80px;
+  left: 0px;
+  max-width: 1440px;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: min-content;
+  padding: 0 40px;
+  margin: 0 auto;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, .5s linear;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__menu{
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 64px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__menu{
+    top: 54px;
+    grid-template-columns: 1fr;
+    row-gap: 21px;
+    padding: 0px 10px;
+  }
+}

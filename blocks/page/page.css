@@ -1,6 +1,8 @@
 .page {
   max-width: 1440px;
   margin: 0 40px;
+  font-family: "Raleway";
+  font-style: normal;
 }
 
 @media (max-width: 767px) {

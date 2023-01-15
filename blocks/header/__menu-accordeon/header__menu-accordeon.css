@@ -1,0 +1,8 @@
+.header__menu-accordeon{
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .header__menu-accordeon{
+    display: block;
+  }
+}
