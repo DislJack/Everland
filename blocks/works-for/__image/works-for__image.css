@@ -1,7 +1,6 @@
 .works-for__image {
     grid-column: 1/2;
     grid-row: 1/2;
-    margin-bottom: 40px;
 }
 
 @media screen and (max-width: 1023px) {
