@@ -94,3 +94,13 @@
 @import url(../blocks/works-for/__title/works-for__title.css);
 @import url(../blocks/works-for/__button/works-for__button.css);
 @import url(../blocks/works-for/__link/works-for__link.css);
+
+/* Секция directions */
+@import url(../blocks/directions/directions.css);
+@import url(../blocks/directions/__title/directions__title.css);
+@import url(../blocks/directions/__card/directions__card.css);
+@import url(../blocks/directions/__container/directions__container.css);
+@import url(../blocks/directions/__button/directions__button.css);
+@import url(../blocks/directions/__paragraph/directions__paragraph.css);
+@import url(../blocks/directions/__subtitle/directions__subtitle.css);
+@import url(../blocks/directions/__link/directions__link.css);
