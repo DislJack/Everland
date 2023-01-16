@@ -1,5 +1,9 @@
 .works-for__link {
     text-decoration: none;
+    align-self: self-end;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 36px;
 }
 
 .works-for__link:first-of-type {
