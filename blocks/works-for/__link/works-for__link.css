@@ -1,0 +1,15 @@
+.works-for__link {
+    text-decoration: none;
+}
+
+.works-for__link:first-of-type {
+    color: #0C4BA0;
+}
+
+.works-for__link:nth-child(2) {
+    color: #E98509;
+}
+
+.works-for__link:last-of-type {
+    color: #319B17;
+}
