@@ -1,7 +1,7 @@
 .projects {
     background-color: #f5f5f5;
     padding: 100px 40px;
-    width: 100%;
+    max-width: 1360px;
 }
 
 @media all and (max-width: 768px) {
