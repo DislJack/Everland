@@ -1,17 +1,19 @@
 .projects {
     background-color: #f5f5f5;
     padding: 100px 40px;
-    max-width: 1360px;
+    margin-top:100px;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1023px) {
     .projects {
         padding: 50px 40px;
+        margin-top:50px;
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 767px) {
     .projects {
         padding: 50px 10px;
+        margin-top:32px;
     }
 }
