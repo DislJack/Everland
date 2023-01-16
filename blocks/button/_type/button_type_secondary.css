@@ -8,9 +8,11 @@
 
 .button_type_secondary:hover {
   border: 1px solid #00275C;
+  color: #00275C;
 }
 
 .button_type_secondary:active {
   border: none;
   background-color: #00275C;
+  color: #fff;
 }
