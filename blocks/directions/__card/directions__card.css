@@ -1,5 +1,6 @@
 .directions__card {
     max-width: 440px;
+    width: 100%;
     box-sizing: border-box;
     display: grid;
 }
