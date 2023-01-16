@@ -30,8 +30,6 @@
 @import url(../blocks/figures/figures.css);
 @import url(../blocks/histories/histories.css);
 @import url(../blocks/main/main.css);
-@import url(../blocks/news/news.css);
-
 @import url(../blocks/projects/projects.css);
 @import url(../blocks/projects/__description/projects__description.css);
 @import url(../blocks/projects/__img/projects__img.css);
@@ -77,6 +75,20 @@
 @import url(../blocks/accordeon/__label/accordeon__label.css);
 @import url(../blocks/accordeon/__text/accordeon__text.css);
 
+/* Секция news */
+@import url(../blocks/news/news.css);
+@import url(../blocks/news/__title/news__title.css);
+@import url(../blocks/news/__button/news__button.css);
+@import url(../blocks/news/__grid/news__grid.css);
+@import url(../blocks/news/__grid-cards/news__grid-cards.css);
+@import url(../blocks/news/__card-flex/news__card-flex.css);
+@import url(../blocks/news/__card-image/news__card-image.css);
+@import url(../blocks/news/__grid-cards/_position/news__grid-cards_position_first.css);
+@import url(../blocks/news/__grid-cards/_position/news__grid-cards_position_second.css);
+@import url(../blocks/news/__grid-cards/_position/news__grid-cards_position_third.css);
+@import url(../blocks/news/__date/news__date.css);
+@import url(../blocks/news/__text/news__text.css);
+
 /* Компоненты для карточек */
 @import url(../blocks/card/card.css); /* Закругленные углы и внутренний отступ*/
 /* Фон карточек */
@@ -86,3 +98,12 @@
 @import url(../blocks/card/_background/card_background_light-purple.css);
 @import url(../blocks/card/_border/card_border_gray.css); /* Серая рамка */
 
+/* Секция works-for */
+@import url(../blocks/works-for/__card/works-for__card.css);
+@import url(../blocks/works-for/__container/works-for__container.css);
+@import url(../blocks/works-for/__image/works-for__image.css);
+@import url(../blocks/works-for/__paragraph/works-for__paragraph.css);
+@import url(../blocks/works-for/__subtitle/works-for__subtitle.css);
+@import url(../blocks/works-for/__title/works-for__title.css);
+@import url(../blocks/works-for/__button/works-for__button.css);
+@import url(../blocks/works-for/__link/works-for__link.css);
