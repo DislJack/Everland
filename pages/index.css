@@ -72,3 +72,10 @@
 @import url(../blocks/card/_background/card_background_light-purple.css);
 @import url(../blocks/card/_border/card_border_gray.css); /* Серая рамка */
 
+/* Картинка со скругленными углами (три типа) */
+@import url(../blocks/image/image.css);
+@import url(../blocks/image/_border-radius-size/image_border-radius-size_s.css);
+@import url(../blocks/image/_border-radius-size/image_border-radius-size_m.css);
+@import url(../blocks/image/_border-radius-size/image_border-radius-size_l.css);
+
+
