@@ -1,3 +1,4 @@
 .news__button {
   grid-area: news-button;
+  text-decoration: none;
 }
