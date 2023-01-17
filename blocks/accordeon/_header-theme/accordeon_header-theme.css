@@ -1,0 +1,13 @@
+.accordeon_header-theme{
+  display: block;
+  width: 100%;
+}
+
+.accordeon_header-theme[open] .accordeon__label_header-theme::after{
+  transition: transform .3s ease;
+  transform: rotate(270deg);
+}
+
+.accordeon_header-theme[open] .accordeon__label_header-theme{
+  padding-bottom: 25px;
+}
