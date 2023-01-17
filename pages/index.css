@@ -139,3 +139,11 @@
 @import url(../blocks/directions/__paragraph/directions__paragraph.css);
 @import url(../blocks/directions/__subtitle/directions__subtitle.css);
 @import url(../blocks/directions/__link/directions__link.css);
+
+/* Секция numbers (Everland в цифрах) */
+@import url(../blocks/numbers/numbers.css);
+@import url(../blocks/numbers/__container/numbers__container.css);
+@import url(../blocks/numbers/__image/numbers__image.css);
+@import url(../blocks/numbers/__text-block/numbers__text-block.css);
+@import url(../blocks/numbers/__text-card/numbers__text-card.css);
+@import url(../blocks/numbers/__text-blue/numbers__text-blue.css);
