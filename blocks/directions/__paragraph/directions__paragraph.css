@@ -1,0 +1,11 @@
+.directions__paragraph {
+    margin-top: 20px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+@media screen and (max-width: 1023px) {
+    .directions__paragraph {
+        margin-top: 10px;
+    }
+}
