@@ -1,6 +1,7 @@
 .page {
   max-width: 1440px;
-  margin: 0 40px;
+  margin: 0 auto;
+	font-family: 'raleway';
 }
 
 @media (max-width: 767px) {

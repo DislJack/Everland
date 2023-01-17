@@ -1,3 +1,11 @@
 .support {
-    
+	background-color: #E7F0FF;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 0.1fr 1fr;
+	grid-template-areas:
+	"title title"
+	"table list";
+	padding: 0 40px;
+	margin-top: 100px;
 }

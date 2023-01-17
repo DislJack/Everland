@@ -79,3 +79,17 @@
 @import url(../blocks/image/_border-radius-size/image_border-radius-size_l.css);
 
 
+/* Cекция donations */
+@import url(../blocks/support/support.css);
+@import url(../blocks/support/__title/support__title.css);
+@import url(../blocks/support/__subtitle/support__subtitle.css);
+@import url(../blocks/support/__table/support__table.css);
+@import url(../blocks/support/__donations/support__donations.css);
+@import url(../blocks/support/__text-span/support__text-span.css);
+@import url(../blocks/support/__donator-info/support__donator-info.css);
+@import url(../blocks/support/__donator-name/support__donator-name.css);
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
