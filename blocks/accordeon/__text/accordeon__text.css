@@ -1,12 +1,12 @@
 .accordeon__text {
   margin-top: 10px;
-  transition: all 0.3s ease;
-  max-height: 0;
-  opacity: 0;
-  will-change: max-height;
+  transition: max-height 2s ease;
+  height: auto;
+  max-height: 0px;
   box-sizing: content-box;
+  overflow: hidden;
 }
 
-.accordeon[open] .accordeon__text {
-  opacity: 1;
+.accordeon__text[open] {
+  max-height: 250px;;
 }
