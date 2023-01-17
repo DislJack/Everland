@@ -1,0 +1,15 @@
+.is-active::before{
+  transition-delay: 0s, .3s;
+  top: 0;
+  transform: rotate(-45deg);
+}
+
+.is-active::after{
+  transition-delay: 0s, .3s;
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.is-active{
+  background: none;
+}

@@ -1,0 +1,26 @@
+.accordeon__label_header-theme{
+  width: 100%;
+  list-style: none;
+  position: relative;
+  outline: none;
+  cursor: pointer;
+  padding: 0px 40px 0px 0px;
+  box-sizing: border-box;
+  transition: all .3s ease;
+  display: block;
+  border: none;
+}
+
+.accordeon__label_header-themey::-webkit-details-marker{display:none;}
+.accordeon__label_header-themery::-moz-list-bullet{list-style-type:none;}
+.accordeon__label_header-theme::marker{display:none;}
+
+.accordeon__label_header-theme::after{
+  transition: all .3s ease;
+  display: block;
+  content: '>';
+  transform: rotate(90deg);
+  position: absolute;
+  right: 12px;
+  top: 0px;
+}
