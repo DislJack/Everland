@@ -131,7 +131,6 @@
 @import url(../blocks/works-for/__link/works-for__link.css);
 
 /* Секция directions */
-@import url(../blocks/directions/directions.css);
 @import url(../blocks/directions/__title/directions__title.css);
 @import url(../blocks/directions/__card/directions__card.css);
 @import url(../blocks/directions/__container/directions__container.css);
@@ -139,6 +138,12 @@
 @import url(../blocks/directions/__paragraph/directions__paragraph.css);
 @import url(../blocks/directions/__subtitle/directions__subtitle.css);
 @import url(../blocks/directions/__link/directions__link.css);
+
+/* Секция donations */
+@import url(../blocks/donations/__container-sum/donations__container-sum.css);
+@import url(./../blocks/donations/__button-sup/donations__button-sup.css);
+@import url(../blocks/donations/__sum-button/donations__sum-button.css);
+@import url(../blocks/donations/__sum-button/_size/donations__sum-button_size_m.css);
 
 /* Секция numbers (Everland в цифрах) */
 @import url(../blocks/numbers/numbers.css);
