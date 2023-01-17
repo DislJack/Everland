@@ -6,10 +6,10 @@ const sliderNext = document.querySelector('#slider-next');
 const sliderCounter = document.querySelector('.slider-counter');
 const sliderTitle = document.querySelector('.slider-title')
 
-const imageDescription = ['1.Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво интегрироваться в открытый рынок труда', '2.Социальный проект', '3.Помощь и адаптация', '4.Трудоустройство инвалидов', '5.Поддержка в сложных жизненных ситуациях', '6.Одним из важнейших направлений государственной политики в сфере социальной защиты населения является повышение эффективности, качества и доступности реабилитационных услуг для тяжелых инвалидов различных категорий и членов их семей.'];
+
 
 sliderCounter.textContent = counter + '/6';
-sliderTitle.textContent = imageDescription[0];
+sliderTitle.textContent = imageDescriptionEverland[0];
 
 sliderPrev.addEventListener('click', function(evt){
   offset -= 520;
@@ -19,7 +19,7 @@ sliderPrev.addEventListener('click', function(evt){
     counter = 6;}
   sliderLine.style.left = -offset + 'px';
   sliderCounter.textContent = counter + '/6';
-  sliderTitle.textContent = imageDescription[counter - 1];
+  sliderTitle.textContent = imageDescriptionEverland[counter - 1];
 });
 
 sliderNext.addEventListener('click', function(evt){
@@ -30,7 +30,7 @@ sliderNext.addEventListener('click', function(evt){
     counter = 1}
   sliderLine.style.left = -offset + 'px';
   sliderCounter.textContent = counter + '/6';
-  sliderTitle.textContent = imageDescription[counter - 1];
+  sliderTitle.textContent = imageDescriptionEverland[counter - 1];
 });
 
 
