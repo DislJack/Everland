@@ -7,6 +7,6 @@
   overflow: hidden;
 }
 
-.accordeon__text[open] {
+.accordeon[open] .accordeon__text {
   max-height: 250px;;
 }

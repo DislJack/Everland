@@ -1,7 +1,6 @@
 // Переменные
 
 const accordeons = document.querySelectorAll('.accordeon');
-
 // Функции
 
 
@@ -9,9 +8,5 @@ const accordeons = document.querySelectorAll('.accordeon');
 // Код
 
 accordeons.forEach((accordeon) => {
-  const content = accordeon.querySelector('.accordeon__text');
-  accordeon.addEventListener('click', () => {
-    accordeon.toggleAttribute('open');
-    content.toggleAttribute('open');
-  });
+  accordeon.addEventListener('click', () => accordeon.toggleAttribute('open'));
 });
