@@ -3,6 +3,17 @@
 /* Шрифты */
 @import url(../vendor/fonts/raleway.css);
 
+/*Стили элементов*/
+/* Стили шрифтов */
+@import url(../blocks/h1/h1.css);
+@import url(../blocks/h2/h2.css);
+@import url(../blocks/h3/h3.css);
+@import url(../blocks/h4/h4.css);
+@import url(../blocks/h5/h5.css);
+@import url(../blocks/big-text/big-text.css);
+@import url(../blocks/main-text/main-text.css);
+@import url(../blocks/small-text/small-text.css);
+
 /* Стили блоков */
 /* Стили всего боди */
 @import url(../blocks/page/page.css);
@@ -43,6 +54,15 @@
 @import url(../blocks/histories/histories.css);
 @import url(../blocks/main/main.css);
 @import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__description/projects__description.css);
+@import url(../blocks/projects/__img/projects__img.css);
+@import url(../blocks/projects/__item/projects__item.css);
+@import url(../blocks/projects/__card/projects__card.css);
+@import url(../blocks/projects/__list/projects__list.css);
+@import url(../blocks/projects/__subtitle/projects__subtitle.css);
+@import url(../blocks/projects/__title/projects__title.css);
+@import url(../blocks/projects/__button/projects__button.css);
+
 @import url(../blocks/support/support.css);
 @import url(../blocks/works-for/works-for.css);
 
@@ -69,16 +89,6 @@
 @import url(../blocks/button/_direction/button_direction_left.css);
 @import url(../blocks/button/_rotation/button_rotation_icon.css);
 
-
-/* Стили шрифтов */
-@import url(../blocks/h1/h1.css);
-@import url(../blocks/h2/h2.css);
-@import url(../blocks/h3/h3.css);
-@import url(../blocks/h4/h4.css);
-@import url(../blocks/h5/h5.css);
-@import url(../blocks/big-text/big-text.css);
-@import url(../blocks/main-text/main-text.css);
-@import url(../blocks/small-text/small-text.css);
 
 /* Секция advantages */
 @import url(../blocks/advantages/advantages.css);
