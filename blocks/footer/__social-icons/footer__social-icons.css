@@ -1,0 +1,6 @@
+.footer__social-icons {
+    display: flex;
+    margin: 0;
+    gap: 10px;
+    padding: 11px 0 0;
+}

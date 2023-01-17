@@ -1,0 +1,7 @@
+.footer__phones {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    width: 151px;
+    color: #333333;
+}

@@ -1,0 +1,7 @@
+.footer__address {
+    display: flex;
+    margin: 0;
+    width: 315px;
+    flex-direction: column;
+    color: #333333;
+}

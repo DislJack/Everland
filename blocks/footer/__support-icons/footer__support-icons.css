@@ -1,0 +1,5 @@
+.footer__support-icons {
+    display: flex;
+    margin: 0;
+    gap: 50px;
+}

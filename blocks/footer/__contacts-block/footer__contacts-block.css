@@ -1,0 +1,5 @@
+.footer__contacts-block {
+    display: flex;
+    margin: 0;
+    gap: 53px;
+}
