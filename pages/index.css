@@ -25,6 +25,7 @@
 @import url(../blocks/header/__menu-title/header__menu-title.css);
 @import url(../blocks/header/__menu-link-title/header__menu-link-title.css);
 @import url(../blocks/accordeon/_header-theme/accordeon_header-theme.css);
+@import url(../blocks/accordeon/__label/_header-theme/accordeon__label_header-theme.css);
 @import url(../blocks/header/__menu-accordeon/header__menu-accordeon.css);
 @import url(../blocks/header/__menu-accordeon-list/header__menu-accordeon-list.css);
 
@@ -68,6 +69,7 @@
 @import url(../blocks/button/_disabled/button_disabled_others.css);
 @import url(../blocks/button/_direction/button_direction_left.css);
 @import url(../blocks/button/_rotation/button_rotation_icon.css);
+
 
 /* Стили шрифтов */
 @import url(../blocks/h1/h1.css);

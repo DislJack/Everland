@@ -3,6 +3,12 @@
 }
 @media screen and (max-width: 767px) {
   .header__menu-accordeon{
-    display: block;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 22px;
+    padding-top: 18px;
+    box-sizing: border-box;
+
   }
 }

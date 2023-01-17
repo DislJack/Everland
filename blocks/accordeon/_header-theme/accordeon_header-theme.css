@@ -1,12 +1,13 @@
 .accordeon_header-theme{
-  border: none;
-  padding: 0px;
-  background-color: #fff;
-  overflow: hidden;
-  box-sizing: border-box;
-  list-style: none;
+  display: block;
+  width: 100%;
 }
 
-.accordeon::-webkit-details-marker {
-  display: none;
+.accordeon_header-theme[open] .accordeon__label_header-theme::after{
+  transition: transform .3s ease;
+  transform: rotate(270deg);
+}
+
+.accordeon_header-theme[open] .accordeon__label_header-theme{
+  padding-bottom: 25px;
 }
