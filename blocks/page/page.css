@@ -1,5 +1,8 @@
 .page {
   max-width: 1440px;
-  font-family: 'Raleway';
   margin: 0 auto;
+  font-family: "Raleway";
+  font-style: normal;
+  position: relative;
 }
+

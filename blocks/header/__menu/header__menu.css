@@ -11,12 +11,11 @@
   grid-auto-rows: min-content;
   column-gap: 20px;
   padding: 0px 40px;
-  margin: 0px auto;
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s, .5s linear;
-  z-index: 99999;
   box-sizing: border-box;
+  z-index: 99999999999;
 }
 
 @media screen and (max-width: 1023px) {

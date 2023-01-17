@@ -3,23 +3,9 @@ const menuButton = document.querySelector('.header__menu-button');
 const headerMenu = document.querySelector('.header__menu');
 
 
-// Открыть(закрыть) элемент
-function openPopup(popup, modif) {
-  popup.classList.add(modif);
-}
+// Открыть(закрыть) меню Header
 
-function closePopup(popup, modif) {
-  popup.classList.remove(modif);
-}
-
-// Слушатель на открытие (закрытие) header-menu-button
-menuButton.addEventListener('click', function(evt){
-  evt.preventDefault;
-  if (menuButtonIcon.className.includes('is-active')){
-    closePopup(menuButtonIcon, 'is-active');
-    closePopup(headerMenu, 'header__menu_opened');
-    } else{
-    openPopup(menuButtonIcon, 'is-active');
-    openPopup(headerMenu, 'header__menu_opened');
-    }
+menuButton.addEventListener('click', () => {
+  menuButtonIcon.classList.toggle('is-active');
+  headerMenu.classList.toggle('header__menu_opened');
 });
