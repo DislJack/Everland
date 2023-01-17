@@ -1,0 +1,11 @@
+@media screen and (max-width: 767px){
+  .header__menu-accordeon-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    }
+  }

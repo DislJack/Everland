@@ -1,0 +1,5 @@
+.header__menu_opened{
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, .5s linear;
+}
