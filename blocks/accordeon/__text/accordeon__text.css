@@ -1,6 +1,6 @@
 .accordeon__text {
   margin-top: 10px;
-  transition: all 0.3s ease-out;
+  transition: all 0.3s ease;
   max-height: 0;
   opacity: 0;
   will-change: max-height;
