@@ -3,6 +3,7 @@
   margin: 0 40px;
   font-family: "Raleway";
   font-style: normal;
+  position: relative;
 }
 
 @media (max-width: 767px) {
