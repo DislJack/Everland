@@ -3,10 +3,18 @@
     margin: auto;
     color: #0C4BA0;
     height: 48px;
+    margin-top:49px
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 1023px) {
     .projects__button {
-        width: 300px;
+        margin-top:32px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .projects__button {
+        width: 100%;
+        margin-top:24px;
     }
 }
