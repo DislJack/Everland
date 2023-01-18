@@ -1,3 +1,6 @@
 .support__switch-payment {
 	cursor: pointer;
+	width: 8px;
+	height: 14px;
+	align-self: center;
 }

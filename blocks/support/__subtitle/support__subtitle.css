@@ -4,4 +4,18 @@
 	text-align: center;
 	margin-top: 88px;
 	margin-bottom: 74px;
+	margin: 88px auto 74px auto;
+}
+
+@media screen and (max-width: 1246px) {
+	.support__subtitle {
+		margin-top: 0;
+		max-width: 531px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.support__subtitle {
+		margin-bottom: 32px;
+	}
 }

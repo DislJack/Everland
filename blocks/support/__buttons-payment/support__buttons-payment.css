@@ -6,3 +6,10 @@
 	margin-bottom: 41px;
 	margin-top: 16px;
 }
+
+@media screen and (max-width: 1023px) {
+	.support__buttons-payment {
+		margin-top: 24px;
+		margin-bottom: 48px;
+	}
+}

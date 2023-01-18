@@ -7,3 +7,9 @@
 	padding: 12px 0 12px 0;
 	size: 100px;
 }
+
+@media screen and (max-width: 1023px) {
+	.support__button-payment {
+		width: 190px;
+	}
+}

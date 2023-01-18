@@ -9,3 +9,16 @@
 .support__button-sum:first-of-type {
   margin-bottom: 12px;
 }
+
+@media screen and (max-width: 1023px) {
+	.support__button-sum {
+		font-size: 16px;
+    width: 145px;
+	}
+  .support__button-sum:last-of-type {
+    width: 190px;
+  }
+  .support__button-sum:first-of-type {
+    margin-bottom: 16px;
+  }
+}

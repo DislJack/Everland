@@ -19,3 +19,9 @@
 .support__input::placeholder {
 	opacity: 0.5;
 }
+
+@media screen and (max-width: 1023px) {
+	.support__input {
+		font-size: 14px;
+	}
+}

@@ -1,7 +1,12 @@
 .support__two-buttons {
   display: flex;
   flex-direction: row;
-	justify-content: space-between;
-	margin-bottom: 32px;
-	
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+@media screen and (max-width: 1023px) {
+	.support__two-buttons {
+		font-size: 16px;
+	}
 }
