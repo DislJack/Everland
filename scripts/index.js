@@ -1,36 +1,40 @@
-let offset = 0;
-let counter = 1;
-const sliderLine = document.querySelector('.slider-line');
-const sliderPrev = document.querySelector('#slider-prev');
-const sliderNext = document.querySelector('#slider-next');
-const sliderCounter = document.querySelector('.slider-counter');
-const sliderTitle = document.querySelector('.slider-title')
+let offsetEverlandSlider = 0;
+let counterEverlandSlider = 1;
+
+
+const everland = document.querySelector('.everland');
+const sliderLineEverland = everland.querySelector('.slider-line');
+const prevEverlandSlider = everland.querySelector('#prev-slide');
+const nextEverlandSlider = everland.querySelector('#next-slide');
+const sliderCounterEverland = everland.querySelector('.slider-counter');
+const sliderTitleEverland = everland.querySelector('.slider-title');
+const deductibleSliderEverland = everland.querySelector('.slider');
 
 
 
-sliderCounter.textContent = counter + '/6';
-sliderTitle.textContent = imageDescriptionEverland[0];
+sliderCounterEverland.textContent = counterEverlandSlider + '/6';
+sliderTitleEverland.textContent = imageDescriptionEverland[0];
 
-sliderPrev.addEventListener('click', function(evt){
-  offset -= 520;
-  counter -= 1;
-  if (offset < 0) {
-    offset = 2600;
-    counter = 6;}
-  sliderLine.style.left = -offset + 'px';
-  sliderCounter.textContent = counter + '/6';
-  sliderTitle.textContent = imageDescriptionEverland[counter - 1];
+prevEverlandSlider.addEventListener('click', () => {
+  offsetEverlandSlider -= deductibleSliderEverland.offsetWidth;
+  counterEverlandSlider -= 1;
+  if (offsetEverlandSlider < 0) {
+    offsetEverlandSlider = 2600;
+    counterEverlandSlider = 6;}
+  sliderLineEverland.style.left = -offsetEverlandSlider + 'px';
+  sliderCounterEverland.textContent = counterEverlandSlider + '/6';
+  sliderTitleEverland.textContent = imageDescriptionEverland[counterEverlandSlider - 1];
 });
 
-sliderNext.addEventListener('click', function(evt){
-  offset += 520;
-  counter += 1;
-  if (offset > 2600) {
-    offset = 0;
-    counter = 1}
-  sliderLine.style.left = -offset + 'px';
-  sliderCounter.textContent = counter + '/6';
-  sliderTitle.textContent = imageDescriptionEverland[counter - 1];
+nextEverlandSlider.addEventListener('click', () => {
+  offsetEverlandSlider += 520;
+  counterEverlandSlider += 1;
+  if (offsetEverlandSlider > 2600) {
+    offsetEverlandSlider = 0;
+    counterEverlandSlider = 1}
+  sliderLineEverland.style.left = -offsetEverlandSlider + 'px';
+  sliderCounterEverland.textContent = counterEverlandSlider + '/6';
+  sliderTitleEverland.textContent = imageDescriptionEverland[counterEverlandSlider - 1];
 });
 
 

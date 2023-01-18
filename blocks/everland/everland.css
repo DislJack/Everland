@@ -5,6 +5,11 @@
  grid-template-rows: min-content 1fr;
  gap: 20px 14px;
  margin-top: 50px;
+ background: #ffffff;
+}
+
+.everland-title_style{
+  color: #0c4ba0;
 }
 
 .slider{
@@ -22,68 +27,79 @@
   transition: all ease 1s;
 }
 
-.slider-image1{
+.slider-image-container{
   width: 520px;
   height: 565px;
-  background: #e5e5e5;
-
+  background: #ffffff;
+  border-radius: 10px;
+  position: relative;
 }
 
-.slider-image1::before{
-  width: 20px;
-  height: 20px;
+.slider-image_style{
+  width: 392px;
+  height: 407px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.slider-image_location-top{
+  position: absolute;
+  top: 0px;
+  right: 0px;;
+}
+
+.slider-image_location-bottom{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.slider-image1{
   background-image: url(../../images/slider/img1.jpg);
-  background-size: contain;
-  border-radius: 10px;
-  background-repeat: no-repeat;
 }
-
-.slider-image1::after{
-  width: 20px;
-  height: 20px;
-  background-image: url(../../images/slider/img3.jpg);
-  background-size: contain;
-  border-radius: 10px;
-  background-repeat: no-repeat;
-}
-
 
 .slider-image2{
   background-image: url(../../images/slider/img2.jpg);
-  width: 520px;
-  height: 565px;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
+
 .slider-image3{
   background-image: url(../../images/slider/img3.jpg);
-  width: 520px;
-  height: 565px;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
+
 .slider-image4{
   background-image: url(../../images/slider/img4.jpg);
-  width: 520px;
-  height: 565px;
-  background-size: cover;
-  background-repeat: no-repeat;
-
 }
+
 .slider-image5{
   background-image: url(../../images/slider/img5.jpg);
-  width: 520px;
-  height: 565px;
-  background-size: cover;
-  background-repeat: no-repeat;
-
 }
+
 .slider-image6{
   background-image: url(../../images/slider/img6.jpg);
-  width: 520px;
-  height: 565px;
-  background-size: cover;
-  background-repeat: no-repeat;
+}
+
+.slider-image7{
+  background-image: url(../../images/slider/img6.jpg);
+}
+
+.slider-image8{
+  background-image: url(../../images/slider/img1.jpg);
+}
+
+.slider-image9{
+  background-image: url(../../images/slider/img5.jpg);
+}
+
+.slider-image10{
+  background-image: url(../../images/slider/img2.jpg);
+}
+.slider-image11{
+  background-image: url(../../images/slider/img4.jpg);
+}
+
+.slider-image12{
+  background-image: url(../../images/slider/img3.jpg);
 }
 
 .slider-switcher{
