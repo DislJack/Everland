@@ -1,0 +1,8 @@
+.support__buttons-payment {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 41px;
+	margin-top: 16px;
+}

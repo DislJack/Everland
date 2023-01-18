@@ -1,0 +1,7 @@
+.support__checkbox {
+	margin-bottom: 14px;
+}
+
+.support__checkbox:checked {
+	width: 100px;
+}

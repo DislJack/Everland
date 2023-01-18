@@ -1,0 +1,16 @@
+.news__grid-cards_position_second {
+  grid-area: second-card;
+  grid-column: span 4;
+}
+
+@media (max-width: 1023px) {
+  .news__grid-cards_position_second {
+    grid-column: span 3;
+  }
+}
+
+@media (max-width: 767px) {
+  .news__grid-cards_position_second {
+    grid-column: span 2;
+  }
+}

@@ -4,7 +4,7 @@
   height: 45px;
   border-radius: 20px;
   background-color: #E7F0FF;
-  transition: 0.2s;
+  transition: all 0.2s ease-out;
   position: relative;
   border: none;
   cursor: pointer;

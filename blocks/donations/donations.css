@@ -1,7 +1,3 @@
 .donations {
-	background-color: #E7F0FF;
-	display: grid;
-	grid-template-areas:
-	"header header"
-	"tablet list";
+
 }

@@ -1,0 +1,12 @@
+.support__button-sum {
+	background-color: white;
+  width: 159px;
+  border: 1px solid #dadada;
+	cursor: pointer;
+	padding: 12px 0 12px 0;
+}
+
+
+.support__button-sum:first-of-type {
+	margin-bottom: 12px;
+}

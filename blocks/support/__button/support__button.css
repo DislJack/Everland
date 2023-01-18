@@ -1,0 +1,11 @@
+.support__button {
+  background-color: white;
+  width: 316px;
+  border: 1px solid #dadada;
+	cursor: pointer;
+	padding: 12px 0 12px 0;
+}
+
+.support__button:active {
+	border-color: #0C4BA0;
+}

@@ -5,73 +5,404 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Everland</title>
-  <link rel="stylesheet" href="pages/index.css">
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="page">
   <header class="header">
-
+    <nav class="header__nav">
+      <a href="#" class="header__logo"></a>
+      <button type="menu" class="header__menu-button big-text">
+        <span class="header__menu-button-icon"></span>Меню</button>
+      <div class="header__button">
+        <button type="button" class="button button_type_secondary" >Платформа</button>
+        <button type="button" class="button button_type_primary">Поддержать</button>
+      </div>
+    </nav>
+    <nav class="header__menu-secondary">
+      <ul class="header__menu-secondary-list">
+        <li class="header__menu-secondary-item">
+          <a href="#" class="header__menu-secondary-link big-text">Для кого</a>
+        </li>
+        <li class="header__menu-secondary-item">
+          <a href="#" class="header__menu-secondary-link big-text">Направления работы</a>
+        </li>
+        <li class="header__menu-secondary-item">
+          <a href="#" class="header__menu-secondary-link big-text">Преимущества</a>
+        </li>
+        <li class="header__menu-secondary-item">
+          <a href="#" class="header__menu-secondary-link big-text">Основные цифры</a>
+        </li>
+        <li class="header__menu-secondary-item">
+          <a href="#" class="header__menu-secondary-link big-text">Спецпроекты</a>
+        </li>
+        <li class="header__menu-secondary-item">
+          <a href="#" class="header__menu-secondary-link big-text">Истории</a>
+        </li>
+        <li class="header__menu-secondary-item">
+          <a href="#" class="header__menu-secondary-link big-text">Агенство</a>
+        </li>
+        <li class="header__menu-secondary-item">
+          <a href="#" class="header__menu-secondary-link big-text">Новости</a>
+        </li>
+      </ul>
+    </nav>
   </header>
+  <nav class="header__menu">
+    <ul class="header__menu-list">
+      <li>
+        <h4 class="header__menu-title h4">О проекте</h4>
+      </li>
+      <li>
+        <a href="#" class="header__menu-link main-text">АНО Пространство равных возможностей</a>
+      </li>
+      <li>
+        <a href="#" class="header__menu-link main-text">Новости</a>
+      </li>
+      <li>
+        <a href="#" class="header__menu-link main-text">Сотрудничество</a>
+      </li>
+      <li>
+        <a href="#" class="header__menu-link main-text">Инклюзия</a>
+      </li>
+      <li>
+        <a href="#" class="header__menu-link main-text">Учебным заведениям</a>
+      </li>
+      <li>
+        <a href="#" class="header__menu-link main-text">Годовые отчеты</a>
+      </li>
+    </ul>
+    <ul class="header__menu-list">
+      <li>
+        <h4 class="header__menu-title h4">Людям с инвалидностью</h4>
+      </li>
+      <li>
+        <a href="#" class="header__menu-link main-text">Платформа</a>
+      </li>
+      <li>
+        <a href="#" class="header__menu-link main-text">Курсы</a>
+      </li>
+      <li>
+        <a href="#" class="header__menu-link main-text">Everland Profi</a>
+      </li>
+      <li>
+        <a href="#" class="header__menu-link main-text">Бесплатное такси</a>
+      </li>
+    </ul>
+    <ul class="header__menu-list">
+      <li>
+        <h4 class="header__menu-title h4">Услуги</h4>
+      </li>
+      <li>
+        <a href="#" class="header__menu-link main-text">Услуги агентства</a>
+      </li>
+      <li>
+        <a href="#" class="header__menu-link main-text">Готовые сайты</a>
+      </li>
+      <li>
+        <a href="#" class="header__menu-link main-text">Доступность для людей с инвалидностью</a>
+      </li>
+      <li>
+        <a href="#" class="header__menu-link main-text">Работодателям</a>
+      </li>
+      <li>
+        <a href="#" class="header__menu-link main-text">Портфолио</a>
+      </li>
+    </ul>
+    <div class="header__menu-accordeon">
+      <details class="accordeon_header-theme">
+        <summary class="accordeon__label_header-theme h4">О проекте</summary>
+        <ul class="header__menu-accordeon-list ">
+          <li>
+            <a href="#" class="header__menu-link main-text">АНО Пространство равных возможностей</a>
+          </li>
+          <li>
+            <a href="#" class="header__menu-link main-text">Новости</a>
+          </li>
+          <li>
+            <a href="#" class="header__menu-link main-text">Сотрудничество</a>
+          </li>
+          <li>
+            <a href="#" class="header__menu-link main-text">Инклюзия</a>
+          </li>
+          <li>
+            <a href="#" class="header__menu-link main-text">Учебным заведениям</a>
+          </li>
+          <li>
+            <a href="#" class="header__menu-link main-text">Годовые отчеты</a>
+          </li>
+        </ul>
+      </details>
+      <details class="accordeon_header-theme">
+        <summary class="accordeon__label_header-theme h4">Людям с инвалидностью</summary>
+        <ul class="header__menu-accordeon-list">
+          <li>
+            <a href="#" class="header__menu-link main-text">Платформа</a>
+          </li>
+          <li>
+            <a href="#" class="header__menu-link main-text">Курсы</a>
+          </li>
+          <li>
+            <a href="#" class="header__menu-link main-text">Everland Profi</a>
+          </li>
+          <li>
+            <a href="#" class="header__menu-link main-text">Бесплатное такси</a>
+          </li>
+        </ul>
+      </details>
+      <details class="accordeon_header-theme">
+        <summary class="accordeon__label_header-theme h4">Услуги</summary>
+        <ul class="header__menu-accordeon-list">
+          <li>
+            <a href="#" class="header__menu-link main-text">Услуги агентства</a>
+          </li>
+          <li>
+            <a href="#" class="header__menu-link main-text">Готовые сайты</a>
+          </li>
+          <li>
+            <a href="#" class="header__menu-link main-text">Доступность для людей с инвалидностью</a>
+          </li>
+          <li>
+            <a href="#" class="header__menu-link main-text">Работодателям</a>
+          </li>
+          <li>
+            <a href="#" class="header__menu-link main-text">Портфолио</a>
+          </li>
+        </ul>
+      </details>
+    </div>
+    <ul class="header__menu-list-link">
+      <li>
+        <a href="#" class="header__menu-link-title h4">Мы&nbspблагодарим</a>
+      </li>
+      <li>
+        <a href="#" class="header__menu-link-title h4">Программы</a>
+      </li>
+      <li>
+        <a href="#" class="header__menu-link-title h4">Наставникам</a>
+      </li>
+      <li>
+        <a href="#" class="header__menu-link-title h4">Помочь</a>
+      </li>
+    </ul>
+  </nav>
   <main class="main">
     <section class="everland"></section>
     <section class="donations"></section>
-    <section class="works-for"></section>
-    <section class="directions"></section>
+    <section class="works-for">
+      <h2 class="works-for__title h2">Для кого мы работаем</h2>
+      <div class="works-for__container">
+        <article class="works-for__card card">
+          <img class="works-for__image" src="./images/icons/disabled.svg" alt="Значок человека с инвалидностью">
+          <h3 class="works-for__subtitle h4">Для людей с инвалидностью</h3>
+          <p class="works-for__paragraph main-text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
+          <a class="works-for__link" href=#><button class="works-for__button button button_link-theme_light-blue button_type_link" type="button">Подробнее</button></a>
+        </article>
+        <article class="works-for__card card">
+          <img class="works-for__image" src="./images/icons/briefcase.svg" alt="Кейс">
+          <h3 class="works-for__subtitle h4">Для работодателей</h3>
+          <p class="works-for__paragraph main-text">Помогаем создать устойчивые инклюзивные команды, вовлекаем интеллектуальных волонтеров</p>
+          <a class="works-for__link" href=#><button class="works-for__button button button_link-theme_light-orange button_type_link" type="button">Подробнее</button></a>
+        </article>
+        <article class="works-for__card card">
+          <img class="works-for__image" src="./images/icons/person.svg" alt="Человек">
+          <h3 class="works-for__subtitle h4">Для КСО партнеров Everland</h3>
+          <p class="works-for__paragraph main-text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
+          <a class="works-for__link" href=#><button class="works-for__button button button_link-theme_light-green button_type_link" type="button">Подробнее</button></a>
+        </article>
+      </div>
+    </section>
+    <section class="directions">
+      <h2 class="directions__title h2">В каких направлениях мы работаем</h2>
+      <div class="directions__container">
+        <article class="directions__card card card_background_light-orange">
+          <h3 class="directions__subtitle h4">Доступность услуг DisQuestion</h3>
+          <p class="directions__paragraph main-text">Сервисы для бизнеса по повышению доступности услуг для маломобильных клиентов ― контракты с крупнейшими компаниями в России</p>
+          <a class="directions__link" href="#"><button class="directions__button button  button_type_link" type="button">Подробнее</button></a>
+        </article>
+        <article class="directions__card card card_background_light-blue">
+          <h3 class="directions__subtitle h4">Трудоустройство</h3>
+          <p class="directions__paragraph main-text">Решение социальной проблемы с использованием предпринимательских инструментов: оказываем услуги разным компаниям и НКО, таким образом зарабатываем и даем работу людям с инвалидностью</p>
+          <a class="directions__link" href="#"><button class="directions__button button  button_type_link" type="button">Подробнее</button></a>
+        </article>
+        <article class="directions__card card card_background_light-green">
+          <h3 class="directions__subtitle h4">Биржа проектов и готовые решения</h3>
+          <p class="directions__paragraph main-text">ИТ-система для интеграции в открытый рынок труда людей с инвалидностью  в качестве самозанятых и в рамках трудоустройства в другие компании</p>
+          <a class="directions__link" href="#"><button class="directions__button button  button_type_link" type="button">Подробнее</button></a>
+        </article>
+        <article class="directions__card card card_background_light-blue">
+          <h3 class="directions__subtitle h4">Агентство</h3>
+          <p class="directions__paragraph main-text">Услуги специалистов с инвалидностью для крупных компаний (дизайн, право, контент и другие)</p>
+          <a class="directions__link" href="#"><button class="directions__button button  button_type_link" type="button">Подробнее</button></a>
+        </article>
+        <article class="directions__card card card_background_light-green">
+          <h3 class="directions__subtitle h4">Коворкинг</h3>
+          <p class="directions__paragraph main-text">Уникальное пространство, в котором специалисты с инвалидностью могут работать и офлайн – приходить, участвовать в образовательных мероприятиях, встречаться с заказчиками, работать в команде</p>
+          <a class="directions__link" href="#"><button class="directions__button button  button_type_link" type="button">Подробнее</button></a>
+        </article>
+        <article class="directions__card card card_background_light-orange">
+          <h3 class="directions__subtitle h4">Для людей с инвалидностью</h3>
+          <p class="directions__paragraph main-text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
+          <a class="directions__link" href="#"><button class="directions__button button  button_type_link" type="button">Подробнее</button></a>
+        </article>
+    </section>
     <section class="advantages">
       <h2 class="h2">Главное в работе</h2>
       <div class="advantages__grid">
-        <details class="accordeon">
+        <div class="accordeon">
           <summary class="accordeon__label">
             <h3 class="h4">Заработанные средства</h3>
             <button type="button" class="button button_type_accordeon"></button>
           </summary>
           <p class="main-text accordeon__text">За время сущетсования проекта с 2016 года социальная предпринимательская  модель Everland доказала свою эффективность  - мы действительно умеем давать работу людям с разными видами инвалидности</p>
-        </details>
-        <details class="accordeon">
+        </div>
+        <div class="accordeon">
           <summary class="accordeon__label">
             <h3 class="h4">Крупные клиенты</h3>
             <button type="button" class="button button_type_accordeon"></button>
           </summary>
           <p class="main-text accordeon__text">За время сущетсования проекта с 2016 года социальная предпринимательская  модель Everland доказала свою эффективность  - мы действительно умеем давать работу людям с разными видами инвалидности</p>
-        </details>
-        <details class="accordeon">
+        </div>
+        <div class="accordeon">
           <summary class="accordeon__label">
             <h3 class="h4">Инклюзивность</h3>
             <button type="button" class="button button_type_accordeon"></button>
           </summary>
           <p class="main-text accordeon__text">За время сущетсования проекта с 2016 года социальная предпринимательская  модель Everland доказала свою эффективность  - мы действительно умеем давать работу людям с разными видами инвалидности</p>
-        </details>
-        <details class="accordeon">
+        </div>
+        <div class="accordeon">
           <summary class="accordeon__label">
             <h3 class="h4">Свои исследования</h3>
             <button type="button" class="button button_type_accordeon"></button>
           </summary>
           <p class="main-text accordeon__text">За время сущетсования проекта с 2016 года социальная предпринимательская  модель Everland доказала свою эффективность  - мы действительно умеем давать работу людям с разными видами инвалидности</p>
-        </details>
-        <details class="accordeon">
+        </div>
+        <div class="accordeon">
           <summary class="accordeon__label">
             <h3 class="h4">Использование Digital</h3>
             <button type="button" class="button button_type_accordeon"></button>
           </summary>
           <p class="main-text accordeon__text">За время сущетсования проекта с 2016 года социальная предпринимательская  модель Everland доказала свою эффективность  - мы действительно умеем давать работу людям с разными видами инвалидности</p>
-        </details>
-        <details class="accordeon">
+        </div>
+        <div class="accordeon">
           <summary class="accordeon__label">
             <h3 class="h4">Большой опыт</h3>
             <button type="button" class="button button_type_accordeon"></button>
           </summary>
           <p class="main-text accordeon__text">За время сущетсования проекта с 2016 года социальная предпринимательская  модель Everland доказала свою эффективность  - мы действительно умеем давать работу людям с разными видами инвалидности</p>
-        </details>
+        </div>
       </div>
     </section>
     <section class="figures"></section>
-    <section class="projects"></section>
+    <section class="projects">
+      <h2 class="projects__title h2">Лучшие проекты агентства</h2>
+      <p class="projects__subtitle h4">Мы выполняем работы в области веб-разработки, дизайна, права, видео, анимации и контента</p>
+      <ul class="projects__list">
+        <li class="projects__item">
+          <figure class="projects__card">
+            <img src="./images/projects/firstProject.png" alt="Скрипты-рекомендации для бизнеса(DisQuestion)" class="projects__img bordered-img">
+            <figcaption class="h5">Скрипты-рекомендации для бизнеса(DisQuestion)</figcaption>
+          </figure>
+        </li class="">
+        <li class="projects__item">
+          <figure class="projects__card">
+            <img src="./images/projects/secondProject.png" alt='Проект "Окнонавигатор"' class="projects__img bordered-img">
+            <figcaption class="h5">Проект "Окнонавигатор"</figcaption>
+          </figure>
+        </li>
+        <li class="projects__item">
+          <figure class="projects__card">
+            <img src="./images/projects/thirdProject.png" alt='Проект "Миграции: приоткрывая личное"' class="projects__img bordered-img">
+            <figcaption class="h5">Проект "Миграции: приоткрывая личное"</figcaption>
+          </figure>
+        </li>
+      </ul>
+      <button class="projects__button button button_type_secondary">Посмотреть всё</button>
+    </section>
     <section class="histories"></section>
     <section class="agency"></section>
-    <section class="news"></section>
+    <section class="news">
+      <div class="news__grid">
+        <h2 class="h2 news__title">Новости</h2>
+        <a class="button button_type_secondary news__button" href="#">Все новости</a>
+        <div class="news__grid-cards">
+          <a class="card card_border_gray news__card-flex news__grid-cards_position_first" href="#">
+            <p class="small-text">Тема</p>
+            <img class="news__card-image" src="images/news/partnership.png" alt="Партнёрство с PepsiCo">
+            <div class="news__text">
+              <h3 class="h3">Ура! Новое партнерство — с PepsiCo</h3>
+              <p class="main-text">Everland совместно с PepsiCo приняли участие в акции «Благотворительность вместо сувениров»</p>
+            </div>
+            <p class="small-text news__date">20 сентября 2021</p>
+          </a>
+          <a class="card card_background_light-green news__card-flex news__grid-cards_position_second" href="#">
+            <p class="small-text">Тема</p>
+            <div class="news__text">
+              <h3 class="h3">Трехдневный интенсив для КСО-менеджеров «Бизнес и инклюзия: как строить эффективные программы»</h3>
+              <p class="main-text">Эксперты с инвалидностью, представители бизнеса и некоммерческих организаций поговорили о том, что такое инклюзия, рассмотрели подходы к трудоустройству людей с инвалидностью, обсудили проблемы, к которым нужно быть готовым, и поделились успешными кейсами</p>
+            </div>
+            <p class="small-text news__date">20 сентября 2021</p>
+          </a>
+          <a class="card card_border_gray news__card-flex news__grid-cards_position_third" href="#">
+            <p class="small-text">Тема</p>
+            <div class="news__text">
+              <h3 class="h3">Тестируем супермаркеты на доступность</h3>
+              <p class="main-text">Everland совместно с торговой сетью «Перекресток» провели аудит продуктовых магазинов на доступность для людей с разными видами инвалидности</p>
+            </div>
+            <img class="news__card-image" src="images/news/market-mobility.png" alt="Проврека магазинов на доступность">
+            <p class="small-text news__date">20 сентября 2021</p>
+          </a>
+        </div>
+      </div>
+    </section>
     <section class="support">
       <h2 class="h2 support__title">Поддержите нас</h2>
       <div class="support__table">
-        fdsa
+        <div class="support__two-buttons">
+          <button class="button support__button support__button_active">Ежемесячно</button>
+          <button class="button support__button">Разово</button>
+        </div>
+        <div class="support__table-title-line">
+          <h5 class="h5 support__table-title">Размер пожертвования</h5>
+        </div>
+        <div class="support__buttons-sum">
+          <button class="button support__button-sum">250&#8381;</button>
+          <button class="button support__button-sum support__button-sum_active">500&#8381;</button>
+          <button class="button support__button-sum">750&#8381;</button>
+          <button class="button support__button-sum">1000&#8381;</button>
+          <button class="button support__button-sum">Другая сумма</button>
+        </div>
+        <p class="support__info-sum">Регулярные пожертвования очень важны для Everland. Это то, что помогает нашим
+          программам
+          работать бесперебойно, что открывает новые востребованные проекты, что максимально эффективно решает социальную
+          задачу.
+          Если вы захотите поддерживать наши программы постоянно, то каждый месяц с вашей карты будет списываться указанная
+          вами
+          сумма.
+        </p>
+        <div class="support__table-title-line">
+          <h5 class="h5 support__table-title">Способ оплаты</h5>
+        </div>
+        <div class="support__buttons-payment">
+          <button class="button support__button-payment support__button-payment_active"><img src="./images/icons/payment-one.svg" alt="Способ оплаты"></button>
+          <button class="button support__button-payment"><img src="./images/icons/payment-two.svg" alt="Способ оплаты"></button>
+          <button class="button support__button-payment"><img src="./images/icons/payment-tree.svg" alt="Способ оплаты"></button>
+        </div>
+        <div class="support__table-title-line">
+          <h5 class="h5 support__table-title">Ваши данные</h5>
+        </div>
+        <form class="support__form">
+          <input type="text" class="support__input" placeholder="Иван Иванов">
+          <input type="email" class="support__input" placeholder="myemail@example.com">
+        </form>
+        <div class="support__checkbox">
+          <input type="checkbox" name="offer" id="offer">
+          <label for="offer">Соглашаюсь с <a href="#">офертой</a></label>
+        </div>
+        <div class="support__checkbox">
+          <input type="checkbox" name="personalData" id="personalData">
+          <label for="personalData">Соглашаюсь на <a href="#">обработку моих персональных данных</a></label>
+        </div>
+        <button class="button button_type_primary support__button-submit">Поддержать</button>
       </div>
       <div>
         <h4 class="h4 support__subtitle">Everland создается силами многих. Мы благодарны каждому за поддержку!</h4>
@@ -93,6 +424,6 @@
     <footer class="footer">
 
   </footer>
-  <script src="js/index.js"></script>
+  <script src="scripts/index.js"></script>
 </body>
 </html>
