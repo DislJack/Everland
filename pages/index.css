@@ -156,6 +156,10 @@
 @import url(../blocks/support/__switch-payment/support__switch-payment.css);
 @import url(../blocks/support/__fake-checkbox/support__fake-checkbox.css);
 @import url(../blocks/support/__label/support__label.css);
+@import url(../blocks/support/__donator-sum/support__donator-sum.css);
+@import url(../blocks/support/__donator-time/support__donator-time.css);
+@import url(../blocks/support/__donat/support__donat.css);
+@import url(../blocks/support/__name-dots/support__name-dots.css);
 
 /* Секция works-for */
 @import url(../blocks/works-for/__card/works-for__card.css);
