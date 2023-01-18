@@ -1,0 +1,19 @@
+.quote-card__quote {
+    width: 977px;
+    height: 82px;
+    display: inline-block;
+}
+
+@media all and (max-widtx: 768px) {
+    .quote-card__quote {
+        width: 454px;
+        height: 72px;
+    }
+}
+
+@media all and (max-widtx: 320px) {
+    .quote-card__quote {
+        width: 298px;
+        height: 57px;
+    }
+}

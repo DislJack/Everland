@@ -1,0 +1,11 @@
+.quote-card__text {
+    margin: 20px 0px 20px 79px;
+    height: 52px;
+    width: 977px;
+}
+
+@media all and (max-widtx: 768px) {
+    .quote-card__text {
+        margin-left: 0px;
+    }
+}

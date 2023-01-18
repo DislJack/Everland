@@ -1,0 +1,6 @@
+.quote-card {
+    display: flex;
+    justify-content: space-between;
+    height: 324px;
+    margin-top: 50px;
+}

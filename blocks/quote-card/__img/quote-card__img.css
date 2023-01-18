@@ -1,0 +1,11 @@
+.quote-card__img {
+    width: 224px;
+    height: 224px;
+}
+
+@media all and (max-width: 768px) {
+    .quote-card__img {
+        width: 204px;
+        height: 204px;
+    }
+}

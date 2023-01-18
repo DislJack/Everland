@@ -1,0 +1,13 @@
+.quote-card__content {
+    width: 1056px;
+    height: 222px;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+@media all and (max-width: 768px) {
+    .quote-card__content {
+        display: block;
+    }
+}
