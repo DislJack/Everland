@@ -152,6 +152,10 @@
 @import url(../blocks/support/__button/_active/support__button_active.css);
 @import url(../blocks/support/__checkbox/support__checkbox.css);
 @import url(../blocks/support/__button-submit/support__button-submit.css);
+@import url(../blocks/support/__link/support__link.css);
+@import url(../blocks/support/__switch-payment/support__switch-payment.css);
+@import url(../blocks/support/__fake-checkbox/support__fake-checkbox.css);
+@import url(../blocks/support/__label/support__label.css);
 
 /* Секция works-for */
 @import url(../blocks/works-for/__card/works-for__card.css);

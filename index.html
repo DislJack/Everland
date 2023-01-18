@@ -371,7 +371,8 @@
           <button class="button support__button-sum">1000&#8381;</button>
           <button class="button support__button-sum">Другая сумма</button>
         </div>
-        <p class="support__info-sum">Регулярные пожертвования очень важны для Everland. Это то, что помогает нашим
+        <p class="support__info-sum">
+          Регулярные пожертвования очень важны для Everland. Это то, что помогает нашим
           программам
           работать бесперебойно, что открывает новые востребованные проекты, что максимально эффективно решает социальную
           задачу.
@@ -386,6 +387,7 @@
           <button class="button support__button-payment support__button-payment_active"><img src="./images/icons/payment-one.svg" alt="Способ оплаты"></button>
           <button class="button support__button-payment"><img src="./images/icons/payment-two.svg" alt="Способ оплаты"></button>
           <button class="button support__button-payment"><img src="./images/icons/payment-tree.svg" alt="Способ оплаты"></button>
+          <img src="./images/icons/Icon_shevron.svg" class="support__switch-payment" alt="">
         </div>
         <div class="support__table-title-line">
           <h5 class="h5 support__table-title">Ваши данные</h5>
@@ -394,14 +396,16 @@
           <input type="text" class="support__input" placeholder="Иван Иванов">
           <input type="email" class="support__input" placeholder="myemail@example.com">
         </form>
-        <div class="support__checkbox">
-          <input type="checkbox" name="offer" id="offer">
-          <label for="offer">Соглашаюсь с <a href="#">офертой</a></label>
-        </div>
-        <div class="support__checkbox">
-          <input type="checkbox" name="personalData" id="personalData">
-          <label for="personalData">Соглашаюсь на <a href="#">обработку моих персональных данных</a></label>
-        </div>
+        <label for="offer" class="support__label">
+          <input type="checkbox" name="offer" id="offer" class="support__checkbox">
+          <span class="support__fake-checkbox"></span>
+          <span>Соглашаюсь с <a href="#" class="support__link">офертой</a></span>
+        </label>
+        <label for="personalData" class="support__label">
+          <input type="checkbox" name="personalData" id="personalData" class="support__checkbox">
+          <span class="support__fake-checkbox"></span>
+          <span>Соглашаюсь на <a href="#" class="support__link">обработку моих персональных данных</a></span>
+        </label>
         <button class="button button_type_primary support__button-submit">Поддержать</button>
       </div>
       <div>

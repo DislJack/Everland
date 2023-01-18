@@ -1,0 +1,10 @@
+.support__label {
+	display: flex;
+	margin-bottom: 10px;
+	margin: auto 0;
+	align-items: center;
+}
+
+.support__label:first-of-type {
+	margin-bottom: 20px;
+}

@@ -5,7 +5,3 @@
 	cursor: pointer;
 	padding: 12px 0 12px 0;
 }
-
-.support__button:active {
-	border-color: #0C4BA0;
-}
