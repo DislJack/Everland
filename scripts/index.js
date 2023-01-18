@@ -1,41 +1,77 @@
-let offsetEverlandSlider = 0;
-let counterEverlandSlider = 1;
-
-
+// Переменные Everland
+const everlandSliderImageTemplate = document.querySelector('#everland-slider-image').content;
 const everland = document.querySelector('.everland');
-const sliderLineEverland = everland.querySelector('.slider-line');
+const everlandSlider = everland.querySelector('.slider_theme-everland');
 const prevEverlandSlider = everland.querySelector('#prev-slide');
 const nextEverlandSlider = everland.querySelector('#next-slide');
 const sliderCounterEverland = everland.querySelector('.slider-counter');
 const sliderTitleEverland = everland.querySelector('.slider-title');
-const deductibleSliderEverland = everland.querySelector('.slider');
+let sliderImageEverland;
+let counterEverland = 1;
+let numberImageEverland = 1;
 
+// Функция создания изображения Everland
+function createEverlandSliderImage (firstImage, secondImage) {
+  const sliderImageContainer = everlandSliderImageTemplate.querySelector('.slider-image-container').cloneNode(true);
+  sliderImageContainer.querySelector('.slider-image1').style.backgroundImage = imageEverlandSlider[firstImage];
+  sliderImageContainer.querySelector('.slider-image2').style.backgroundImage = imageEverlandSlider[secondImage];
+  sliderImageEverland = sliderImageContainer;
+}
 
+// Функция добавления изображения
+  function addSliderImage(classList, image) {
+  classList.prepend(image);
+}
 
-sliderCounterEverland.textContent = counterEverlandSlider + '/6';
-sliderTitleEverland.textContent = imageDescriptionEverland[0];
+// Функция удаления изображения
+function removeSliderImage(classList) {
+  classList.remove();
+}
 
+// Функция добавления номера слайда
+function addSliderCounterEverland(counter){
+  sliderCounterEverland.textContent = counter + '/6';
+}
+
+// Функция добавления описания слайда
+function addSliderTitle(classList, title){
+  classList.textContent = imageDescriptionEverland[title];
+};
+
+// Вызов функций слайдера Everland
+createEverlandSliderImage(numberImageEverland - 1, numberImageEverland);
+addSliderImage(everlandSlider, sliderImageEverland);
+addSliderCounterEverland(counterEverland);
+addSliderTitle(sliderTitleEverland, counterEverland - 1);
+
+// Установка слушателей на кнопки слайдера Everland
 prevEverlandSlider.addEventListener('click', () => {
-  offsetEverlandSlider -= deductibleSliderEverland.offsetWidth;
-  counterEverlandSlider -= 1;
-  if (offsetEverlandSlider < 0) {
-    offsetEverlandSlider = 2600;
-    counterEverlandSlider = 6;}
-  sliderLineEverland.style.left = -offsetEverlandSlider + 'px';
-  sliderCounterEverland.textContent = counterEverlandSlider + '/6';
-  sliderTitleEverland.textContent = imageDescriptionEverland[counterEverlandSlider - 1];
+  counterEverland -= 1;
+  numberImageEverland -=  1;
+  if (counterEverland < 1) {
+    counterEverland = 6;
+    numberImageEverland = 11;
+  }
+  console.log(counterEverland);
+  removeSliderImage(sliderImageEverland);
+  createEverlandSliderImage(numberImageEverland - 1, numberImageEverland);
+  addSliderImage(everlandSlider, sliderImageEverland);
+  addSliderCounterEverland(counterEverland);
+  addSliderTitle(sliderTitleEverland, counterEverland - 1);
 });
 
 nextEverlandSlider.addEventListener('click', () => {
-  offsetEverlandSlider += 520;
-  counterEverlandSlider += 1;
-  if (offsetEverlandSlider > 2600) {
-    offsetEverlandSlider = 0;
-    counterEverlandSlider = 1}
-  sliderLineEverland.style.left = -offsetEverlandSlider + 'px';
-  sliderCounterEverland.textContent = counterEverlandSlider + '/6';
-  sliderTitleEverland.textContent = imageDescriptionEverland[counterEverlandSlider - 1];
+  counterEverland += 1;
+  numberImageEverland +=  1;
+  if (counterEverland > 6) {
+    counterEverland = 1;
+    numberImageEverland = 1;
+  }
+  console.log(counterEverland);
+  removeSliderImage(sliderImageEverland);
+  createEverlandSliderImage(numberImageEverland - 1, numberImageEverland);
+  addSliderImage(everlandSlider, sliderImageEverland);
+  addSliderCounterEverland(counterEverland);
+  addSliderTitle(sliderTitleEverland, counterEverland - 1);
 });
-
-
 

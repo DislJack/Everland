@@ -1,46 +1,117 @@
 .everland {
- width: 100%;
- display: grid;
- grid-template-columns: 1fr 520px;
- grid-template-rows: min-content 1fr;
- gap: 20px 14px;
- margin-top: 50px;
- background: #ffffff;
-}
-
-.everland-title_style{
-  color: #0c4ba0;
-}
-
-.slider{
-  width: 520px;
-  height: 565px;
-  overflow: hidden;
-  grid-row: span 2;
-}
-
-.slider-line{
-  width: 3120px;
-  display: flex;
-  position: relative;
-  left: 0;
-  transition: all ease 1s;
-}
-
-.slider-image-container{
-  width: 520px;
-  height: 565px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 520px;
+  grid-template-rows: 1fr min-content;
+  column-gap: 14px;
+  margin-top: 180px;
+  box-sizing: border-box;
   background: #ffffff;
-  border-radius: 10px;
-  position: relative;
+ }
+
+@media (max-width: 1023px) {
+  .everland{
+    grid-template-columns: 1fr 244px;
+    column-gap: 20px;
+    margin-top: 156px;
+  }
 }
 
-.slider-image_style{
-  width: 392px;
-  height: 407px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 10px;
+@media (max-width: 767px) {
+  .everland{
+    margin-top: 104px;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
+
+  .everland-title{
+    width: 100%;
+    letter-spacing: -0.02em;
+  }
+
+  @media (max-width: 1023px) {
+    .everland-title{
+      letter-spacing: -0.03em;
+    }
+  }
+
+ .everland-title_style-blue{
+   color: #0c4ba0;
+ }
+
+ .slider{
+  display: block;
+ }
+
+ .slider_theme-everland{
+   width: 520px;
+   height: 565px;
+   grid-row: span 2;
+
+ }
+
+ @media (max-width: 1023px) {
+   .slider_theme-everland{
+   width: 244px;
+   height: 272px;
+   }
+ }
+
+ @media (max-width: 767px) {
+  .slider_theme-everland{
+  width: 300px;
+  height: 200px;
+  margin-top: 26px;
+  }
+}
+
+ .slider-image-container{
+   display: block;
+   position: relative;
+ }
+
+ .slider-image-container_theme-everland{
+   width: 520px;
+   height: 565px;
+   background: #ffffff;
+   border-radius: 10px;
+ }
+
+ @media (max-width: 1023px) {
+   .slider-image-container_theme-everland{
+   width: 244px;
+   height: 272px;
+   }
+ }
+
+ @media (max-width: 767px) {
+  .slider-image-container_theme-everland{
+  width: 300px;
+  height: 200px;
+  }
+}
+
+ .slider-image_size-everland{
+   width: 392px;
+   height: 407px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 10px;
+ }
+
+ @media (max-width: 1023px) {
+   .slider-image_size-everland{
+   width: 170px;
+   height: 175px;
+   }
+ }
+
+ @media (max-width: 767px) {
+  .slider-image_size-everland{
+  width: 170px;
+  height: 160px;
+  }
 }
 
 .slider-image_location-top{
@@ -56,66 +127,55 @@
 }
 
 .slider-image1{
-  background-image: url(../../images/slider/img1.jpg);
+  background-image: url();
 }
 
 .slider-image2{
-  background-image: url(../../images/slider/img2.jpg);
+  background-image: url();
 }
 
-.slider-image3{
-  background-image: url(../../images/slider/img3.jpg);
-}
+.slider-title{
+  display: block;
 
-.slider-image4{
-  background-image: url(../../images/slider/img4.jpg);
 }
-
-.slider-image5{
-  background-image: url(../../images/slider/img5.jpg);
-}
-
-.slider-image6{
-  background-image: url(../../images/slider/img6.jpg);
-}
-
-.slider-image7{
-  background-image: url(../../images/slider/img6.jpg);
-}
-
-.slider-image8{
-  background-image: url(../../images/slider/img1.jpg);
-}
-
-.slider-image9{
-  background-image: url(../../images/slider/img5.jpg);
-}
-
-.slider-image10{
-  background-image: url(../../images/slider/img2.jpg);
-}
-.slider-image11{
-  background-image: url(../../images/slider/img4.jpg);
-}
-
-.slider-image12{
-  background-image: url(../../images/slider/img3.jpg);
-}
-
 .slider-switcher{
   display: flex;
   align-items: center;
   gap: 10px;
-
 }
+
+@media (max-width: 767px) {
+  .slider-switcher{
+    margin-top: 16px;
+    justify-content: center;
+  }
+}
+
 
 .slider-description{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-start;
+  gap: 20px;
 }
 
-.slider-title{
-  max-width: 543px;
+@media (max-width: 767px) {
+  .slider-description{
+    gap: 16px;
+  }
+}
+
+
+
+@media (max-width: 1023px){
+  .slider-title{
+  max-width: 401px;
+  }
+}
+
+@media (max-width: 767px){
+  .slider-title{
+  max-width: 294px;
+  }
 }
