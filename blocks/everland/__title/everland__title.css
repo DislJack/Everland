@@ -1,0 +1,10 @@
+.everland__title{
+  width: 100%;
+  letter-spacing: -0.02em;
+}
+
+@media (max-width: 1023px) {
+  .everland__title{
+    letter-spacing: -0.03em;
+  }
+}

@@ -1,0 +1,12 @@
+.slider__switcher{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 767px) {
+  .slider__switcher{
+    margin-top: 16px;
+    justify-content: center;
+  }
+}

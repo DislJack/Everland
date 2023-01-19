@@ -1,0 +1,14 @@
+
+.slider__description{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+@media (max-width: 767px) {
+  .slider__description{
+    gap: 16px;
+  }
+}

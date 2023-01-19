@@ -4,17 +4,17 @@ const everland = document.querySelector('.everland');
 const everlandSlider = everland.querySelector('.slider_theme-everland');
 const prevEverlandSlider = everland.querySelector('#prev-slide');
 const nextEverlandSlider = everland.querySelector('#next-slide');
-const sliderCounterEverland = everland.querySelector('.slider-counter');
-const sliderTitleEverland = everland.querySelector('.slider-title');
+const sliderCounterEverland = everland.querySelector('.slider__counter');
+const sliderTitleEverland = everland.querySelector('.slider__title');
 let sliderImageEverland;
 let counterEverland = 1;
 let numberImageEverland = 1;
 
 // Функция создания изображения Everland
 function createEverlandSliderImage (firstImage, secondImage) {
-  const sliderImageContainer = everlandSliderImageTemplate.querySelector('.slider-image-container').cloneNode(true);
-  sliderImageContainer.querySelector('.slider-image1').style.backgroundImage = imageEverlandSlider[firstImage];
-  sliderImageContainer.querySelector('.slider-image2').style.backgroundImage = imageEverlandSlider[secondImage];
+  const sliderImageContainer = everlandSliderImageTemplate.querySelector('.slider__image-container').cloneNode(true);
+  sliderImageContainer.querySelector('#first-image').style.backgroundImage = imageEverlandSlider[firstImage];
+  sliderImageContainer.querySelector('#second-image').style.backgroundImage = imageEverlandSlider[secondImage];
   sliderImageEverland = sliderImageContainer;
 }
 
