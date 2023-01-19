@@ -1,0 +1,17 @@
+.numbers__text-block {
+  grid-area: text-block;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-flow: 1fr;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  gap: 30px 20px;
+}
+
+@media (max-width: 767px) {
+  .numbers__text-block {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+  }
+}
