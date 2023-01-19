@@ -25,3 +25,11 @@
 		font-size: 14px;
 	}
 }
+
+@media screen and (max-width: 767px) {
+	.support__input {
+		width: 236px;
+		height: 40px;
+		font-size: 12px;
+	}
+}

@@ -13,7 +13,7 @@
 @media screen and (max-width: 1246px) {
 	.support {
 		grid-template-columns: 1fr;
-		grid-template-rows: 0.1fr 1fr 1fr;
+		grid-template-rows: 0.1fr 1fr 0.4fr;
 		grid-template-areas: 
 		"title"
 		"table"

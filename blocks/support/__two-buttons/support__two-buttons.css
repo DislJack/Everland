@@ -5,8 +5,3 @@
   margin-bottom: 32px;
 }
 
-@media screen and (max-width: 1023px) {
-	.support__two-buttons {
-		font-size: 16px;
-	}
-}

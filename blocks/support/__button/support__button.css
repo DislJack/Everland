@@ -9,5 +9,13 @@
 @media screen and (max-width: 1023px) {
 	.support__button {
 		font-size: 16px;
+		width: 306px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.support__button {
+		width: 122px;
+		font-size: 12px;
 	}
 }

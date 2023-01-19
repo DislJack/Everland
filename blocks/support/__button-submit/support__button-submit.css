@@ -2,3 +2,10 @@
 	width: 200px;
 	margin: 24px auto 30px auto;
 }
+
+@media screen and (max-width: 767px) {
+	.support__button-submit {
+		width: 260px;
+		margin-bottom: 0;
+	}
+}

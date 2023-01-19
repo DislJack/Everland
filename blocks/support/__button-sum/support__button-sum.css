@@ -1,6 +1,7 @@
 .support__button-sum {
   background-color: white;
   width: 159px;
+  height: 48px;
   border: 1px solid #dadada;
   cursor: pointer;
   padding: 12px 0 12px 0;
@@ -14,11 +15,24 @@
 	.support__button-sum {
 		font-size: 16px;
     width: 145px;
+    height: 44px;
 	}
   .support__button-sum:last-of-type {
     width: 190px;
   }
   .support__button-sum:first-of-type {
     margin-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support__button-sum {
+    width: 122px;
+    height: 40px;
+    font-size: 12px;
+  }
+  .support__button-sum:last-of-type {
+    width: 260px;
+    margin-top: 16px;
   }
 }

@@ -1,7 +1,7 @@
 .support__fake-checkbox {
 	display: inline-block;
-	width: 23px;
-	height: 23px;
+	min-width: 23px;
+	min-height: 23px;
 	border: 1px solid #dadada;
 	border-radius: 10px;
 	position: relative;
