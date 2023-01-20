@@ -29,10 +29,10 @@
 @import url(../blocks/everland/__title/_style-blue/everland__title_style-blue.css);
 
 /* Секция Projects*/
-@import url(../blocks/projects/projects.css);
-@import url(../blocks/projects/__button/projects__button.css);
-@import url(../blocks/projects/__name/projects__name.css);
-@import url(../blocks/projects/__title/projects__title.css);
+@import url(../blocks/superprojects/projects.css);
+@import url(../blocks/superprojects/__button/projects__button.css);
+@import url(../blocks/superprojects/__name/projects__name.css);
+@import url(../blocks/superprojects/__title/projects__title.css);
 
 /* Секция Slider*/
 @import url(../blocks/slider/slider.css);
@@ -75,6 +75,7 @@
 @import url(../blocks/button/_disabled/button_disabled_others.css);
 @import url(../blocks/button/_direction/button_direction_left.css);
 @import url(../blocks/button/_rotation/button_rotation_icon.css);
+@import url(../blocks/button/_color/button_color-blue.css);
 
 /* Стили шрифтов */
 @import url(../blocks/h1/h1.css);

@@ -4,6 +4,7 @@
   grid-template-columns: 1fr 520px;
   grid-template-rows: 1fr min-content;
   column-gap: 14px;
+  padding: 0 40px;
   margin-top: 180px;
   box-sizing: border-box;
   background: #ffffff;
@@ -20,6 +21,7 @@
 @media (max-width: 767px) {
   .everland{
     margin-top: 104px;
+    padding: 0 10px;
     grid-template-columns: 1fr;
     gap: 0;
   }

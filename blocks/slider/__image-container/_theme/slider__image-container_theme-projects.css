@@ -5,6 +5,13 @@
   background: #e7f0ff;
 }
 
+@media (max-width: 1150px) {
+  .slider__image-container_theme-projects{
+  width: 455px;
+  height: 393px;
+  }
+}
+
 @media (max-width: 1023px) {
   .slider__image-container_theme-projects{
   width: 259px;

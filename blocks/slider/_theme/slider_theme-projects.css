@@ -6,18 +6,26 @@
   grid-area: image;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1150px) {
   .slider_theme-projects{
-  width: 259px;
-  height: 284px;
-  border-radius: 10px;
- }
+  width: 455px;
+  height: 393px;
   }
+}
+
+@media (max-width: 1023px) {
+   .slider_theme-projects{
+   width: 259px;
+   height: 284px;
+   border-radius: 10px;
+ }
+}
 
 
 @media (max-width: 767px) {
  .slider_theme-projects{
- width: 254px;
- height: 180px;
+  justify-self: center;
+  width: 254px;
+  height: 180px;
  }
 }
