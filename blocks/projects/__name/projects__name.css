@@ -1,0 +1,5 @@
+.projects__name{
+  color: #333333;
+  grid-area: name;
+  align-self: flex-start;
+}
