@@ -183,3 +183,36 @@
 @import url(../blocks/numbers/__text-block/numbers__text-block.css);
 @import url(../blocks/numbers/__text-card/numbers__text-card.css);
 @import url(../blocks/numbers/__text-blue/numbers__text-blue.css);
+
+/* Cекция support */
+@import url(../blocks/support/support.css);
+@import url(../blocks/support/__title/support__title.css);
+@import url(../blocks/support/__subtitle/support__subtitle.css);
+@import url(../blocks/support/__table/support__table.css);
+@import url(../blocks/support/__donations/support__donations.css);
+@import url(../blocks/support/__text-span/support__text-span.css);
+@import url(../blocks/support/__donator-name/support__donator-name.css);
+@import url(../blocks/support/__button/support__button.css);
+@import url(../blocks/support/__two-buttons/support__two-buttons.css);
+@import url(../blocks/support/__table-title/support__table-title.css);
+@import url(../blocks/support/__table-title-line/support__table-title-line.css);
+@import url(../blocks/support/__buttons-sum/support__buttons_sum.css);
+@import url(../blocks/support/__button-sum/support__button-sum.css);
+@import url(../blocks/support/__info-sum/support__info-sum.css);
+@import url(../blocks/support/__buttons-payment/support__buttons-payment.css);
+@import url(../blocks/support/__button-payment/support__button-payment.css);
+@import url(../blocks/support/__form/support__form.css);
+@import url(../blocks/support/__input/support__input.css);
+@import url(../blocks/support/__button-payment/_active/support__button-payment_active.css);
+@import url(../blocks/support/__button-sum/_active/support__button-sum_active.css);
+@import url(../blocks/support/__button/_active/support__button_active.css);
+@import url(../blocks/support/__checkbox/support__checkbox.css);
+@import url(../blocks/support/__button-submit/support__button-submit.css);
+@import url(../blocks/support/__link/support__link.css);
+@import url(../blocks/support/__switch-payment/support__switch-payment.css);
+@import url(../blocks/support/__fake-checkbox/support__fake-checkbox.css);
+@import url(../blocks/support/__label/support__label.css);
+@import url(../blocks/support/__donator-sum/support__donator-sum.css);
+@import url(../blocks/support/__donator-time/support__donator-time.css);
+@import url(../blocks/support/__donat/support__donat.css);
+@import url(../blocks/support/__name-dots/support__name-dots.css);
