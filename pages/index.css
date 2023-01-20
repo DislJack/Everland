@@ -111,4 +111,12 @@
 @import url(../blocks/agencies/__list/agencies__list.css);
 @import url(../blocks/agencies/__subtitle/agencies__subtitle.css);
 @import url(../blocks/agencies/__title/agencies__title.css);
-@import url(../blocks/agencies/__button/agencies__button.css);
+@import url(../blocks/agencies/__button/agencies__button.css);/* Секция works-for */
+@import url(../blocks/works-for/__card/works-for__card.css);
+@import url(../blocks/works-for/__container/works-for__container.css);
+@import url(../blocks/works-for/__image/works-for__image.css);
+@import url(../blocks/works-for/__paragraph/works-for__paragraph.css);
+@import url(../blocks/works-for/__subtitle/works-for__subtitle.css);
+@import url(../blocks/works-for/__title/works-for__title.css);
+@import url(../blocks/works-for/__button/works-for__button.css);
+@import url(../blocks/works-for/__link/works-for__link.css);
