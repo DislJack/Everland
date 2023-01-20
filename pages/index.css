@@ -102,3 +102,13 @@
 @import url(../blocks/card/_background/card_background_light-purple.css);
 @import url(../blocks/card/_border/card_border_gray.css); /* Серая рамка */
 
+/* импорт секции agencies */
+@import url(../blocks/agencies/agencies.css);
+@import url(../blocks/agencies/__description/agencies__description.css);
+@import url(../blocks/agencies/__img/agencies__img.css);
+@import url(../blocks/agencies/__item/agencies__item.css);
+@import url(../blocks/agencies/__card/agencies__card.css);
+@import url(../blocks/agencies/__list/agencies__list.css);
+@import url(../blocks/agencies/__subtitle/agencies__subtitle.css);
+@import url(../blocks/agencies/__title/agencies__title.css);
+@import url(../blocks/agencies/__button/agencies__button.css);
