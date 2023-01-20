@@ -1,0 +1,23 @@
+.slider_theme-projects{
+  width: 555px;
+  height: 393px;
+  border-radius: 30px;
+  background-color: #e7f0ff;
+  grid-area: image;
+}
+
+@media (max-width: 1023px) {
+  .slider_theme-projects{
+  width: 259px;
+  height: 284px;
+  border-radius: 10px;
+ }
+  }
+
+
+@media (max-width: 767px) {
+ .slider_theme-projects{
+ width: 254px;
+ height: 180px;
+ }
+}

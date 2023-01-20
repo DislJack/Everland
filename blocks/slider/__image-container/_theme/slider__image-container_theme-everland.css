@@ -3,6 +3,7 @@
   height: 565px;
   background: #ffffff;
   border-radius: 10px;
+  position: relative;
 }
 
 @media (max-width: 1023px) {

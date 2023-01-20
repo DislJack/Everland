@@ -1,0 +1,10 @@
+.projects__button{
+  align-self: flex-end;
+}
+
+@media (max-width: 767px) {
+.projects__button{
+  align-self: flex-end;
+  justify-self: flex-start;
+}
+}
