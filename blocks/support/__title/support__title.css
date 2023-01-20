@@ -8,3 +8,9 @@
     margin-top: 44px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .support__title {
+    margin-top: 31px;
+  }
+}
