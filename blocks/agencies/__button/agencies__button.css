@@ -1,0 +1,20 @@
+.agencies__button {
+    width: 204px;
+    margin: auto;
+    color: #0C4BA0;
+    height: 48px;
+    margin-top:49px
+}
+
+@media all and (max-width: 1023px) {
+    .agencies__button {
+        margin-top:32px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .agencies__button {
+        width: 100%;
+        margin-top:24px;
+    }
+}
