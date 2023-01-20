@@ -1,20 +1,10 @@
-.projects__button {
-    width: 204px;
-    margin: auto;
-    color: #0C4BA0;
-    height: 48px;
-    margin-top:49px
+.projects__button{
+  align-self: flex-end;
 }
 
-@media all and (max-width: 1023px) {
-    .projects__button {
-        margin-top:32px;
-    }
+@media (max-width: 767px) {
+.projects__button{
+  align-self: flex-end;
+  justify-self: flex-start;
 }
-
-@media all and (max-width: 767px) {
-    .projects__button {
-        width: 100%;
-        margin-top:24px;
-    }
 }

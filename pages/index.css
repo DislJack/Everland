@@ -53,15 +53,16 @@
 @import url(../blocks/figures/figures.css);
 @import url(../blocks/histories/histories.css);
 @import url(../blocks/main/main.css);
-@import url(../blocks/projects/projects.css);
-@import url(../blocks/projects/__description/projects__description.css);
-@import url(../blocks/projects/__img/projects__img.css);
-@import url(../blocks/projects/__item/projects__item.css);
-@import url(../blocks/projects/__card/projects__card.css);
-@import url(../blocks/projects/__list/projects__list.css);
-@import url(../blocks/projects/__subtitle/projects__subtitle.css);
-@import url(../blocks/projects/__title/projects__title.css);
-@import url(../blocks/projects/__button/projects__button.css);
+
+@import url(../blocks//agency/agency.css);
+@import url(../blocks/agency/__title/agency__title.css);
+@import url(../blocks/agency/__img/agency__img.css);
+@import url(../blocks/agency/__item/agency__item.css);
+@import url(../blocks/agency/__card/agency__card.css);
+@import url(../blocks/agency/__list/agency__list.css);
+@import url(../blocks/agency/__subtitle/agency__subtitle.css);
+@import url(../blocks/agency/__description/agency__description.css);
+@import url(../blocks/agency/__button/agency__button.css);
 
 @import url(../blocks/support/support.css);
 @import url(../blocks/works-for/works-for.css);
@@ -152,3 +153,33 @@
 @import url(../blocks/numbers/__text-block/numbers__text-block.css);
 @import url(../blocks/numbers/__text-card/numbers__text-card.css);
 @import url(../blocks/numbers/__text-blue/numbers__text-blue.css);
+
+/* Секция Everland*/
+@import url(../blocks/everland/everland.css);
+@import url(../blocks/everland/__title/everland__title.css);
+@import url(../blocks/everland/__title/_style-blue/everland__title_style-blue.css);
+
+/* Секция Projects*/
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__button/projects__button.css);
+@import url(../blocks/projects/__name/projects__name.css);
+@import url(../blocks/projects/__title/projects__title.css);
+
+/* Секция Slider*/
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/_theme/slider_theme-everland.css);
+@import url(../blocks/slider/_theme/slider_theme-projects.css);
+@import url(../blocks/slider/__image-container/slider__image-container.css);
+@import url(../blocks/slider/__image-container/_theme/slider__image-container_theme-everland.css);
+@import url(../blocks/slider/__image-container/_theme/slider__image-container_theme-projects.css);
+@import url(../blocks/slider/__image/_size/slider__image_size-everland.css);
+@import url(../blocks/slider/__image/_size/slider__image_size-projects.css);
+@import url(../blocks/slider/__image/_location-top/slider__image-location-top.css);
+@import url(../blocks/slider/__image/_location-bottom/slider__image_location-bottom.css);
+@import url(../blocks/slider/__image/slider__image.css);
+@import url(../blocks/slider/__title/slider__title.css);
+@import url(../blocks/slider/__switcher/slider__switcher.css);
+@import url(../blocks/slider/__switcher/_theme-projects/slider__switcher_theme-projects.css);
+@import url(../blocks/slider/__desription/slider__description.css);
+@import url(../blocks/slider/__desription/_theme/slider__description_theme-everland.css);
+@import url(../blocks/slider/__desription/_theme/slider__description_theme-projects.css);

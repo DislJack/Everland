@@ -1,23 +1,23 @@
-.projects__item {
+.agency__item {
 
     width: calc(1/3*100% - 0.67*20px);
 }
 
 @media all and (max-width: 1023px) {
     
-    .projects__item:nth-child(3) {
+    .agency__item:nth-child(3) {
         display: none;
     }
-    .projects__item {
+    .agency__item {
         width: calc(1/2*100% - 0.5*20px);
     }
 }
 
 @media all and (max-width: 767px) {
-    .projects__item_third {
+    .agency__item_third {
         display: block;
     }
-    .projects__item {
+    .agency__item {
         width: 100%;
     }
 }

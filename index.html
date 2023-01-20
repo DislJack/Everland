@@ -186,7 +186,18 @@
     </ul>
   </nav>
   <main class="main">
-    <section class="everland"></section>
+    <section class="everland">
+      <div class="slider__description slider__description_theme-everland">
+        <h1 class="everland__title h1"><span class="everland__title_style-blue">Everland</span> — социальный предпринимательский проект</h1>
+        <p class="slider__title main-text"></p>
+      </div>
+      <div class="slider slider_theme-everland"></div>
+      <div class="slider__switcher">
+        <button type="button" class="button button_type_slider button_direction_left" id="prev-slide"></button>
+        <p class="slider__counter big-text"></p>
+        <button type="button" class="button button_type_slider" id="next-slide"></button>
+      </div>
+    </section>
     <section class="donations">
         <div class="donations__container-sum">
           <button class="donations__sum-button button" type="button">250 &#8381;</button>
@@ -326,29 +337,44 @@
       </article>
     </section>
     <section class="projects">
-      <h2 class="projects__title h2">Лучшие проекты агентства</h2>
-      <p class="projects__subtitle h4">Мы выполняем работы в области веб-разработки, дизайна, права, видео, анимации и контента</p>
-      <ul class="projects__list">
-        <li class="projects__item">
-          <figure class="projects__card">
-            <img src="./images/projects/firstProject.png" alt="Скрипты-рекомендации для бизнеса(DisQuestion)" class="projects__img bordered-img">
+      <p class="projects__name small-text">Наши спецпроекты</p>
+      <div class="slider slider_theme-projects">
+
+      </div>
+      <div class="slider__description slider__description_theme-projects">
+        <h2 class="projects__title h2">Фотопроект «Семья как семья»</h2>
+        <p class="slider__title main-text">Фотопроект Алексея Горшенина включает в себя восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
+      </div>
+      <button type="button" class="projects__button button button_type_secondary">Посмотреть</button>
+      <div class="slider__switcher slider__switcher_theme-projects">
+        <button type="button" class="button button_type_slider button_direction_left button_slider-theme_gray" id="prev-slide"></button>
+        <button type="button" class="button button_type_slider button_slider-theme_gray" id="next-slide"></button>
+      </div>
+    </section>
+    <section class="agency">
+      <h2 class="agency__title h2">Лучшие проекты агентства</h2>
+      <p class="agency__subtitle h4">Мы выполняем работы в области веб-разработки, дизайна, права, видео, анимации и контента</p>
+      <ul class="agency__list">
+        <li class="agency__item">
+          <figure class="agency__card">
+            <img src="./images/projects/firstProject.png" alt="Скрипты-рекомендации для бизнеса(DisQuestion)" class="agency__img bordered-img">
             <figcaption class="h5">Скрипты-рекомендации для бизнеса(DisQuestion)</figcaption>
           </figure>
         </li class="">
-        <li class="projects__item">
-          <figure class="projects__card">
-            <img src="./images/projects/secondProject.png" alt='Проект "Окнонавигатор"' class="projects__img bordered-img">
+        <li class="agency__item">
+          <figure class="agency__card">
+            <img src="./images/projects/secondProject.png" alt='Проект "Окнонавигатор"' class="agency__img bordered-img">
             <figcaption class="h5">Проект "Окнонавигатор"</figcaption>
           </figure>
         </li>
-        <li class="projects__item">
-          <figure class="projects__card">
-            <img src="./images/projects/thirdProject.png" alt='Проект "Миграции: приоткрывая личное"' class="projects__img bordered-img">
+        <li class="agency__item">
+          <figure class="agency__card">
+            <img src="./images/projects/thirdProject.png" alt='Проект "Миграции: приоткрывая личное"' class="agency__img bordered-img">
             <figcaption class="h5">Проект "Миграции: приоткрывая личное"</figcaption>
           </figure>
         </li>
       </ul>
-      <button class="projects__button button button_type_secondary">Посмотреть всё</button>
+      <button class="agency__button button button_type_secondary">Посмотреть всё</button>
     </section>
     <section class="histories"></section>
     <section class="news">
@@ -390,6 +416,18 @@
   <footer class="footer">
 
   </footer>
-  <script src="scripts/index.js"></script>
+  <template id="everland-slider-image">
+    <div class="slider__image-container slider__image-container_theme-everland">
+      <div id="first-image" class="slider__image slider__image_size-everland slider__image_location-top"></div>
+      <div id="second-image" class="slider__image slider__image_size-everland slider__image_location-bottom"></div>
+    </div>
+  </template>
+  <template id="projects-slider-image">
+    <div class="slider__image-container slider__image-container_theme-projects">
+      <div id="image" class="slider__image slider__image_size-projects"></div>
+    </div>
+  </template>
+  <script src="./scripts/constant.js"></script>
+  <script src="./scripts/index.js"></script>
 </body>
 </html>
