@@ -1,24 +1,24 @@
 .support {
-	background-color: #E7F0FF;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 0.1fr 1fr;
-	grid-template-areas:
-	"title title"
-	"table list";
-	padding: 0 40px;
-	margin-top: 100px;
+  background-color: #e7f0ff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.1fr 1fr;
+  grid-template-areas:
+    "title title"
+    "table list";
+  padding: 0 40px;
+  margin-top: 100px;
 }
 
 @media screen and (max-width: 1246px) {
-	.support {
-		grid-template-columns: 1fr;
-		grid-template-rows: 0.1fr 1fr 0.4fr;
-		grid-template-areas: 
-		"title"
-		"table"
-		"list";
-		justify-content: center;
-		text-align: center;
-	}
+  .support {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 1fr 0.4fr;
+    grid-template-areas:
+      "title"
+      "table"
+      "list";
+    justify-content: center;
+    text-align: center;
+  }
 }

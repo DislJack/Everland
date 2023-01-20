@@ -1,8 +1,8 @@
 .support__checkbox {
-	margin-bottom: 14px;
-	display: none;
+  margin-bottom: 14px;
+  display: none;
 }
 
 .support__checkbox:checked + .support__fake-checkbox::before {
-	opacity: 1;
+  opacity: 1;
 }

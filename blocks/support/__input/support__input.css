@@ -1,35 +1,35 @@
 .support__input {
-	width: 455px;
-	height: 48px;
-	border-radius: 10px;
-	border: 1px solid #DADADA;
-	outline: none;
-	padding-left: 20px;
+  width: 455px;
+  height: 48px;
+  border-radius: 10px;
+  border: 1px solid #dadada;
+  outline: none;
+  padding-left: 20px;
 }
 
 .support__input:first-of-type {
-	margin-top: 24px;
-	margin-bottom: 16px;
+  margin-top: 24px;
+  margin-bottom: 16px;
 }
 
 .support__input:last-of-type {
-	margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .support__input::placeholder {
-	opacity: 0.5;
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 1023px) {
-	.support__input {
-		font-size: 14px;
-	}
+  .support__input {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-	.support__input {
-		width: 236px;
-		height: 40px;
-		font-size: 12px;
-	}
+  .support__input {
+    width: 236px;
+    height: 40px;
+    font-size: 12px;
+  }
 }

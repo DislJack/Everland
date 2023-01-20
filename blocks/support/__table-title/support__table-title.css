@@ -1,8 +1,7 @@
 .support__table-title {
   margin: 0 auto;
   text-align: center;
-	box-sizing: border-box;
-
+  box-sizing: border-box;
 }
 
 .support__table-title::before,
@@ -14,7 +13,6 @@
   height: 1px;
   background-color: #dadada;
   position: relative;
-
 }
 
 .support__table-title::before {

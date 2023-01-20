@@ -1,10 +1,10 @@
 .support__title {
-	grid-area: title;
-	margin-top: 100px;
+  grid-area: title;
+  margin-top: 100px;
 }
 
 @media screen and (max-width: 1023px) {
-	.support__title {
-		margin-top: 44px;
-	}
+  .support__title {
+    margin-top: 44px;
+  }
 }
