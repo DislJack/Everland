@@ -1,0 +1,20 @@
+.support__label {
+  display: flex;
+  margin-bottom: 10px;
+  margin: auto 0;
+  align-items: center;
+  text-align: start;
+}
+
+.support__label:first-of-type {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1023px) {
+  .support__label {
+    font-size: 12px;
+  }
+  .support__label:first-of-type {
+    margin-bottom: 14px;
+  }
+}
