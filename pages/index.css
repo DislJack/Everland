@@ -175,3 +175,11 @@
 @import url(./../blocks/donations/__button-sup/donations__button-sup.css);
 @import url(../blocks/donations/__sum-button/donations__sum-button.css);
 @import url(../blocks/donations/__sum-button/_size/donations__sum-button_size_m.css);
+
+/* Секция numbers (Everland в цифрах) */
+@import url(../blocks/numbers/numbers.css);
+@import url(../blocks/numbers/__container/numbers__container.css);
+@import url(../blocks/numbers/__image/numbers__image.css);
+@import url(../blocks/numbers/__text-block/numbers__text-block.css);
+@import url(../blocks/numbers/__text-card/numbers__text-card.css);
+@import url(../blocks/numbers/__text-blue/numbers__text-blue.css);
