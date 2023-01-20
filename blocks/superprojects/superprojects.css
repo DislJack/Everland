@@ -1,4 +1,4 @@
-.projects {
+.superprojects {
   max-width: 1360px;
   min-height: 453px;
   background: #e7f0ff;
@@ -17,21 +17,21 @@
 }
 
 @media (max-width: 1130px) {
-  .projects{
+  .superprojects{
     row-gap: 12px;
     margin: 100px 40px 0 40px;
   }
 }
 
 @media (max-width: 1023px) {
-  .projects{
+  .superprojects{
     row-gap: 12px;
     margin: 100px 40px 0 40px;
   }
 }
 
 @media (max-width: 767px) {
-  .projects{
+  .superprojects{
     grid-template-areas:
   "name switcher"
   "image image"

@@ -1,4 +1,4 @@
-.slider__image-container_theme-projects{
+.slider__image-container_theme-superprojects{
   width: 555px;
   height: 393px;
   border-radius: 30px;
@@ -6,14 +6,14 @@
 }
 
 @media (max-width: 1150px) {
-  .slider__image-container_theme-projects{
+  .slider__image-container_theme-superprojects{
   width: 455px;
   height: 393px;
   }
 }
 
 @media (max-width: 1023px) {
-  .slider__image-container_theme-projects{
+  .slider__image-container_theme-superprojects{
   width: 259px;
   height: 284px;
   border-radius: 10px;
@@ -21,7 +21,7 @@
 }
 
 @media (max-width: 767px) {
- .slider__image-container_theme-projects{
+ .slider__image-container_theme-superprojects{
  width: 254px;
  height: 180px;
  }

@@ -1,4 +1,4 @@
-.slider__image_size-projects{
+.slider__image_size-superprojects{
   width: 100%;
   height: 100%;
   background-color: #e7f0ff;
@@ -8,7 +8,7 @@
 }
 
 @media (max-width: 1023px) {
-  .slider__image_size-projects{
+  .slider__image_size-superprojects{
     border-radius: 10px;
   }
 }

@@ -1,4 +1,4 @@
-.slider__switcher_theme-projects{
+.slider__switcher_theme-superprojects{
  grid-area: switcher;
  align-self: flex-end;
  justify-self: flex-end;
@@ -7,14 +7,14 @@
 }
 
 @media (max-width: 1250px) {
-  .slider__switcher_theme-projects{
+  .slider__switcher_theme-superprojects{
     padding-right: 27px;
   }
 }
 
 
 @media (max-width: 767px) {
-  .slider__switcher_theme-projects{
+  .slider__switcher_theme-superprojects{
     padding: 0;
     align-self: flex-start;
   }

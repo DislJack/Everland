@@ -1,4 +1,4 @@
-.slider__description_theme-projects{
+.slider__description_theme-superprojects{
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
@@ -8,7 +8,7 @@
 }
 
 @media (max-width: 1023px) {
-  .slider__description_theme-projects{
+  .slider__description_theme-superprojects{
     gap: 10px;
   }
 }

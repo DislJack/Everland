@@ -28,30 +28,30 @@
 @import url(../blocks/everland/__title/everland__title.css);
 @import url(../blocks/everland/__title/_style-blue/everland__title_style-blue.css);
 
-/* Секция Projects*/
-@import url(../blocks/superprojects/projects.css);
-@import url(../blocks/superprojects/__button/projects__button.css);
-@import url(../blocks/superprojects/__name/projects__name.css);
-@import url(../blocks/superprojects/__title/projects__title.css);
+/* Секция superProjects*/
+@import url(../blocks/superprojects/superprojects.css);
+@import url(../blocks/superprojects/__button/superprojects__button.css);
+@import url(../blocks/superprojects/__name/superprojects__name.css);
+@import url(../blocks/superprojects/__title/superprojects__title.css);
 
 /* Секция Slider*/
 @import url(../blocks/slider/slider.css);
 @import url(../blocks/slider/_theme/slider_theme-everland.css);
-@import url(../blocks/slider/_theme/slider_theme-projects.css);
+@import url(../blocks/slider/_theme/slider_theme-superprojects.css);
 @import url(../blocks/slider/__image-container/slider__image-container.css);
 @import url(../blocks/slider/__image-container/_theme/slider__image-container_theme-everland.css);
-@import url(../blocks/slider/__image-container/_theme/slider__image-container_theme-projects.css);
+@import url(../blocks/slider/__image-container/_theme/slider__image-container_theme-superprojects.css);
 @import url(../blocks/slider/__image/_size/slider__image_size-everland.css);
-@import url(../blocks/slider/__image/_size/slider__image_size-projects.css);
+@import url(../blocks/slider/__image/_size/slider__image_size-superprojects.css);
 @import url(../blocks/slider/__image/_location-top/slider__image-location-top.css);
 @import url(../blocks/slider/__image/_location-bottom/slider__image_location-bottom.css);
 @import url(../blocks/slider/__image/slider__image.css);
 @import url(../blocks/slider/__title/slider__title.css);
 @import url(../blocks/slider/__switcher/slider__switcher.css);
-@import url(../blocks/slider/__switcher/_theme-projects/slider__switcher_theme-projects.css);
+@import url(../blocks/slider/__switcher/_theme-superprojects/slider__switcher_theme-superprojects.css);
 @import url(../blocks/slider/__desription/slider__description.css);
 @import url(../blocks/slider/__desription/_theme/slider__description_theme-everland.css);
-@import url(../blocks/slider/__desription/_theme/slider__description_theme-projects.css);
+@import url(../blocks/slider/__desription/_theme/slider__description_theme-superprojects.css);
 
 /* Стили подвала */
 @import url(../blocks/footer/footer.css);

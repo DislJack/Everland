@@ -1,13 +1,13 @@
 // Переменные Everland
 const everlandSliderImageTemplate = document.querySelector('#everland-slider-image').content;
-const projectsSliderImageTemplate = document.querySelector('#projects-slider-image').content;
+const projectsSliderImageTemplate = document.querySelector('#superprojects-slider-image').content;
 const everland = document.querySelector('.everland');
 const everlandSlider = everland.querySelector('.slider');
 const prevEverlandSlider = everland.querySelector('#prev-slide');
 const nextEverlandSlider = everland.querySelector('#next-slide');
 const sliderCounterEverland = everland.querySelector('.slider__counter');
 const sliderTitleEverland = everland.querySelector('.slider__title');
-const projects = document.querySelector('.projects');
+const projects = document.querySelector('.superprojects');
 const projectsSlider = projects.querySelector('.slider');
 const prevProjectsSlider = projects.querySelector('#prev-slide');
 const nextProjectsSlider = projects.querySelector('#next-slide');

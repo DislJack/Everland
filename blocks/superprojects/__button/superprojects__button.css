@@ -1,16 +1,16 @@
-.projects__button{
+.superprojects__button{
   max-width: 194px;
   align-self: flex-end;
 }
 
 @media (max-width: 1023px) {
-  .projects__button{
+  .superprojects__button{
     max-width: 200px;
   }
 }
 
 @media (max-width: 767px) {
-  .projects__button{
+  .superprojects__button{
     max-width: 250px;
     justify-self: center;
   }
