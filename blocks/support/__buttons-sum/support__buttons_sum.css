@@ -1,0 +1,13 @@
+.support__buttons-sum {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .support__buttons-sum {
+    margin-top: 20px;
+  }
+}
