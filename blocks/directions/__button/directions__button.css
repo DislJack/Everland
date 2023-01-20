@@ -1,0 +1,5 @@
+.directions__button {
+    width: 165px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}

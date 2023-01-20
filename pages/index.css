@@ -93,6 +93,20 @@
 @import url(../blocks/accordeon/__label/accordeon__label.css);
 @import url(../blocks/accordeon/__text/accordeon__text.css);
 
+/* Секция news */
+@import url(../blocks/news/news.css);
+@import url(../blocks/news/__title/news__title.css);
+@import url(../blocks/news/__button/news__button.css);
+@import url(../blocks/news/__grid/news__grid.css);
+@import url(../blocks/news/__grid-cards/news__grid-cards.css);
+@import url(../blocks/news/__card-flex/news__card-flex.css);
+@import url(../blocks/news/__card-image/news__card-image.css);
+@import url(../blocks/news/__grid-cards/_position/news__grid-cards_position_first.css);
+@import url(../blocks/news/__grid-cards/_position/news__grid-cards_position_second.css);
+@import url(../blocks/news/__grid-cards/_position/news__grid-cards_position_third.css);
+@import url(../blocks/news/__date/news__date.css);
+@import url(../blocks/news/__text/news__text.css);
+
 /* Компоненты для карточек */
 @import url(../blocks/card/card.css); /* Закругленные углы и внутренний отступ*/
 /* Фон карточек */
@@ -120,3 +134,13 @@
 @import url(../blocks/works-for/__title/works-for__title.css);
 @import url(../blocks/works-for/__button/works-for__button.css);
 @import url(../blocks/works-for/__link/works-for__link.css);
+
+/* Секция directions */
+@import url(../blocks/directions/directions.css);
+@import url(../blocks/directions/__title/directions__title.css);
+@import url(../blocks/directions/__card/directions__card.css);
+@import url(../blocks/directions/__container/directions__container.css);
+@import url(../blocks/directions/__button/directions__button.css);
+@import url(../blocks/directions/__paragraph/directions__paragraph.css);
+@import url(../blocks/directions/__subtitle/directions__subtitle.css);
+@import url(../blocks/directions/__link/directions__link.css);
