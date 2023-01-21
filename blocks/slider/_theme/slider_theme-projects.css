@@ -6,6 +6,13 @@
   grid-area: image;
 }
 
+@media screen and (max-width: 1250px){
+  .slider_theme-projects{
+    width: 400px;
+    height: 350px;
+  }
+}
+
 @media (max-width: 1023px) {
   .slider_theme-projects{
   width: 259px;
@@ -19,5 +26,6 @@
  .slider_theme-projects{
  width: 254px;
  height: 180px;
+ justify-self: center;
  }
 }
