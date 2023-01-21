@@ -1,0 +1,11 @@
+.logo_place_footer-practicum {
+    width: 161.38px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1023px) {
+    .logo_place_footer-practicum {
+        width: 115.04px;
+        height: 20px;
+    }
+}
