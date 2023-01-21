@@ -1,5 +1,5 @@
 .quote-card__content {
-    width: 1056px;
+    width: 1057px;
     height: 222px;
     display: flex;
     justify-content: start;
@@ -9,5 +9,7 @@
 @media all and (max-width: 768px) {
     .quote-card__content {
         display: block;
+        width: 450px;
+        height: 249px;
     }
 }

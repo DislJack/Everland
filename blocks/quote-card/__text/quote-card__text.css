@@ -6,6 +6,6 @@
 
 @media all and (max-widtx: 768px) {
     .quote-card__text {
-        margin-left: 0px;
+        margin-left: 20px 0px;
     }
 }

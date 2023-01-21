@@ -1,6 +1,14 @@
 .quote-card {
     display: flex;
     justify-content: space-between;
+    width: 1360px;
     height: 324px;
     margin-top: 50px;
+}
+
+@media all and (max-width: 768px) {
+    .quote-card {
+        width: 687px;
+        height: 250px;
+    }
 }

@@ -1,5 +1,6 @@
 .quote-card__icon {
-    width: 60px;
-    height: 60px;
+    width: 28px;
+    height: 20px;
     margin-right: 19px;
+    background-image: url(../../../images/histories/icon_quote.png);
 }
