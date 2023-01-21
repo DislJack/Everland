@@ -1,5 +1,23 @@
 .footer__navigation {
     display: flex;
     margin: 0;
-    padding: 0 0 0 116px;
+    padding: 0 40px 0 116px;
+}
+
+@media screen and (max-width: 1023px) {
+    .footer__navigation {
+        padding: 0 40px 0 70px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer__navigation {
+        padding: 0 40px 0 0;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .footer__navigation {
+        padding: 0;
+    }
 }

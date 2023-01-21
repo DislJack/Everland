@@ -3,3 +3,10 @@
     margin: 0;
     gap: 53px;
 }
+
+@media screen and (max-width: 1023px) {
+    .footer__contacts-block {
+        flex-direction: column;
+        gap: 16px;
+    }
+}

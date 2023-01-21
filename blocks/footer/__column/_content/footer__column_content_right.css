@@ -1,3 +1,15 @@
 .footer__column_content_right {
     padding: 0 0 0 84px;
 }
+
+@media screen and (max-width: 1192px) {
+    .footer__column_content_right {
+        padding: 0 0 0 66px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .footer__column_content_right {
+        padding: 6px 0 0 84px;
+    }
+}

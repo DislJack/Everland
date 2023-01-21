@@ -5,3 +5,15 @@
     flex-direction: column;
     color: #333333;
 }
+
+@media screen and (max-width: 1023px) {
+    .footer__address {
+        width: 311px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .footer__address {
+        width: 295px;
+    }
+}

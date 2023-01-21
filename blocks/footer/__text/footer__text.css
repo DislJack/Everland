@@ -8,3 +8,21 @@
 .footer__text:last-child {
     padding-top: 0;
   } 
+
+@media screen and (max-width: 1023px) {
+    .footer__text {
+        width: 294px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer__text {
+        width: 286px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .footer__text {
+        width: 294px;
+    }
+}

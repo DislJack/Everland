@@ -1,136 +1,3 @@
-@import url(../vendor/normalize.css);
-
-/* Шрифты */
-@import url(../vendor/fonts/raleway.css);
-
-/*Стили элементов*/
-/* Стили шрифтов */
-@import url(../blocks/h1/h1.css);
-@import url(../blocks/h2/h2.css);
-@import url(../blocks/h3/h3.css);
-@import url(../blocks/h4/h4.css);
-@import url(../blocks/h5/h5.css);
-@import url(../blocks/big-text/big-text.css);
-@import url(../blocks/main-text/main-text.css);
-@import url(../blocks/small-text/small-text.css);
-
-/* Стили блоков */
-/* Стили всего боди */
-@import url(../blocks/page/page.css);
-
-/* Стили шапки */
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/__nav/header__nav.css);
-@import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__menu-button/header__menu-button.css);
-@import url(../blocks/header/__menu-button-icon/header__menu-button-icon.css);
-@import url(../blocks/header/__menu-button-icon/_is-active/header__menu-button-icon_is-active.css);
-@import url(../blocks/header/__button/header__button.css);
-
-/* Стили шапка меню*/
-@import url(../blocks/header/__menu/header__menu.css);
-@import url(../blocks/header/__menu/_opened/header__menu_opened.css);
-@import url(../blocks/header/__menu-list/header__menu-list.css);
-@import url(../blocks/header/__menu-list-link/header__menu-list-link.css);
-@import url(../blocks/header/__menu-link/header__menu-link.css);
-@import url(../blocks/header/__menu-title/header__menu-title.css);
-@import url(../blocks/header/__menu-link-title/header__menu-link-title.css);
-@import url(../blocks/accordeon/_header-theme/accordeon_header-theme.css);
-@import url(../blocks/accordeon/__label/_header-theme/accordeon__label_header-theme.css);
-@import url(../blocks/header/__menu-accordeon/header__menu-accordeon.css);
-@import url(../blocks/header/__menu-accordeon-list/header__menu-accordeon-list.css);
-
-/* Стили шапка меню secondary */
-@import url(../blocks/header/__menu-secondary/header__menu-secondary.css);
-@import url(../blocks/header/__menu-secondary-list/header__menu-secondary-list.css);
-@import url(../blocks/header/__menu-secondary-link/header__menu-secondary-link.css);
-
-/* Стили контента */
-@import url(../blocks/agency/agency.css);
-@import url(../blocks/directions/directions.css);
-@import url(../blocks/donations/donations.css);
-@import url(../blocks/everland/everland.css);
-@import url(../blocks/figures/figures.css);
-@import url(../blocks/histories/histories.css);
-@import url(../blocks/main/main.css);
-@import url(../blocks/projects/projects.css);
-@import url(../blocks/projects/__description/projects__description.css);
-@import url(../blocks/projects/__img/projects__img.css);
-@import url(../blocks/projects/__item/projects__item.css);
-@import url(../blocks/projects/__card/projects__card.css);
-@import url(../blocks/projects/__list/projects__list.css);
-@import url(../blocks/projects/__subtitle/projects__subtitle.css);
-@import url(../blocks/projects/__title/projects__title.css);
-@import url(../blocks/projects/__button/projects__button.css);
-
-@import url(../blocks/support/support.css);
-@import url(../blocks/works-for/works-for.css);
-
-/* Стили подвала */
-@import url(../blocks/footer/footer.css);
-
-/* Кнопки */
-@import url(../blocks/button/button.css);
-@import url(../blocks/button/_type/button_type_primary.css);
-@import url(../blocks/button/_type/button_type_secondary.css);
-@import url(../blocks/button/_type/button_type_tertiary.css);
-@import url(../blocks/button/_type/button_type_link.css);
-@import url(../blocks/button/_type/button_type_slider.css);
-@import url(../blocks/button/_type/button_type_accordeon.css);
-@import url(../blocks/button/_slider-theme/button_slider-theme_gray.css);
-@import url(../blocks/button/_link-theme/button_link-theme_light-blue.css);
-@import url(../blocks/button/_link-theme/button_link-theme_light-orange.css);
-@import url(../blocks/button/_link-theme/button_link-theme_light-green.css);
-@import url(../blocks/button/_link-theme/button_link-theme_light-purple.css);
-@import url(../blocks/button/_disabled/button_disabled_main.css);
-@import url(../blocks/button/_disabled/button_disabled_link.css);
-@import url(../blocks/button/_disabled/button_disabled_accordeon.css);
-@import url(../blocks/button/_disabled/button_disabled_others.css);
-@import url(../blocks/button/_direction/button_direction_left.css);
-@import url(../blocks/button/_rotation/button_rotation_icon.css);
-
-
-/* Секция advantages */
-@import url(../blocks/advantages/advantages.css);
-@import url(../blocks/advantages/__grid/advantages__grid.css);
-@import url(../blocks/accordeon/accordeon.css);
-@import url(../blocks/accordeon/__label/accordeon__label.css);
-@import url(../blocks/accordeon/__text/accordeon__text.css);
-
-/* Секция news */
-@import url(../blocks/news/news.css);
-@import url(../blocks/news/__title/news__title.css);
-@import url(../blocks/news/__button/news__button.css);
-@import url(../blocks/news/__grid/news__grid.css);
-@import url(../blocks/news/__grid-cards/news__grid-cards.css);
-@import url(../blocks/news/__card-flex/news__card-flex.css);
-@import url(../blocks/news/__card-image/news__card-image.css);
-@import url(../blocks/news/__grid-cards/_position/news__grid-cards_position_first.css);
-@import url(../blocks/news/__grid-cards/_position/news__grid-cards_position_second.css);
-@import url(../blocks/news/__grid-cards/_position/news__grid-cards_position_third.css);
-@import url(../blocks/news/__date/news__date.css);
-@import url(../blocks/news/__text/news__text.css);
-
-/* Компоненты для карточек */
-@import url(../blocks/card/card.css); /* Закругленные углы и внутренний отступ*/
-/* Фон карточек */
-@import url(../blocks/card/_background/card_background_light-blue.css);
-@import url(../blocks/card/_background/card_background_light-green.css);
-@import url(../blocks/card/_background/card_background_light-orange.css);
-@import url(../blocks/card/_background/card_background_light-purple.css);
-@import url(../blocks/card/_border/card_border_gray.css); /* Серая рамка */
-
-/* Секция works-for */
-@import url(../blocks/works-for/__card/works-for__card.css);
-@import url(../blocks/works-for/__container/works-for__container.css);
-@import url(../blocks/works-for/__image/works-for__image.css);
-@import url(../blocks/works-for/__paragraph/works-for__paragraph.css);
-@import url(../blocks/works-for/__subtitle/works-for__subtitle.css);
-@import url(../blocks/works-for/__title/works-for__title.css);
-@import url(../blocks/works-for/__button/works-for__button.css);
-@import url(../blocks/works-for/__link/works-for__link.css);
-
-
 /* Footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__about/footer__about.css);
@@ -141,14 +8,18 @@
 @import url(../blocks/footer/__text/footer__text.css);
 @import url(../blocks/footer/__description/footer__description.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_right.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_left.css);
 @import url(../blocks/footer/__support/footer__support.css);
 @import url(../blocks/footer/__socials/footer__socials.css);
 @import url(../blocks/footer/__sponsors/footer__sponsors.css);
+@import url(../blocks/footer/__support-text/footer__support-text.css);
 @import url(../blocks/footer/__support-icons/footer__support-icons.css);
 @import url(../blocks/footer/__support-icon/_beeline/footer__support-icon_beeline.css);
 @import url(../blocks/footer/__support-icon/_fond/footer__support-icon_fond.css);
 @import url(../blocks/footer/__social-icons/footer__social-icons.css);
-@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+@import url(../blocks/footer/__socials-text/footer__socials-text.css);
+@import url(../blocks/footer/__social-icon/_telegram/footer__social-icon_telegram.css);
+@import url(../blocks/footer/__social-icon/_vk/footer__social-icon_vk.css);
 @import url(../blocks/footer/__info/footer__info.css);
 @import url(../blocks/footer/__contacts-block/footer__contacts-block.css);
 @import url(../blocks/footer/__address/footer__address.css);
@@ -161,18 +32,3 @@
 /* Изображение логотипа */
 @import url(../blocks/logo/_place/logo_place_footer-everland.css);
 @import url(../blocks/logo/_place/logo_place_footer-practicum.css);
-
-/* Секция directions */
-@import url(../blocks/directions/__title/directions__title.css);
-@import url(../blocks/directions/__card/directions__card.css);
-@import url(../blocks/directions/__container/directions__container.css);
-@import url(../blocks/directions/__button/directions__button.css);
-@import url(../blocks/directions/__paragraph/directions__paragraph.css);
-@import url(../blocks/directions/__subtitle/directions__subtitle.css);
-@import url(../blocks/directions/__link/directions__link.css);
-
-/* Секция donations */
-@import url(../blocks/donations/__container-sum/donations__container-sum.css);
-@import url(./../blocks/donations/__button-sup/donations__button-sup.css);
-@import url(../blocks/donations/__sum-button/donations__sum-button.css);
-@import url(../blocks/donations/__sum-button/_size/donations__sum-button_size_m.css);

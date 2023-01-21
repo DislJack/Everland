@@ -2,3 +2,10 @@
     width: 262.69px;
     height: 46px;
 }
+
+@media screen and (max-width: 1023px) {
+    .logo_place_footer-everland {
+        width: 137.05px;
+        height: 24px;
+    }
+}

@@ -3,3 +3,9 @@
     margin: 0;
     width: 227px;
 }
+
+@media screen and (max-width: 1192px) {
+    .footer__column {
+      width: fit-content;
+    }
+  }

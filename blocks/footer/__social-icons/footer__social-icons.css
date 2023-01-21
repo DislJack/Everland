@@ -4,3 +4,10 @@
     gap: 10px;
     padding: 11px 0 0;
 }
+
+@media screen and (max-width: 1023px) {
+    .footer__social-icons {
+        padding: 5px 0 0;
+        gap: 4px;
+    }
+}
