@@ -4,8 +4,8 @@
     width: 977px;
 }
 
-@media all and (max-widtx: 768px) {
+@media all and (max-width: 1023px) {
     .quote-card__text {
-        margin-left: 20px 0px;
+        margin-left: 0px;
     }
 }

@@ -3,14 +3,14 @@
     width: 224px;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1023px) {
     .quote-card__img {
         height: 204px;
         width: 204px;
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 767px) {
     .quote-card__img {
         height: 80px;
         width: 80px;

@@ -1,10 +1,10 @@
 .histories {
-    width: 670px;
+    /* width: 670px; */
     padding: 100px 40px;
 }
 
 @media all and (max-width: 768px) {
     .histories {
-        width: 688px;
+        /* width: 688px; */
     }
 }

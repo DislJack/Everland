@@ -1,14 +1,15 @@
 .quote-card {
     display: flex;
     justify-content: space-between;
-    width: 1360px;
-    height: 324px;
+    /* width: 1360px;
+    height: 324px; */
     margin-top: 50px;
+    width: 100%;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1023px) {
     .quote-card {
-        width: 687px;
-        height: 250px;
+        /* width: 687px;
+        height: 250px; */
     }
 }
