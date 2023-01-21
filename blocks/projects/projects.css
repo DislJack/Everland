@@ -12,7 +12,6 @@
   "button switcher image";
   justify-content: center;
   row-gap: 20px;
-  grid-column: auto;
 }
 
 @media (max-width: 1023px) {

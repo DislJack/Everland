@@ -1,5 +1,6 @@
 .projects__button{
   max-width: 194px;
+  width: 100%;
   padding: 12px 16px;
   transition: 0.2s;
   background: #e7f0ff;
