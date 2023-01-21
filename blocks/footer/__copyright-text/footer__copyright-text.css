@@ -1,0 +1,11 @@
+.footer__copyright-text {
+    margin: 0;
+    align-self: flex-end;
+    color: #333;
+}
+
+@media screen and (max-width: 690px) {
+    .footer__yandex-copyright {
+        align-self:flex-start;
+    }
+}
