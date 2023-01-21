@@ -1,0 +1,33 @@
+.histories__text-grid {
+  grid-area: text-block;
+  display: grid;
+  grid-template-areas: 
+  'histories-caption title-card title-card title-card title-card title-card title-card title-card title-card'
+  '. text-card text-card text-card text-card text-card text-card text-card text-card'
+  '. button-card button-card button-card . . . . .';
+  gap: 20px;
+  grid-template-columns: fit-content;
+}
+
+@media (max-width: 1023px) {
+  .histories__text-grid {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: 
+    'histories-caption . . . . .'
+    'title-card title-card title-card title-card title-card title-card'
+    'text-card text-card text-card text-card text-card text-card'
+    'button-card button-card button-card button-card button-card button-card';
+  }
+}
+
+@media (max-width: 767px) {
+  .histories__text-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    'histories-caption .'
+    'title-card title-card'
+    'text-card text-card'
+    'button-card button-card';
+    gap: 16px;
+  }
+}

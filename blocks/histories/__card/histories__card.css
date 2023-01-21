@@ -1,0 +1,28 @@
+.histories__card {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  width: fit-content;
+  align-items: center;
+  box-sizing: border-box;
+  min-width: 225px;
+}
+
+@media (max-width: 1023px) {
+  .histories__card {
+    padding: 0;
+    gap: 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .histories__card {
+    display: grid;
+    grid-template-areas: 
+    'avatar avatar'
+    'text-block text-block';
+    gap: 10px;
+    margin: 8px 0;
+  }
+}

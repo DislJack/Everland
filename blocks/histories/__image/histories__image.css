@@ -1,0 +1,22 @@
+.histories__image {
+  border-radius: 50%;
+  object-fit: contain;
+  grid-area: avatar;
+  width: 224px;
+  height: 224px;
+  display: block;
+}
+
+@media (max-width: 1023px) {
+  .histories__image {
+    width: 204px;
+    height: 204px;
+  }
+}
+
+@media (max-width: 767px) {
+  .histories__image {
+    width: 80px;
+    height: 80px;
+  }
+}

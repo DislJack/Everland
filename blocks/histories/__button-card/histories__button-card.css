@@ -1,0 +1,5 @@
+.histories__button-card {
+  grid-area: button-card;
+  width: fit-content;
+  text-decoration: none;
+}

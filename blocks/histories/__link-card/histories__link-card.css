@@ -1,0 +1,21 @@
+.histories__link-card {
+  grid-area: link-card;
+  align-self: flex-end;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  width: fit-content;
+  text-decoration: none;
+  color: #333333;
+  opacity: 1;
+}
+
+.histories__link-card:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 1023px) {
+  .histories__link-card {
+    gap: 9px;
+  }
+}
