@@ -5,6 +5,7 @@
   transition: 0.2s;
   width: 35px;
   height: 35px;
+  cursor: pointer;
 }
 
 .button_type_slider:hover {

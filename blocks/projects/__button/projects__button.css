@@ -1,10 +1,37 @@
 .projects__button{
+  max-width: 194px;
+  width: 100%;
+  padding: 12px 16px;
+  transition: 0.2s;
+  background: #e7f0ff;
+  border: 1px solid #333333;
+  color: #333333;
   align-self: flex-end;
+  cursor: pointer;
+}
+
+
+@media (max-width: 1023px) {
+  .projects__button{
+    max-width: 200px;
+  }
 }
 
 @media (max-width: 767px) {
-.projects__button{
-  align-self: flex-end;
-  justify-self: flex-start;
+  .projects__button{
+    max-width: 250px;
+    justify-self: center;
+  }
 }
+
+
+.projects__button:hover {
+  border: 1px solid #00275C;
+  color: #00275C;
+}
+
+.projects__button:active {
+  border: none;
+  background-color: #00275C;
+  color: #fff;
 }

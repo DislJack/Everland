@@ -26,6 +26,7 @@
 @import url(../blocks/header/__menu-button-icon/header__menu-button-icon.css);
 @import url(../blocks/header/__menu-button-icon/_is-active/header__menu-button-icon_is-active.css);
 @import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__button-size/header__button-size.css);
 
 /* Стили шапка меню*/
 @import url(../blocks/header/__menu/header__menu.css);
@@ -77,6 +78,7 @@
 @import url(../blocks/slider/__image-container/_theme/slider__image-container_theme-everland.css);
 @import url(../blocks/slider/__image-container/_theme/slider__image-container_theme-projects.css);
 @import url(../blocks/slider/__image/_size/slider__image_size-everland.css);
+@import url(../blocks/slider/__image/_size/slider__image_size-everland-small.css);
 @import url(../blocks/slider/__image/_size/slider__image_size-projects.css);
 @import url(../blocks/slider/__image/_location-top/slider__image-location-top.css);
 @import url(../blocks/slider/__image/_location-bottom/slider__image_location-bottom.css);

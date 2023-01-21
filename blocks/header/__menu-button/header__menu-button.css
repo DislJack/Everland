@@ -2,7 +2,7 @@
   position: relative;
   overflow: hidden;
   padding: 0;
-  margin: 0;
+  margin: 0 0 0 100px;
   width: 95px;
   height: 26px;
   cursor: pointer;
@@ -20,6 +20,7 @@
     width: 84px;
     height: 24px;
     order: 3;
+    margin: 0;
   }
 }
 
