@@ -17,6 +17,19 @@ let sliderImageProjects;
 let counterEverland = 1;
 let counterProjects = 1;
 let numberImageEverland = 1;
+const supportButtons = document.querySelectorAll('.support__button');
+const supportButtonsSum = document.querySelectorAll('.support__button-sum');
+const supportButtonsPayment = document.querySelectorAll('.support__button-payment');
+
+// Функция смены иконки.
+function buttonActive(button) {
+	button.forEach(el => {
+		el.addEventListener('click', (e) => {
+			button.forEach(item => { item.classList.remove('support__button_active'); });
+			el.classList.add('support__button_active')
+		})
+	});
+};
 
 // Функция создания изображения Everland
 function createEverlandSliderImage (firstImage, secondImage) {
@@ -136,6 +149,10 @@ menuButton.addEventListener('click', () => {
   menuButtonIcon.classList.toggle('is-active');
   headerMenu.classList.toggle('header__menu_opened');
 });
+
+buttonActive(supportButtons);
+buttonActive(supportButtonsSum);
+buttonActive(supportButtonsPayment);
 
 accordeons.forEach((accordeon) => {
   accordeon.addEventListener('click', () => accordeon.toggleAttribute('open'));
