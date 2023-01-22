@@ -1,9 +1,0 @@
-.support__donator-time {
-  margin: 0 0 28px 0;
-}
-
-@media screen and (max-width: 1023px) {
-  .support__donator-time {
-    margin-bottom: 26px;
-  }
-}

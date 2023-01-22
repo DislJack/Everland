@@ -1,9 +1,0 @@
-.footer__socials-text {
-    margin: 0;
-}
-
-@media screen and (max-width: 1023px) {
-    .footer__socials-text {
-        width: 187px;
-    }
-}
