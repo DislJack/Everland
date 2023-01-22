@@ -157,3 +157,27 @@ buttonActive(supportButtonsPayment);
 accordeons.forEach((accordeon) => {
   accordeon.addEventListener('click', () => accordeon.toggleAttribute('open'));
 });
+
+//Переходы по ссылкам на секции страницы из меню header
+
+//Переменные для ссылок меню
+const header = document.querySelector('.header');
+const secondaryMenu = header.querySelector('.header__menu-secondary');
+const linkMenu = secondaryMenu.querySelectorAll('.header__menu-secondary-link');
+
+//установка слушателя на ссылки меню и переход к ним
+linkMenu.forEach((link) => link.addEventListener('click', (evt) => {
+  const linkHref = evt.target.getAttribute('href');
+  evt.preventDefault();
+  const scrollTarget = document.querySelector(linkHref);
+  const topOffset = header.offsetHeight;
+  const elementPosition = scrollTarget.getBoundingClientRect().top;
+  const offsetPosition = elementPosition - topOffset;
+  window.scrollBy({
+    top: offsetPosition,
+    behavior: 'smooth'
+  });
+  }
+));
+
+
