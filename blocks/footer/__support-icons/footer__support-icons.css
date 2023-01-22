@@ -1,0 +1,11 @@
+.footer__support-icons {
+    display: flex;
+    margin: 0;
+    gap: 50px;
+}
+
+@media screen and (max-width: 1023px) {
+    .footer__support-icons {
+        gap: 9.15px;
+    }
+}

@@ -1,0 +1,17 @@
+.footer__sponsors {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1023px) {
+    .footer__sponsors {
+        padding: 0 174px 0 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer__sponsors {
+        padding: 0 101px 0 0;
+    }
+}

@@ -1,0 +1,11 @@
+.projects__subtitle {
+    max-width: 955px;
+    margin: 20px 0px 50px;
+}
+
+@media all and (max-width: 1023px) {
+    .projects__subtitle {
+        margin-top: 15.39px;
+        margin-bottom: 22px;
+    }
+}

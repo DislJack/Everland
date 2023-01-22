@@ -1,0 +1,23 @@
+.support {
+  background-color: #e7f0ff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.1fr 1fr;
+  grid-template-areas:
+    "title title"
+    "table list";
+  padding: 0 40px;
+}
+
+@media screen and (max-width: 1246px) {
+  .support {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 1fr 0.4fr;
+    grid-template-areas:
+      "title"
+      "table"
+      "list";
+    justify-content: center;
+    text-align: center;
+  }
+}

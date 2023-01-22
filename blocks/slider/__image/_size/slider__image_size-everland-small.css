@@ -1,0 +1,21 @@
+.slider__image_size-everland-small{
+  width: 352px;
+  height: 315px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+@media (max-width: 1023px) {
+  .slider__image_size-everland-small{
+  width: 184px;
+  height: 152px;
+  }
+}
+
+@media (max-width: 767px) {
+ .slider__image_size-everland-small{
+ width: 190px;
+ height: 144px;
+ }
+}

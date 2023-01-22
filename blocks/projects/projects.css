@@ -1,0 +1,36 @@
+.projects {
+  max-width: 1360px;
+  background: #e7f0ff;
+  border-radius: 30px;
+  padding: 30px 30px;
+  margin: 150px 40px 0 40px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-areas:
+  "name switcher image"
+  "description switcher image"
+  "button switcher image";
+  justify-content: center;
+  row-gap: 20px;
+}
+
+@media (max-width: 1023px) {
+  .projects{
+    row-gap: 12px;
+    margin: 100px 40px 0 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .projects{
+    grid-template-areas:
+  "name switcher"
+  "image image"
+  "description description"
+  "button button";
+    row-gap: 20px;
+    margin: 64px 10px 0 10px;
+  }
+}
+
+

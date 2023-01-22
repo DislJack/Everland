@@ -1,0 +1,23 @@
+.accordeon {
+  border: 2px solid #DADADA;
+  border-radius: 30px;
+  padding: 30px 20px;
+  background-color: #fff;
+  overflow: hidden;
+  box-sizing: border-box;
+  list-style: none;
+  transition: all 0.2s ease;
+}
+
+.accordeon::-webkit-details-marker {
+  display: none;
+}
+
+.accordeon[open] .button_type_accordeon {
+  background-color: #0C4BA0;
+}
+
+.accordeon[open] .button_type_accordeon::after {
+  transform: rotate(45deg);
+  background-image: url(../../images/plus/Icon_plus_white.png);
+}

@@ -1,0 +1,9 @@
+.header__button-size{
+  width: 180px;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__button-size{
+  width: 134px;
+  }
+}

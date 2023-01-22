@@ -1,0 +1,30 @@
+.everland__title{
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 120%;
+  margin: 0;
+  width: 100%;
+  letter-spacing: -0.02em;
+  color: #333333;
+}
+
+@media screen and (max-width: 1414px) {
+  .everland__title {
+  font-size: 44px;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .everland__title {
+    letter-spacing: -0.03em;
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .everland__title {
+    font-size: 28px;
+
+  }
+}
+

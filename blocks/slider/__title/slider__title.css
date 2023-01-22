@@ -1,0 +1,22 @@
+.slider__title{
+  display: block;
+  opacity: 0;
+  animation: appearance 2s forwards;
+}
+
+@keyframes appearance {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@media (max-width: 1023px){
+  .slider__title{
+  max-width: 401px;
+  }
+}
+
+@media (max-width: 767px){
+  .slider__title{
+  max-width: 294px;
+  }
+}

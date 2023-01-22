@@ -1,0 +1,8 @@
+.button_rotation_icon {
+  background-color: #0C4BA0;
+}
+
+.button_rotation_icon::after {
+  background-image: url(../../../images/plus/icon_plus_white.png);
+  transform: rotate(45deg);
+}

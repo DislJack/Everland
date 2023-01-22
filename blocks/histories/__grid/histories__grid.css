@@ -1,0 +1,49 @@
+.histories__grid {
+  display: grid;
+  grid-template-areas: 
+  'histories-title histories-title histories-title histories-title histories-title histories-title histories-title histories-title histories-title histories-title histories-button histories-button'
+  'card-first card-first card-first card-first card-first card-first card-first card-first card-first card-first card-first card-first'
+  'card-second card-second card-second card-second card-second card-second card-second card-second card-second card-second card-second card-second'
+  'card-third card-third card-third card-third card-third card-third card-fourth card-fourth card-fourth card-fourth card-fourth card-fourth';
+  grid-template-columns: repeat(12, 1fr);
+  gap: 50px 20px;
+  align-items: center;
+}
+
+@media (max-width: 1129px) {
+  .histories__grid {
+    grid-template-areas: 
+  'histories-title histories-title histories-title histories-title histories-title histories-title histories-title histories-title histories-title histories-title histories-button histories-button'
+  'card-first card-first card-first card-first card-first card-first card-first card-first card-first card-first card-first card-first'
+  'card-second card-second card-second card-second card-second card-second card-second card-second card-second card-second card-second card-second'
+  'card-third card-third card-third card-third card-third card-third card-third card-third card-third card-third card-third card-third'
+  'card-fourth card-fourth card-fourth card-fourth card-fourth card-fourth card-fourth card-fourth card-fourth card-fourth card-fourth card-fourth';
+  }
+}
+
+@media (max-width: 1023px) {
+  .histories__grid {
+    grid-template-areas: 
+  'histories-title histories-title histories-title histories-title histories-title histories-title'
+  'card-first card-first card-first card-first card-first card-first'
+  'card-second card-second card-second card-second card-second card-second'
+  'card-third card-third card-third card-fourth card-fourth card-fourth'
+  '. . histories-button histories-button . .';
+  grid-template-columns: repeat(6, 1fr);
+  gap: 32px 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .histories__grid {
+    grid-template-areas: 
+    'histories-title histories-title'
+    'card-first card-first'
+    'card-second card-second'
+    'card-third card-third'
+    'card-fourth card-fourth'
+    'histories-button histories-button';
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}

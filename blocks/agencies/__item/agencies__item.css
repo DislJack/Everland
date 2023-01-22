@@ -1,0 +1,23 @@
+.agencies__item {
+
+    width: calc(1/3*100% - 0.67*20px);
+}
+
+@media all and (max-width: 1023px) {
+    
+    .agencies__item:nth-child(3) {
+        display: none;
+    }
+    .agencies__item {
+        width: calc(1/2*100% - 0.5*20px);
+    }
+}
+
+@media all and (max-width: 767px) {
+    .agencies__item_third {
+        display: block;
+    }
+    .agencies__item {
+        width: 100%;
+    }
+}
