@@ -1,7 +1,7 @@
 .main-text {
     font-weight: 400;
     font-size: 20px;
-    line-height: 120%;
+    line-height: 130%;
     margin: 0;
     grid-area: main-text;
 }
@@ -9,6 +9,7 @@
 @media screen and (max-width: 1023px) {
     .main-text {
         font-size: 16px;
+        line-height: 120%;
     }
 }
 
