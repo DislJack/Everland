@@ -1,16 +1,18 @@
-.donations__container-sum {
+.everland__donations-container {
     display: flex;
     gap: 40px;
+    background-color: #E7F0FF;
+
 }
 
 @media screen and (max-width: 1023px) {
-    .donations__container-sum {
+    .everland__donations-container {
         gap: 10px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .donations__container-sum {
+    .everland__donations-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 16px;

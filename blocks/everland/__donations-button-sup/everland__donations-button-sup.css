@@ -1,4 +1,4 @@
-.donations__button-sup {
+.everland__donations-button-sup {
     border-radius: 10px;
     max-width: 179px;
     width: 100%;
@@ -6,15 +6,14 @@
 }
 
 @media screen and (max-width: 1023px) {
-    .donations__button-sup {
+    .everland__donations-button-sup {
         max-width: 143px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .donations__button-sup {
-        max-width: 500px;
-        width: 100%;
+    .everland__donations-button-sup {
+        max-width: 260px;
         grid-column: 1/2;
         grid-row: 2/3;
         justify-self: center;
