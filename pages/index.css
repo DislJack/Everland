@@ -46,6 +46,13 @@
 @import url(../blocks/header/__menu-secondary-list/header__menu-secondary-list.css);
 @import url(../blocks/header/__menu-secondary-link/header__menu-secondary-link.css);
 
+/* Стили donations*/
+@import url(../blocks/header/__donations/header__donations.css);
+@import url(../blocks/header/__donations-container/header__donations-container.css);
+@import url(../blocks/header/__donations-button/header__donations-button.css);
+@import url(../blocks/header/__donations-button/_size-small/header__donations-button_size-small.css);
+@import url(../blocks/header/__donations-button-sup/header__donations-button-sup.css);
+
 /* Стили контента */
 @import url(../blocks/agency/agency.css);
 @import url(../blocks/directions/directions.css);
@@ -63,6 +70,12 @@
 @import url(../blocks/everland/everland.css);
 @import url(../blocks/everland/__title/everland__title.css);
 @import url(../blocks/everland/__title/_style-blue/everland__title_style-blue.css);
+/* Стили donations*/
+@import url(../blocks/everland/__donations/everland__donations.css);
+@import url(../blocks/everland/__donations-container/everland__donations-container.css);
+@import url(../blocks/everland/__donations-button/everland__donations-button.css);
+@import url(../blocks/everland/__donations-button/_size-big/everland__donations-button_size-big.css);
+@import url(../blocks/everland/__donations-button-sup/everland__donations-button-sup.css);
 
 /* Секция Projects*/
 @import url(../blocks/projects/projects.css);
