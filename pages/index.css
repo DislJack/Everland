@@ -153,21 +153,21 @@
 @import url(../blocks/agencies/__list/agencies__list.css);
 @import url(../blocks/agencies/__subtitle/agencies__subtitle.css);
 @import url(../blocks/agencies/__title/agencies__title.css);
-@import url(../blocks/agencies/__button/agencies__button.css);/* Секция works-for */
+@import url(../blocks/agencies/__button/agencies__button.css);
+
+/* Секция works-for */
 @import url(../blocks/works-for/__card/works-for__card.css);
 @import url(../blocks/works-for/__container/works-for__container.css);
 @import url(../blocks/works-for/__image/works-for__image.css);
 @import url(../blocks/works-for/__paragraph/works-for__paragraph.css);
 @import url(../blocks/works-for/__subtitle/works-for__subtitle.css);
 @import url(../blocks/works-for/__title/works-for__title.css);
-@import url(../blocks/works-for/__button/works-for__button.css);
 @import url(../blocks/works-for/__link/works-for__link.css);
 
 /* Секция directions */
 @import url(../blocks/directions/__title/directions__title.css);
 @import url(../blocks/directions/__card/directions__card.css);
 @import url(../blocks/directions/__container/directions__container.css);
-@import url(../blocks/directions/__button/directions__button.css);
 @import url(../blocks/directions/__paragraph/directions__paragraph.css);
 @import url(../blocks/directions/__subtitle/directions__subtitle.css);
 @import url(../blocks/directions/__link/directions__link.css);
@@ -177,6 +177,7 @@
 @import url(./../blocks/donations/__button-sup/donations__button-sup.css);
 @import url(../blocks/donations/__sum-button/donations__sum-button.css);
 @import url(../blocks/donations/__sum-button/_size/donations__sum-button_size_m.css);
+@import url(../blocks/donations/__sum-button/_border/donations__sum-button_border_active.css);
 
 /* Секция numbers (Everland в цифрах) */
 @import url(../blocks/numbers/numbers.css);
