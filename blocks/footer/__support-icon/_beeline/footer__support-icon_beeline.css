@@ -1,13 +1,14 @@
 .footer__support-icon_beeline {
     margin: 0;
     width: 100px;
-    height: 100px;
+    height: 48px;
     background-image: url(../../../../images/footer/beeline.png);
     background-color: transparent;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     cursor: pointer;
+    grid-area: beeline;
 }
 
 @media screen and (max-width: 1023px) {

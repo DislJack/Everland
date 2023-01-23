@@ -1,5 +1,6 @@
 .footer__socials-text {
     margin: 0;
+    grid-area: social-text;
 }
 
 @media screen and (max-width: 1023px) {

@@ -1,17 +1,27 @@
 .footer__sponsors {
-    display: flex;
+    display: grid;
     margin: 0;
     flex-direction: column;
+    grid-area: sponsors;
+    grid-template-areas: 
+    'support-text support-text support-text'
+    'beeline fond .';
+    grid-template-columns: min-content;
+    grid-template-rows: min-content;
+    gap: 20px 50px;
+    margin-top: 50px;
 }
 
 @media screen and (max-width: 1023px) {
     .footer__sponsors {
-        padding: 0 174px 0 0;
+        gap: 8px;
+        margin-top: 28px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .footer__sponsors {
-        padding: 0 101px 0 0;
+        gap: 12px 8px;
+        margin-top: 16px;
     }
 }

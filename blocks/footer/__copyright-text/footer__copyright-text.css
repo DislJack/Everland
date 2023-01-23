@@ -4,8 +4,8 @@
     color: #333;
 }
 
-@media screen and (max-width: 690px) {
+@media (max-width: 767px) {
     .footer__yandex-copyright {
-        align-self:flex-start;
+        justify-self: start;
     }
 }
