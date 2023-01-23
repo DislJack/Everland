@@ -3,14 +3,14 @@ const everlandSliderImageTemplate = document.querySelector('#everland-slider-ima
 const projectsSliderImageTemplate = document.querySelector('#projects-slider-image').content;
 const everland = document.querySelector('.everland');
 const everlandSlider = everland.querySelector('.slider');
-const prevEverlandSlider = everland.querySelector('#prev-slide');
-const nextEverlandSlider = everland.querySelector('#next-slide');
+const prevEverlandSlider = everland.querySelector('#everland-prev-slide');
+const nextEverlandSlider = everland.querySelector('#everland-next-slide');
 const sliderCounterEverland = everland.querySelector('.slider__counter');
 const sliderTitleEverland = everland.querySelector('.slider__title');
 const projects = document.querySelector('.projects');
 const projectsSlider = projects.querySelector('.slider');
-const prevProjectsSlider = projects.querySelector('#prev-slide');
-const nextProjectsSlider = projects.querySelector('#next-slide');
+const prevProjectsSlider = projects.querySelector('#projects-prev-slide');
+const nextProjectsSlider = projects.querySelector('#projects-next-slide');
 const sliderTitleProjects = projects.querySelector('.slider__title');
 let sliderImageEverland;
 let sliderImageProjects;
@@ -179,5 +179,6 @@ linkMenu.forEach((link) => link.addEventListener('click', (evt) => {
   });
   }
 ));
+
 
 

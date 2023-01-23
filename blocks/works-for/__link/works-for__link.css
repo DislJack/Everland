@@ -4,16 +4,7 @@
     width: fit-content;
     height: fit-content;
     margin-top: 36px;
-}
-
-.works-for__link:first-of-type {
-    color: #0C4BA0;
-}
-
-.works-for__link:nth-child(2) {
-    color: #E98509;
-}
-
-.works-for__link:last-of-type {
-    color: #319B17;
+    max-width: 165px;
+    grid-column: 1/2;
+    grid-row: 4/5;
 }
