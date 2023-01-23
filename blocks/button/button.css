@@ -13,6 +13,12 @@
   grid-area: button;
 }
 
+@media (max-width: 1023px) {
+  .button {
+    font-size: 16px;
+  }
+}
+
 @media (max-width: 767px) {
   .button {
     font-size: 14px;
