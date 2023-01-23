@@ -1,24 +1,24 @@
 .footer__socials {
-    display: flex;
-    margin: 0;
-    padding: 0 40px 0 330px;
-    flex-direction: column;
+    display: grid;
+    grid-area: socials;
+    grid-template-areas: 
+    'social-text social-text social-text'
+    'telegram vk .';
+    gap: 10px;
+    grid-template-columns: min-content;
+    margin-top: 50px;
 }
 
 @media screen and (max-width: 1023px) {
     .footer__socials {
-        padding: 0 170px 0 0;
+        gap: 12px 4px;
+        margin-top: 28px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .footer__socials {
-        padding: 0 160px 0 0;
-    }
-}
-
-@media screen and (max-width: 690px) {
-    .footer__socials {
-        padding: 24px 0 0;
+        gap: 8px 4px;
+        margin: 0;
     }
 }

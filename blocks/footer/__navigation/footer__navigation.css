@@ -1,23 +1,21 @@
 .footer__navigation {
     display: flex;
     margin: 0;
-    padding: 0 40px 0 116px;
+    grid-area: navigation;
+    gap: 80px;
 }
 
 @media screen and (max-width: 1023px) {
     .footer__navigation {
-        padding: 0 40px 0 70px;
+        gap: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media screen and (max-width: 767px) {
     .footer__navigation {
-        padding: 0 40px 0 0;
-    }
-}
-
-@media screen and (max-width: 690px) {
-    .footer__navigation {
-        padding: 0;
+        gap: 16px;
+        margin-top: 16px;
     }
 }

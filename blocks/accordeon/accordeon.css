@@ -21,3 +21,9 @@
   transform: rotate(45deg);
   background-image: url(../../images/plus/Icon_plus_white.png);
 }
+
+@media (max-width: 767px) {
+  .accordeon {
+    padding: 16px;
+  }
+}

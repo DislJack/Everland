@@ -1,5 +1,4 @@
 .accordeon__text {
-  margin-top: 10px;
   transition: max-height 2s ease;
   height: auto;
   max-height: 0px;
@@ -8,5 +7,6 @@
 }
 
 .accordeon[open] .accordeon__text {
-  max-height: 250px;;
+  max-height: 250px;
+  margin-top: 10px;
 }

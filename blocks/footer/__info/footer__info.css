@@ -1,18 +1,34 @@
 .footer__info {
-    display: flex;
-    margin: 0;
-    padding: 29px 0 0 0;
+    display: grid;
+    grid-area: info;
+    grid-template-areas: 
+    'first address'
+    'second address';
+    gap: 3px 50px;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: min-content;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 1023px) {
     .footer__info  {
-        justify-content: space-between;
-        padding: 32px 0 0 0;
+        grid-template-areas: 
+        'first'
+        'second'
+        'address';
+        gap: 16px;
+        grid-template-columns: 1fr;
+        margin: 0;
     }
 }
 
 @media screen and (max-width: 690px) {
     .footer__info  {
-        flex-direction: column;
+        grid-template-areas: 
+        'first second'
+        'address address';
+        grid-template-columns: min-content;
+        gap: 10px 16px;
+        margin-top: 16px;
     }
 }

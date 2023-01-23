@@ -1,0 +1,9 @@
+.footer__number-first {
+  grid-area: first;
+}
+
+@media (max-width: 767px) {
+  .footer__number-first {
+    width: 102px;
+  }
+}

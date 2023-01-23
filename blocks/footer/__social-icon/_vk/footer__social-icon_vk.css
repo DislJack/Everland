@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
+    grid-area: vk;
 }
 
 @media screen and (max-width: 1023px) {

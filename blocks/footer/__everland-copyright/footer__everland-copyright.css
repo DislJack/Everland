@@ -1,0 +1,17 @@
+.footer__everland-copyright {
+  grid-area: everland-copyright;
+  margin-top: 10px;
+  color: rgba(38, 38, 38, 0.5);
+}
+
+@media (max-width: 1023px) {
+  .footer__everland-copyright {
+    margin: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer__everland-copyright {
+    margin-top: 6px;
+  }
+}
