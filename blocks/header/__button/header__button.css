@@ -1,11 +1,13 @@
 .header__button{
   display: flex;
   gap: 16px;
+  grid-area: button;
 }
 
 @media screen and (max-width: 1023px) {
   .header__button{
-    justify-self:flex-end;
+    justify-self: flex-end;
+    
   }
 }
 

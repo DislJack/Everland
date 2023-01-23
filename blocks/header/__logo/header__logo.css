@@ -4,6 +4,7 @@
   background-image: url(../../../images/Logo.svg);
   background-size: contain;
   background-repeat: no-repeat;
+  grid-area: logo;
 }
 
 @media screen and (max-width: 1023px) {
