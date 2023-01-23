@@ -1,6 +1,6 @@
 .everland__donations-button_size-big {
     max-width: 211px;
-    
+
 
 }
 
@@ -11,6 +11,6 @@
 }
 @media screen and (max-width: 767px) {
     .everland__donations-button_size-big {
-      min-width: 260px;
+      max-width: 260px;
   }
 }
