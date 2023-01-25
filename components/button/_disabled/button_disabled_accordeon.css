@@ -7,9 +7,9 @@
 }
 
 .button_disabled_accordeon::after {
-  background-image: url(../../../../images/plus/Icon_plus_gray.png);
+  background-image: url(../../../../images/plus/gray.png);
 }
 
 .button_disabled_accordeon:hover::after {
-  background-image: url(../../../../images/plus/Icon_plus_gray.png);
+  background-image: url(../../../../images/plus/gray.png);
 }

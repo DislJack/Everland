@@ -19,7 +19,7 @@
 
 .accordeon[open] .button_type_accordeon::after {
   transform: rotate(45deg);
-  background-image: url(../../images/plus/Icon_plus_white.png);
+  background-image: url(../../images/plus/white.png);
 }
 
 @media (max-width: 767px) {
