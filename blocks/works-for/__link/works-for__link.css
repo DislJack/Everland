@@ -8,3 +8,9 @@
     grid-column: 1/2;
     grid-row: 4/5;
 }
+
+@media (max-width: 1023px) {
+    .works-for__link {
+        margin-top: 20px;
+    }
+}

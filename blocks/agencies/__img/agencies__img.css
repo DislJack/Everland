@@ -1,5 +1,12 @@
 .agencies__img {
     width: 100%;
     margin-bottom: 20px;
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .agencies__img {
+        margin-bottom: 16px;
+    }
 }
 

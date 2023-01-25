@@ -9,5 +9,13 @@
 @media (max-width: 1023px) {
   .advantages__grid {
     grid-template-columns: 1fr;
+    margin-top: 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .advantages__grid {
+    margin-top: 24px;
+    gap: 16px;
   }
 }
