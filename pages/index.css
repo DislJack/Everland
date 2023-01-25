@@ -200,8 +200,6 @@
 @import url(../blocks/support/__button-payment/support__button-payment.css);
 @import url(../blocks/support/__form/support__form.css);
 @import url(../blocks/support/__input/support__input.css);
-@import url(../blocks/support/__button-payment/_active/support__button-payment_active.css);
-@import url(../blocks/support/__button-sum/_active/support__button-sum_active.css);
 @import url(../blocks/support/__button/_active/support__button_active.css);
 @import url(../blocks/support/__checkbox/support__checkbox.css);
 @import url(../blocks/support/__button-submit/support__button-submit.css);
