@@ -20,6 +20,13 @@ let numberImageEverland = 1;
 const supportButtons = document.querySelectorAll('.support__button');
 const supportButtonsSum = document.querySelectorAll('.support__button-sum');
 const supportButtonsPayment = document.querySelectorAll('.support__button-payment');
+const accordeons = document.querySelectorAll('.accordeon');
+const menuButtonIcon = document.querySelector('.header__menu-button-icon');
+const menuButton = document.querySelector('.header__menu-button');
+const headerMenu = document.querySelector('.header__menu');
+const header = document.querySelector('.header');
+const secondaryMenu = header.querySelector('.header__menu-secondary');
+const linkMenu = secondaryMenu.querySelectorAll('.header__menu-secondary-link');
 
 // Функция смены иконки.
 function buttonActive(button) {
@@ -130,48 +137,6 @@ nextProjectsSlider.addEventListener('click', () => {
   addSliderTitle(sliderTitleProjects, counterProjects - 1, imageDescriptionProjects);
 });
 
-
-// Переменные
-
-const accordeons = document.querySelectorAll('.accordeon');
-const menuButtonIcon = document.querySelector('.header__menu-button-icon');
-const menuButton = document.querySelector('.header__menu-button');
-const headerMenu = document.querySelector('.header__menu');
-
-// Функции
-
-
-
-// Код
-// Открыть(закрыть) меню Header
-
-menuButton.addEventListener('click', () => {
-  menuButtonIcon.classList.toggle('is-active');
-  headerMenu.classList.toggle('header__menu_opened');
-});
-
-buttonActive(supportButtons);
-buttonActive(supportButtonsSum);
-buttonActive(supportButtonsPayment);
-
-accordeons.forEach((accordeon) => {
-  accordeon.addEventListener('click', () => {
-    accordeon.toggleAttribute('open');
-    if (accordeon.hasAttribute('open') === true) {
-      accordeon.querySelector('.accordeon__text').style.maxHeight = accordeon.querySelector('.accordeon__text').scrollHeight + 'px';
-    } else {
-      accordeon.querySelector('.accordeon__text').style.maxHeight = null;
-    }
-  });
-});
-
-//Переходы по ссылкам на секции страницы из меню header
-
-//Переменные для ссылок меню
-const header = document.querySelector('.header');
-const secondaryMenu = header.querySelector('.header__menu-secondary');
-const linkMenu = secondaryMenu.querySelectorAll('.header__menu-secondary-link');
-
 //установка слушателя на ссылки меню и переход к ним
 linkMenu.forEach((link) => link.addEventListener('click', (evt) => {
   const linkHref = evt.target.getAttribute('href');
@@ -186,3 +151,25 @@ linkMenu.forEach((link) => link.addEventListener('click', (evt) => {
   });
   }
 ));
+
+// Открыть(закрыть) меню Header
+menuButton.addEventListener('click', () => {
+  menuButtonIcon.classList.toggle('is-active');
+  headerMenu.classList.toggle('header__menu_opened');
+});
+
+buttonActive(supportButtons);
+buttonActive(supportButtonsSum);
+buttonActive(supportButtonsPayment);
+
+// Анимация аккордеона
+accordeons.forEach((accordeon) => {
+  accordeon.addEventListener('click', () => {
+    accordeon.toggleAttribute('open');
+    if (accordeon.hasAttribute('open') === true) {
+      accordeon.querySelector('.accordeon__text').style.maxHeight = accordeon.querySelector('.accordeon__text').scrollHeight + 'px';
+    } else {
+      accordeon.querySelector('.accordeon__text').style.maxHeight = null;
+    }
+  });
+});
