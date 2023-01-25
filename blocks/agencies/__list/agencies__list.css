@@ -7,3 +7,9 @@
     list-style: none;
     margin: auto;
 }
+
+@media (max-width: 767px) {
+    .agencies__list {
+        gap: 30px;
+    }
+}

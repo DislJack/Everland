@@ -11,4 +11,14 @@
   .news__card-flex {
     gap: 20px;
   }
+
+  .news__card-flex:last-of-type {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .news__card-flex:last-of-type {
+    display: grid;
+  }
 }

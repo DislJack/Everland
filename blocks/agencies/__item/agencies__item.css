@@ -20,4 +20,7 @@
     .agencies__item {
         width: 100%;
     }
+    .agencies__item:nth-child(3) {
+        display: block;
+    }
 }
