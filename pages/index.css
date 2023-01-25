@@ -47,16 +47,7 @@
 @import url(../blocks/header/__menu-secondary-link/header__menu-secondary-link.css);
 
 /* Стили контента */
-@import url(../blocks/agency/agency.css);
-@import url(../blocks/directions/directions.css);
-
-@import url(../blocks/figures/figures.css);
-@import url(../blocks/histories/histories.css);
 @import url(../blocks/main/main.css);
-@import url(../blocks/news/news.css);
-
-@import url(../blocks/support/support.css);
-@import url(../blocks/works-for/works-for.css);
 
 /* Секция Everland*/
 @import url(../blocks/everland/everland.css);
@@ -158,6 +149,7 @@
 @import url(../blocks/agencies/__button/agencies__button.css);
 
 /* Секция works-for */
+@import url(../blocks/works-for/works-for.css);
 @import url(../blocks/works-for/__card/works-for__card.css);
 @import url(../blocks/works-for/__container/works-for__container.css);
 @import url(../blocks/works-for/__image/works-for__image.css);
@@ -167,6 +159,7 @@
 @import url(../blocks/works-for/__link/works-for__link.css);
 
 /* Секция directions */
+@import url(../blocks/directions/directions.css);
 @import url(../blocks/directions/__title/directions__title.css);
 @import url(../blocks/directions/__card/directions__card.css);
 @import url(../blocks/directions/__container/directions__container.css);
