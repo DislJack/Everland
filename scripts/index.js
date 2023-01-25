@@ -155,7 +155,14 @@ buttonActive(supportButtonsSum);
 buttonActive(supportButtonsPayment);
 
 accordeons.forEach((accordeon) => {
-  accordeon.addEventListener('click', () => accordeon.toggleAttribute('open'));
+  accordeon.addEventListener('click', () => {
+    accordeon.toggleAttribute('open');
+    if (accordeon.hasAttribute('open') === true) {
+      accordeon.querySelector('.accordeon__text').style.maxHeight = accordeon.querySelector('.accordeon__text').scrollHeight + 'px';
+    } else {
+      accordeon.querySelector('.accordeon__text').style.maxHeight = null;
+    }
+  });
 });
 
 //Переходы по ссылкам на секции страницы из меню header

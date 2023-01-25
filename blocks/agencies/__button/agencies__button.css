@@ -2,8 +2,8 @@
     width: 204px;
     margin: auto;
     color: #0C4BA0;
-    height: 48px;
-    margin-top:49px
+    margin-top: 49px;
+    text-decoration: none;
 }
 
 @media all and (max-width: 1023px) {

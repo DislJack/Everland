@@ -7,6 +7,5 @@
 }
 
 .accordeon[open] .accordeon__text {
-  max-height: 250px;
   margin-top: 10px;
 }

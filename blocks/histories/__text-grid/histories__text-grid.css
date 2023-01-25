@@ -6,7 +6,6 @@
   '. text-card text-card text-card text-card text-card text-card text-card text-card'
   '. button-card button-card button-card . . . . .';
   gap: 20px;
-  grid-template-columns: fit-content;
 }
 
 @media (max-width: 1023px) {
