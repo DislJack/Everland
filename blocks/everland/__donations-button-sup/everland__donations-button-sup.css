@@ -3,11 +3,15 @@
     max-width: 179px;
     width: 100%;
     justify-self: self-end;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
 }
 
 @media screen and (max-width: 1023px) {
     .everland__donations-button-sup {
         max-width: 143px;
+        font-size: 16px;
     }
 }
 
@@ -18,5 +22,6 @@
         grid-row: 2/3;
         justify-self: center;
         margin-top: 32px;
+        font-size: 14px;
     }
 }

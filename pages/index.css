@@ -46,17 +46,9 @@
 @import url(../blocks/header/__menu-secondary-list/header__menu-secondary-list.css);
 @import url(../blocks/header/__menu-secondary-link/header__menu-secondary-link.css);
 
-/* Стили donations*/
-@import url(../blocks/header/__donations/header__donations.css);
-@import url(../blocks/header/__donations-container/header__donations-container.css);
-@import url(../blocks/header/__donations-button/header__donations-button.css);
-@import url(../blocks/header/__donations-button/_size-small/header__donations-button_size-small.css);
-@import url(../blocks/header/__donations-button-sup/header__donations-button-sup.css);
-
 /* Стили контента */
 @import url(../blocks/agency/agency.css);
 @import url(../blocks/directions/directions.css);
-@import url(../blocks/donations/donations.css);
 
 @import url(../blocks/figures/figures.css);
 @import url(../blocks/histories/histories.css);
@@ -142,9 +134,6 @@
 @import url(../blocks/news/__grid-cards/news__grid-cards.css);
 @import url(../blocks/news/__card-flex/news__card-flex.css);
 @import url(../blocks/news/__card-image/news__card-image.css);
-@import url(../blocks/news/__grid-cards/_position/news__grid-cards_position_first.css);
-@import url(../blocks/news/__grid-cards/_position/news__grid-cards_position_second.css);
-@import url(../blocks/news/__grid-cards/_position/news__grid-cards_position_third.css);
 @import url(../blocks/news/__date/news__date.css);
 @import url(../blocks/news/__text/news__text.css);
 
@@ -185,13 +174,6 @@
 @import url(../blocks/directions/__subtitle/directions__subtitle.css);
 @import url(../blocks/directions/__link/directions__link.css);
 
-/* Секция donations */
-@import url(../blocks/donations/__container-sum/donations__container-sum.css);
-@import url(./../blocks/donations/__button-sup/donations__button-sup.css);
-@import url(../blocks/donations/__sum-button/donations__sum-button.css);
-@import url(../blocks/donations/__sum-button/_size/donations__sum-button_size_m.css);
-@import url(../blocks/donations/__sum-button/_border/donations__sum-button_border_active.css);
-
 /* Секция numbers (Everland в цифрах) */
 @import url(../blocks/numbers/numbers.css);
 @import url(../blocks/numbers/__container/numbers__container.css);
@@ -206,7 +188,6 @@
 @import url(../blocks/support/__subtitle/support__subtitle.css);
 @import url(../blocks/support/__table/support__table.css);
 @import url(../blocks/support/__donations/support__donations.css);
-@import url(../blocks/support/__text-span/support__text-span.css);
 @import url(../blocks/support/__donator-name/support__donator-name.css);
 @import url(../blocks/support/__button/support__button.css);
 @import url(../blocks/support/__two-buttons/support__two-buttons.css);
@@ -281,5 +262,3 @@
 @import url(../blocks/histories/__card-stories/histories__card-stories.css);
 @import url(../blocks/histories/__link-text-card/histories__link-text-card.css);
 @import url(../blocks/histories/__image-stories/histories__image-stories.css);
-
-
