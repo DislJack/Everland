@@ -3,20 +3,54 @@
 /* Шрифты */
 @import url(../vendor/fonts/raleway.css);
 
-/*Стили элементов*/
-/* Стили шрифтов */
-@import url(../blocks/h1/h1.css);
-@import url(../blocks/h2/h2.css);
-@import url(../blocks/h3/h3.css);
-@import url(../blocks/h4/h4.css);
-@import url(../blocks/h5/h5.css);
-@import url(../blocks/big-text/big-text.css);
-@import url(../blocks/main-text/main-text.css);
-@import url(../blocks/small-text/small-text.css);
-
 /* Стили блоков */
 /* Стили всего боди */
 @import url(../blocks/page/page.css);
+
+/*Стили компонентов*/
+/* Стили шрифтов */
+@import url(../components/h1/h1.css);
+@import url(../components/h2/h2.css);
+@import url(../components/h3/h3.css);
+@import url(../components/h4/h4.css);
+@import url(../components/h5/h5.css);
+@import url(../components/big-text/big-text.css);
+@import url(../components/main-text/main-text.css);
+@import url(../components/small-text/small-text.css);
+
+/* Кнопки */
+@import url(../components/button/button.css);
+@import url(../components/button/_type/button_type_primary.css);
+@import url(../components/button/_type/button_type_secondary.css);
+@import url(../components/button/_type/button_type_tertiary.css);
+@import url(../components/button/_type/button_type_link.css);
+@import url(../components/button/_type/button_type_slider.css);
+@import url(../components/button/_type/button_type_accordeon.css);
+@import url(../components/button/_slider-theme/button_slider-theme_gray.css);
+@import url(../components/button/_link-theme/button_link-theme_light-blue.css);
+@import url(../components/button/_link-theme/button_link-theme_light-orange.css);
+@import url(../components/button/_link-theme/button_link-theme_light-green.css);
+@import url(../components/button/_link-theme/button_link-theme_light-purple.css);
+@import url(../components/button/_disabled/button_disabled_main.css);
+@import url(../components/button/_disabled/button_disabled_link.css);
+@import url(../components/button/_disabled/button_disabled_accordeon.css);
+@import url(../components/button/_disabled/button_disabled_others.css);
+@import url(../components/button/_direction/button_direction_left.css);
+@import url(../components/button/_rotation/button_rotation_icon.css);
+
+/* Компоненты для карточек */
+@import url(../components/card/card.css); /* Закругленные углы и внутренний отступ*/
+/* Фон карточек */
+@import url(../components/card/_background/card_background_light-blue.css);
+@import url(../components/card/_background/card_background_light-green.css);
+@import url(../components/card/_background/card_background_light-orange.css);
+@import url(../components/card/_background/card_background_light-purple.css);
+@import url(../components/card/_border/card_border_gray.css); /* Серая рамка */
+
+/* Стили секций */
+
+/* Стили контента */
+@import url(../blocks/main/main.css);
 
 /* Стили шапки */
 @import url(../blocks/header/header.css);
@@ -46,25 +80,17 @@
 @import url(../blocks/header/__menu-secondary-list/header__menu-secondary-list.css);
 @import url(../blocks/header/__menu-secondary-link/header__menu-secondary-link.css);
 
-/* Стили контента */
-@import url(../blocks/main/main.css);
-
 /* Секция Everland*/
 @import url(../blocks/everland/everland.css);
 @import url(../blocks/everland/__title/everland__title.css);
 @import url(../blocks/everland/__title/_style-blue/everland__title_style-blue.css);
+
 /* Стили donations*/
 @import url(../blocks/everland/__donations/everland__donations.css);
 @import url(../blocks/everland/__donations-container/everland__donations-container.css);
 @import url(../blocks/everland/__donations-button/everland__donations-button.css);
 @import url(../blocks/everland/__donations-button/_size-big/everland__donations-button_size-big.css);
 @import url(../blocks/everland/__donations-button-sup/everland__donations-button-sup.css);
-
-/* Секция Projects*/
-@import url(../blocks/projects/projects.css);
-@import url(../blocks/projects/__button/projects__button.css);
-@import url(../blocks/projects/__name/projects__name.css);
-@import url(../blocks/projects/__title/projects__title.css);
 
 /* Секция Slider*/
 @import url(../blocks/slider/slider.css);
@@ -86,68 +112,6 @@
 @import url(../blocks/slider/__desription/_theme/slider__description_theme-everland.css);
 @import url(../blocks/slider/__desription/_theme/slider__description_theme-projects.css);
 
-/* Стили подвала */
-@import url(../blocks/footer/footer.css);
-
-/* Кнопки */
-@import url(../blocks/button/button.css);
-@import url(../blocks/button/_type/button_type_primary.css);
-@import url(../blocks/button/_type/button_type_secondary.css);
-@import url(../blocks/button/_type/button_type_tertiary.css);
-@import url(../blocks/button/_type/button_type_link.css);
-@import url(../blocks/button/_type/button_type_slider.css);
-@import url(../blocks/button/_type/button_type_accordeon.css);
-@import url(../blocks/button/_slider-theme/button_slider-theme_gray.css);
-@import url(../blocks/button/_link-theme/button_link-theme_light-blue.css);
-@import url(../blocks/button/_link-theme/button_link-theme_light-orange.css);
-@import url(../blocks/button/_link-theme/button_link-theme_light-green.css);
-@import url(../blocks/button/_link-theme/button_link-theme_light-purple.css);
-@import url(../blocks/button/_disabled/button_disabled_main.css);
-@import url(../blocks/button/_disabled/button_disabled_link.css);
-@import url(../blocks/button/_disabled/button_disabled_accordeon.css);
-@import url(../blocks/button/_disabled/button_disabled_others.css);
-@import url(../blocks/button/_direction/button_direction_left.css);
-@import url(../blocks/button/_rotation/button_rotation_icon.css);
-
-
-/* Секция advantages */
-@import url(../blocks/advantages/advantages.css);
-@import url(../blocks/advantages/__grid/advantages__grid.css);
-@import url(../blocks/accordeon/accordeon.css);
-@import url(../blocks/accordeon/__label/accordeon__label.css);
-@import url(../blocks/accordeon/__text/accordeon__text.css);
-
-/* Секция news */
-@import url(../blocks/news/news.css);
-@import url(../blocks/news/__title/news__title.css);
-@import url(../blocks/news/__button/news__button.css);
-@import url(../blocks/news/__grid/news__grid.css);
-@import url(../blocks/news/__grid-cards/news__grid-cards.css);
-@import url(../blocks/news/__card-flex/news__card-flex.css);
-@import url(../blocks/news/__card-image/news__card-image.css);
-@import url(../blocks/news/__date/news__date.css);
-@import url(../blocks/news/__text/news__text.css);
-
-/* Компоненты для карточек */
-@import url(../blocks/card/card.css); /* Закругленные углы и внутренний отступ*/
-/* Фон карточек */
-@import url(../blocks/card/_background/card_background_light-blue.css);
-@import url(../blocks/card/_background/card_background_light-green.css);
-@import url(../blocks/card/_background/card_background_light-orange.css);
-@import url(../blocks/card/_background/card_background_light-purple.css);
-@import url(../blocks/card/_border/card_border_gray.css); /* Серая рамка */
-
-/* импорт секции agencies */
-@import url(../blocks/agencies/agencies.css);
-@import url(../blocks/agencies/__description/agencies__description.css);
-@import url(../blocks/agencies/__img/agencies__img.css);
-@import url(../blocks/agencies/__item/agencies__item.css);
-@import url(../blocks/agencies/__card/agencies__card.css);
-@import url(../blocks/agencies/__list/agencies__list.css);
-@import url(../blocks/agencies/__subtitle/agencies__subtitle.css);
-@import url(../blocks/agencies/__title/agencies__title.css);
-@import url(../blocks/agencies/__button/agencies__button.css);
-
 /* Секция works-for */
 @import url(../blocks/works-for/works-for.css);
 @import url(../blocks/works-for/__card/works-for__card.css);
@@ -167,6 +131,13 @@
 @import url(../blocks/directions/__subtitle/directions__subtitle.css);
 @import url(../blocks/directions/__link/directions__link.css);
 
+/* Секция advantages */
+@import url(../blocks/advantages/advantages.css);
+@import url(../blocks/advantages/__grid/advantages__grid.css);
+@import url(../blocks/accordeon/accordeon.css);
+@import url(../blocks/accordeon/__label/accordeon__label.css);
+@import url(../blocks/accordeon/__text/accordeon__text.css);
+
 /* Секция numbers (Everland в цифрах) */
 @import url(../blocks/numbers/numbers.css);
 @import url(../blocks/numbers/__container/numbers__container.css);
@@ -174,6 +145,57 @@
 @import url(../blocks/numbers/__text-block/numbers__text-block.css);
 @import url(../blocks/numbers/__text-card/numbers__text-card.css);
 @import url(../blocks/numbers/__text-blue/numbers__text-blue.css);
+
+/* Секция Projects*/
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__button/projects__button.css);
+@import url(../blocks/projects/__name/projects__name.css);
+@import url(../blocks/projects/__title/projects__title.css);
+
+/* Подключение секции histories */
+@import url(../blocks/histories/histories.css);
+@import url(../blocks/histories/__grid/histories__grid.css);
+@import url(../blocks/histories/__title/histories__title.css);
+@import url(../blocks/histories/__button/histories__button.css);
+@import url(../blocks/histories/__card/histories__card.css);
+@import url(../blocks/histories/__card/_position/histories__card_position_first.css);
+@import url(../blocks/histories/__card/_position/histories__card_position_second.css);
+@import url(../blocks/histories/__card/_position/histories__card_position_third.css);
+@import url(../blocks/histories/__card/_position/histories__card_position_fourth.css);
+@import url(../blocks/histories/__image/histories__image.css);
+@import url(../blocks/histories/__text-grid/histories__text-grid.css);
+@import url(../blocks/histories/__icon-caption/histories__icon-caption.css);
+@import url(../blocks/histories/__title-card/histories__title-card.css);
+@import url(../blocks/histories/__text-card/histories__text-card.css);
+@import url(../blocks/histories/__button-card/histories__button-card.css);
+@import url(../blocks/histories/__card-author/histories__card-author.css);
+@import url(../blocks/histories/__link-card/histories__link-card.css);
+@import url(../blocks/histories/__icon-triangle/histories__icon-triangle.css);
+@import url(../blocks/histories/__card-stories/histories__card-stories.css);
+@import url(../blocks/histories/__link-text-card/histories__link-text-card.css);
+@import url(../blocks/histories/__image-stories/histories__image-stories.css);
+
+/* импорт секции agencies */
+@import url(../blocks/agencies/agencies.css);
+@import url(../blocks/agencies/__description/agencies__description.css);
+@import url(../blocks/agencies/__img/agencies__img.css);
+@import url(../blocks/agencies/__item/agencies__item.css);
+@import url(../blocks/agencies/__card/agencies__card.css);
+@import url(../blocks/agencies/__list/agencies__list.css);
+@import url(../blocks/agencies/__subtitle/agencies__subtitle.css);
+@import url(../blocks/agencies/__title/agencies__title.css);
+@import url(../blocks/agencies/__button/agencies__button.css);
+
+/* Секция news */
+@import url(../blocks/news/news.css);
+@import url(../blocks/news/__title/news__title.css);
+@import url(../blocks/news/__button/news__button.css);
+@import url(../blocks/news/__grid/news__grid.css);
+@import url(../blocks/news/__grid-cards/news__grid-cards.css);
+@import url(../blocks/news/__card-flex/news__card-flex.css);
+@import url(../blocks/news/__card-image/news__card-image.css);
+@import url(../blocks/news/__date/news__date.css);
+@import url(../blocks/news/__text/news__text.css);
 
 /* Cекция support */
 @import url(../blocks/support/support.css);
@@ -232,26 +254,3 @@
 /* Изображение логотипа */
 @import url(../blocks/logo/_place/logo_place_footer-everland.css);
 @import url(../blocks/logo/_place/logo_place_footer-practicum.css);
-
-/* Подключение секции histories */
-@import url(../blocks/histories/histories.css);
-@import url(../blocks/histories/__grid/histories__grid.css);
-@import url(../blocks/histories/__title/histories__title.css);
-@import url(../blocks/histories/__button/histories__button.css);
-@import url(../blocks/histories/__card/histories__card.css);
-@import url(../blocks/histories/__card/_position/histories__card_position_first.css);
-@import url(../blocks/histories/__card/_position/histories__card_position_second.css);
-@import url(../blocks/histories/__card/_position/histories__card_position_third.css);
-@import url(../blocks/histories/__card/_position/histories__card_position_fourth.css);
-@import url(../blocks/histories/__image/histories__image.css);
-@import url(../blocks/histories/__text-grid/histories__text-grid.css);
-@import url(../blocks/histories/__icon-caption/histories__icon-caption.css);
-@import url(../blocks/histories/__title-card/histories__title-card.css);
-@import url(../blocks/histories/__text-card/histories__text-card.css);
-@import url(../blocks/histories/__button-card/histories__button-card.css);
-@import url(../blocks/histories/__card-author/histories__card-author.css);
-@import url(../blocks/histories/__link-card/histories__link-card.css);
-@import url(../blocks/histories/__icon-triangle/histories__icon-triangle.css);
-@import url(../blocks/histories/__card-stories/histories__card-stories.css);
-@import url(../blocks/histories/__link-text-card/histories__link-text-card.css);
-@import url(../blocks/histories/__image-stories/histories__image-stories.css);
