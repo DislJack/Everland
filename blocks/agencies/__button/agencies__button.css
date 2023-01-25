@@ -14,7 +14,6 @@
 
 @media all and (max-width: 767px) {
     .agencies__button {
-        width: 100%;
         margin-top:24px;
     }
 }
